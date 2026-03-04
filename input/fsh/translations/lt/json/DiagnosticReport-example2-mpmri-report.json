@@ -1,0 +1,35 @@
+{
+  "id" : "DiagnosticReport-example2-mpmri-report",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Diagnostic imaging study",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Multiparametric magnetic resonance imaging of prostate (procedure)",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Imaging Report V0.0.1",
+          "target" : null
+        },
+        {
+          "id" : "DiagnosticReport.conclusion",
+          "context" : "DiagnosticReport.conclusion",
+          "source" : "PI-RADS 5 lesion in the anterior transition zone (~32 mm), extending across midline. PRECISE 3 stable disease. No seminal vesicle invasion, no neurovascular bundle involvement, no regional lymphadenopathy. Possible capsular contact anteriorly.",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

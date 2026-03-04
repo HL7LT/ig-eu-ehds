@@ -1,0 +1,35 @@
+{
+  "id" : "DiagnosticReport-example-mpmri-report",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Diagnostic imaging study",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Multiparametric magnetic resonance imaging of prostate (procedure)",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Imaging Report V0.0.1",
+          "target" : null
+        },
+        {
+          "id" : "DiagnosticReport.conclusion",
+          "context" : "DiagnosticReport.conclusion",
+          "source" : "Multiparametric prostate MRI performed. Peripheral zone focus with high suspicion. See linked observations.",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

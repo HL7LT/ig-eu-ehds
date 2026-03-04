@@ -1,0 +1,65 @@
+{
+  "id" : "ValueSet-lt-prostate-sequence-type-vs",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "ValueSet.name",
+          "context" : "ValueSet.name",
+          "source" : "LTProstateSequenceTypeVS",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.title",
+          "context" : "ValueSet.title",
+          "source" : "Prostate mpMRI Sequence Type ValueSet",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.publisher",
+          "context" : "ValueSet.publisher",
+          "source" : "Lithuanian Medical Library",
+          "target" : null
+        },
+        {
+          "id" : "ContactDetail.name",
+          "context" : "ContactDetail.name",
+          "source" : "Lithuanian Medical Library",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.description",
+          "context" : "ValueSet.description",
+          "source" : "Sequence/image types used in prostate mpMRI scoring (DICOM terminology).",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "T2 Weighted MR Signal Intensity",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Diffusion weightedT2 Weighted MR Sign",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Apparent Diffusion Coefficient",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "T1 Weighted Dynamic Contrast Enhanced MR Signal Intensity",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

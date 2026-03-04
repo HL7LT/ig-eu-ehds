@@ -1,0 +1,71 @@
+{
+  "id" : "Composition-example2-mpmri-composition",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Imaging Report V0.0.1",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Diagnostic imaging study",
+          "target" : null
+        },
+        {
+          "id" : "Composition.title",
+          "context" : "Composition.title",
+          "source" : "Multiparametric prostate MRI report",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Requested imaging studies information Document",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "History general Narrative - Reported",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Current imaging procedure descriptions Document",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Radiology Comparison study (narrative)",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Findings",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Radiology Imaging study [Impression] (narrative)",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Radiology Study recommendation (narrative)",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

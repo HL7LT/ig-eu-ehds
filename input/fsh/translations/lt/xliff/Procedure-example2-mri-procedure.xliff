@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="lt" id="Procedure-example2-mri-procedure" original="Resource Procedure-example2-mri-procedure" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Procedure-example2-mri-procedure" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Multiparametric magnetic resonance imaging of prostate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Procedure-example2-mri-procedure" resname="Annotation.text">
+             <notes>
+               <note id="n1">Annotation.text</note>
+             </notes>
+        <source>Multiparametric prostate MRI performed with intravenous gadolinium-based contrast agent (16 mL).</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

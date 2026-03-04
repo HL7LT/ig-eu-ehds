@@ -1,0 +1,21 @@
+
+# Coding.display
+#: Coding.display
+msgid "Diagnostic imaging study"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Multiparametric magnetic resonance imaging of prostate (procedure)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Imaging Report V0.0.1"
+msgstr ""
+
+# DiagnosticReport.conclusion
+#: DiagnosticReport.conclusion
+msgid "Multiparametric prostate MRI performed. Peripheral zone focus with high suspicion. See linked observations."
+msgstr ""
+

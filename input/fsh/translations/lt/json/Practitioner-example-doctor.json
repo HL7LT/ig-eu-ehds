@@ -1,0 +1,23 @@
+{
+  "id" : "Practitioner-example-doctor",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "HumanName.text",
+          "context" : "HumanName.text",
+          "source" : "Radiologist",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Diagnostic radiologist",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

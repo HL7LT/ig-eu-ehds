@@ -1,0 +1,46 @@
+
+# Coding.display
+#: Coding.display
+msgid "PRECISE longitudinal assessment"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "PRECISE 4 - Likely progression"
+msgstr ""
+
+# Annotation.text
+#: Annotation.text
+msgid "Follow-up MRI shows likely progression compared to prior study; progression driven by lesion growth and increased DWI restriction."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "New lesion indicator"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Change pattern"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Local change"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Best MRI sequence for change assessment"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Diffusion weighted"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Size change in millimeters"
+msgstr ""
+

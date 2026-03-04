@@ -1,0 +1,37 @@
+{
+  "resourceType": "Observation",
+  "id": "example2-dwi-score-lesion1",
+  "meta": {
+    "profile": [
+      "https://hl7.lt/fhir/prostate/StructureDefinition/lt-prostate-sequence-score-observation"
+    ]
+  },
+  "focus": [
+    {
+      "reference": "BodyStructure/example2-prostate-lesion1"
+    }
+  ],
+  "note": [
+    {
+      "text": "Marked diffusion restriction (DWI score 5)."
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "113043",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "display": "Diffusion weighted"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/example-male-patient"
+  },
+  "encounter": {
+    "reference": "Encounter/example-encounter1"
+  },
+  "effectiveDateTime": "2024-05-27T10:30:00Z",
+  "valueInteger": 5
+}

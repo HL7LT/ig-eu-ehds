@@ -1,0 +1,16 @@
+
+# Coding.display
+#: Coding.display
+msgid "Morphologically abnormal structure"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Structure of posterolateral basal part of peripheral zone of right half prostate"
+msgstr ""
+
+# BodyStructure.description
+#: BodyStructure.description
+msgid "MRI-visible focal lesion in the right posterolateral basal peripheral zone."
+msgstr ""
+

@@ -1,0 +1,21 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "LTProstatePreciseChangePatternVS"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "PRECISE Change Pattern ValueSet"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Lithuanian Medical Library"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Lithuanian Medical Library"
+msgstr ""
+

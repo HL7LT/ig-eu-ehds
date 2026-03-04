@@ -1,0 +1,16 @@
+
+# Coding.display
+#: Coding.display
+msgid "Screening procedure"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Palpation (procedure)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "attender"
+msgstr ""
+

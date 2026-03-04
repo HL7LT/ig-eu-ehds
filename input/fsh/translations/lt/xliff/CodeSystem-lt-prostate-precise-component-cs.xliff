@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="lt" id="CodeSystem-lt-prostate-precise-component-cs" original="Resource CodeSystem-lt-prostate-precise-component-cs" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-lt-prostate-precise-component-cs" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>LTProstatePreciseComponentCS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-component-cs" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>PRECISE Component Codes</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-component-cs" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>Lithuanian Medical Library</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-component-cs" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Lithuanian Medical Library</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-component-cs" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>Local codes for detailed PRECISE assessment components.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-component-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>PRECISE longitudinal assessment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-component-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>New lesion indicator</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-component-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Change pattern</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-component-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Best MRI sequence for change assessment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-component-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Size change in millimeters</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

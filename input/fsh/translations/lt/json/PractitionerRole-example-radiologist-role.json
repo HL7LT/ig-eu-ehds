@@ -1,0 +1,17 @@
+{
+  "id" : "PractitionerRole-example-radiologist-role",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "CodeableConcept.text",
+          "context" : "CodeableConcept.text",
+          "source" : "Radiologist",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

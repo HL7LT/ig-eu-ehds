@@ -1,0 +1,15 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "LTProstatePreciseChangePatternVS",
+  "id": "lt-prostate-precise-change-pattern-vs",
+  "title": "PRECISE Change Pattern ValueSet",
+  "url": "https://hl7.lt/fhir/prostate/ValueSet/lt-prostate-precise-change-pattern-vs",
+  "compose": {
+    "include": [
+      {
+        "system": "https://hl7.lt/fhir/prostate/CodeSystem/lt-prostate-precise-change-pattern-cs"
+      }
+    ]
+  }
+}

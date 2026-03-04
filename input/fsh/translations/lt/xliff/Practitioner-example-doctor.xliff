@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="lt" id="Practitioner-example-doctor" original="Resource Practitioner-example-doctor" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Practitioner-example-doctor" resname="HumanName.text">
+             <notes>
+               <note id="n1">HumanName.text</note>
+             </notes>
+        <source>Radiologist</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Practitioner-example-doctor" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Diagnostic radiologist</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

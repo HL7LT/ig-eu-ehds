@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="lt" id="CodeSystem-lt-prostate-precise-cs" original="Resource CodeSystem-lt-prostate-precise-cs" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-lt-prostate-precise-cs" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>LTProstatePreciseCS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-cs" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>Lithuanian Prostate PRECISE CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-cs" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>Lithuanian Medical Library</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-cs" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Lithuanian Medical Library</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-cs" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>PRECISE categories for longitudinal assessment of prostate MRI follow-up examinations.
+These categories describe overall change compared to a prior MRI examination.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>PRECISE 1 - Resolution or definite regression</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>PRECISE 2 - Likely regression</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>PRECISE 3 - Stable disease</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>PRECISE 3V - Stable volume but suspicious change</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>PRECISE 4 - Likely progression</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>PRECISE 5 - Definite progression</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-precise-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>PRECISE X - Inadequate comparison or non-evaluable</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

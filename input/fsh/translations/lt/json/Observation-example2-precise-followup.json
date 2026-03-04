@@ -1,0 +1,59 @@
+{
+  "id" : "Observation-example2-precise-followup",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "PRECISE longitudinal assessment",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "PRECISE 3 - Stable disease",
+          "target" : null
+        },
+        {
+          "id" : "Annotation.text",
+          "context" : "Annotation.text",
+          "source" : "Stable disease compared to prior MRI examinations.",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "New lesion indicator",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Change pattern",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Local change",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Best MRI sequence for change assessment",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Diffusion weighted",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

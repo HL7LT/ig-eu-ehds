@@ -1,0 +1,62 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "LTProstatePreciseCS"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "Lithuanian Prostate PRECISE CodeSystem"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "Lithuanian Medical Library"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Lithuanian Medical Library"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "PRECISE categories for longitudinal assessment of prostate MRI follow-up examinations.
+These categories describe overall change compared to a prior MRI examination."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "PRECISE 1 - Resolution or definite regression"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "PRECISE 2 - Likely regression"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "PRECISE 3 - Stable disease"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "PRECISE 3V - Stable volume but suspicious change"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "PRECISE 4 - Likely progression"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "PRECISE 5 - Definite progression"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "PRECISE X - Inadequate comparison or non-evaluable"
+msgstr ""
+

@@ -1,0 +1,257 @@
+{
+  "id" : "ValueSet-lt-prostate-pirads-sector-vs",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "ValueSet.name",
+          "context" : "ValueSet.name",
+          "source" : "LTProstatePIRADSSectorVS",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.title",
+          "context" : "ValueSet.title",
+          "source" : "PI-RADS Prostate Sector (39-sector map)",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.publisher",
+          "context" : "ValueSet.publisher",
+          "source" : "Lithuanian Medical Library",
+          "target" : null
+        },
+        {
+          "id" : "ContactDetail.name",
+          "context" : "ContactDetail.name",
+          "source" : "Lithuanian Medical Library",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.description",
+          "context" : "ValueSet.description",
+          "source" : "PI-RADS prostate sector locations based on the 39-sector PI-RADS map.\nIncludes detailed SNOMED CT body structure codes for base/mid/apex,\nzone, side, and anterior/posterior subdivisions.",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of posterolateral basal part of peripheral zone of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of posteromedial basal part of peripheral zone of right half of prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of posteromedial basal part of peripheral zone of left half of prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of posterolateral basal part of peripheral zone of left half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of anterior basal part of transition zone of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of anterior basal part of transition zone of left half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of posterior basal part of transition zone of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of posterior basal part of transition zone of left half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of central zone of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of central zone of left half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of basal part of anterior fibromuscular stroma of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of basal part of anterior fibromuscular stroma of left half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of lower pole of seminal vesicle",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of posterolateral middle regional part of peripheral zone of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of posteromedial middle regional part of peripheral zone of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of posteromedial middle regional part of peripheral zone of left half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of posterolateral middle regional part of peripheral zone of left half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of anterior middle regional part of transition zone of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of anterior middle regional part of transition zone of left half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of posterior middle regional part of transition zone of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of posterior middle regional part of transition zone of left half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of middle regional part of anterior fibromuscular stroma of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of middle regional part of anterior fibromuscular stroma of left half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of anterior middle regional part of peripheral zone of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of anterior middle regional part of peripheral zone of left half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of posterolateral apical part of peripheral zone of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of posteromedial apical part of peripheral zone of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of posteromedial apical part of peripheral zone of left half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of posterolateral apical part of peripheral zone of left half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of anterior apical part of transition zone of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of anterior apical part of transition zone of left half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of apical part of anterior fibromuscular stroma of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of apical part of anterior fibromuscular stroma of left half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of urethral sphincter",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of apical part of peripheral zone of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "ValueSet.compose.include.concept.display",
+          "source" : "Structure of apical part of peripheral zone of left half prostate",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

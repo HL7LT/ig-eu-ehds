@@ -1,0 +1,51 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "LTProstatePreciseComponentCS"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "PRECISE Component Codes"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "Lithuanian Medical Library"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Lithuanian Medical Library"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Local codes for detailed PRECISE assessment components."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "PRECISE longitudinal assessment"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "New lesion indicator"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Change pattern"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Best MRI sequence for change assessment"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Size change in millimeters"
+msgstr ""
+

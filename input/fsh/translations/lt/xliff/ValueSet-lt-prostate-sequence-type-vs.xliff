@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="lt" id="ValueSet-lt-prostate-sequence-type-vs" original="Resource ValueSet-lt-prostate-sequence-type-vs" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-lt-prostate-sequence-type-vs" resname="ValueSet.name">
+             <notes>
+               <note id="n1">ValueSet.name</note>
+             </notes>
+        <source>LTProstateSequenceTypeVS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-lt-prostate-sequence-type-vs" resname="ValueSet.title">
+             <notes>
+               <note id="n1">ValueSet.title</note>
+             </notes>
+        <source>Prostate mpMRI Sequence Type ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-lt-prostate-sequence-type-vs" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">ValueSet.publisher</note>
+             </notes>
+        <source>Lithuanian Medical Library</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-lt-prostate-sequence-type-vs" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Lithuanian Medical Library</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-lt-prostate-sequence-type-vs" resname="ValueSet.description">
+             <notes>
+               <note id="n1">ValueSet.description</note>
+             </notes>
+        <source>Sequence/image types used in prostate mpMRI scoring (DICOM terminology).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-lt-prostate-sequence-type-vs" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">ValueSet.compose.include.concept.display</note>
+             </notes>
+        <source>T2 Weighted MR Signal Intensity</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-lt-prostate-sequence-type-vs" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">ValueSet.compose.include.concept.display</note>
+             </notes>
+        <source>Diffusion weightedT2 Weighted MR Sign</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-lt-prostate-sequence-type-vs" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">ValueSet.compose.include.concept.display</note>
+             </notes>
+        <source>Apparent Diffusion Coefficient</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-lt-prostate-sequence-type-vs" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">ValueSet.compose.include.concept.display</note>
+             </notes>
+        <source>T1 Weighted Dynamic Contrast Enhanced MR Signal Intensity</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

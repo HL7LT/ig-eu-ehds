@@ -1,0 +1,11 @@
+
+# Coding.display
+#: Coding.display
+msgid "Diffusion weighted"
+msgstr ""
+
+# Annotation.text
+#: Annotation.text
+msgid "Marked diffusion restriction in lesion focus."
+msgstr ""
+

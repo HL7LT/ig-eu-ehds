@@ -1,0 +1,31 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "LTProstatePIQualCS"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "Lithuanian Prostate Imaging Quality (PI-QUAL) CodeSystem"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "Lithuanian Medical Library"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Lithuanian Medical Library"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Local code system for PI-QUAL image quality assessment."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "PI-QUAL image quality score"
+msgstr ""
+

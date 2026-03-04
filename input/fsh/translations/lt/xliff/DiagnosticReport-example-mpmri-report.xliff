@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="lt" id="DiagnosticReport-example-mpmri-report" original="Resource DiagnosticReport-example-mpmri-report" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="DiagnosticReport-example-mpmri-report" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Diagnostic imaging study</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="DiagnosticReport-example-mpmri-report" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Multiparametric magnetic resonance imaging of prostate (procedure)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="DiagnosticReport-example-mpmri-report" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Imaging Report V0.0.1</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="DiagnosticReport-example-mpmri-report" resname="DiagnosticReport.conclusion">
+             <notes>
+               <note id="n1">DiagnosticReport.conclusion</note>
+             </notes>
+        <source>Multiparametric prostate MRI performed. Peripheral zone focus with high suspicion. See linked observations.</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

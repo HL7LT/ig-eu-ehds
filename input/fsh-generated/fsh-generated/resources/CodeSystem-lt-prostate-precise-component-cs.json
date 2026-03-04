@@ -1,0 +1,33 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "LTProstatePreciseComponentCS",
+  "id": "lt-prostate-precise-component-cs",
+  "title": "PRECISE Component Codes",
+  "description": "Local codes for detailed PRECISE assessment components.",
+  "url": "https://hl7.lt/fhir/prostate/CodeSystem/lt-prostate-precise-component-cs",
+  "concept": [
+    {
+      "code": "precise-assessment",
+      "display": "PRECISE longitudinal assessment"
+    },
+    {
+      "code": "new-lesion",
+      "display": "New lesion indicator"
+    },
+    {
+      "code": "change-pattern",
+      "display": "Change pattern"
+    },
+    {
+      "code": "best-sequence",
+      "display": "Best MRI sequence for change assessment"
+    },
+    {
+      "code": "size-change-mm",
+      "display": "Size change in millimeters"
+    }
+  ],
+  "count": 5
+}

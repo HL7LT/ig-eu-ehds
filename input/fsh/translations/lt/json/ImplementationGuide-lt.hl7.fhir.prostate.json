@@ -1,0 +1,689 @@
+{
+  "id" : "ImplementationGuide-lt.hl7.fhir.prostate",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "ImplementationGuide.name",
+          "context" : "ImplementationGuide.name",
+          "source" : "LTProstate",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.title",
+          "context" : "ImplementationGuide.title",
+          "source" : "Lithuanian Prostate Diagnostics Implementation Guide",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.publisher",
+          "context" : "ImplementationGuide.publisher",
+          "source" : "Lithuanian Medical Library",
+          "target" : null
+        },
+        {
+          "id" : "ContactDetail.name",
+          "context" : "ContactDetail.name",
+          "source" : "Lithuanian Medical Library",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.description",
+          "context" : "ImplementationGuide.description",
+          "source" : "Lithuanian Prostate Diagnostics Implementation Guide",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example 2 – ADC Score (Lesion 1)",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example 2 – DCE (Lesion 1, Positive)",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example 2 – DWI Score (Lesion 1)",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example 2 – mpMRI Composition",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example 2 – PI-RADS Assessment (Lesion 1)",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example 2 – PRECISE Assessment (Stable Disease)",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example 2 – Prostate Lesion 1 (Anterior Mid Transition Zone, crosses midline)",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "MRI-visible anterior transition zone lesion (~32 mm), predominantly right-sided with extension across midline to the left (mid-gland).",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example 2 – Prostate mpMRI DiagnosticReport (Complete)",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example 2 – Prostate mpMRI Procedure",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example 2 – Prostate PSA",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example 2 – Prostate PSA Density",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example 2 – Prostate Volume",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example 2 – T2 Score (Lesion 1)",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example DWI score for lesion 1",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example mpMRI Composition",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example of Doctor",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example of Organization",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example of Patient - Janette Petrauskaite",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "An example Patient conforming to the Lithuanian Base Profile.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example of Patient - Tomas Kazlauskas",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "An example male Patient conforming to the Lithuanian Base Profile.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example of Practitioner",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example of the first visit for the breast examination",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example PI-RADS Assessment — Lesion 1",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example PRECISE Assessment – Follow-up MRI",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example Prostate Lesion – Right Posterolateral Basal Peripheral Zone",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "MRI-visible focal lesion in the right posterolateral basal peripheral zone.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example Prostate mpMRI DiagnosticReport",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "Example mpMRI report anchor. Structured results will be added as separate Observations and linked later.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example Prostate MRI ImagingStudy",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example Prostate MRI Procedure",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Example Radiologist Role",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "example-piqual",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "IM Composition",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "Clinical document used to represent a Imaging Study Report for the scope of the HL7 Europe project.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "IM Diagnostic Report",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "Diagnostic Report profile for Imaging Reports. This document represents the report of an imaging study. It is the anchor resource that refers to all structured data as well as the `Composition` resource that contains the narrative text of the report.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "IM Document DiagnosticReport Reference",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "This extension provides a reference to the DiagnosticReport instance that is associated with this Composition.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "IM Finding",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "Finding during imaging procedure.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "IM Image Viewer Endpoint",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "This profile defines a placeholder for an Endpoint for a viewer that can be used to access the study, serie it is present on.\nThe application is based on [IHE-IID](https://www.ihe.net/uploadedFiles/Documents/Radiology/IHE_RAD_Suppl_IID.pdf).",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "IM Imaging Accession Number Identifier",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "This profile on Identifier represents the Accession Number for the Imaging Order.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "IM Imaging Device",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "The device the made the image.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "IM Imaging Order",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "This profile on ServiceRequest represents the order for the Imaging Study and report.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "IM Imaging Procedure",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "This profile on Procedure represents the imaging procedure.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "IM Imaging Selection",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "Imaging Selection",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "IM Imaging Study",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "This profile represents an imaging study instance.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "IM Instance Description",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "A description of the instance in an ImagingStudy.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "IM Key Image Document Reference",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "A document containing key images for a patient. It can refer to a DICOM or non-DICOM image. When referring to a DICOM image, the DocumentReference.content.attachment.url should be a WADO-URI. When referring to a non-DICOM image, the DocumentReference.content.attachment.url should be a direct URL to the image.\n\nWhen the resource represents a DICOM instance it SHALL contain a the SOP Instance UID in the identifier element. When the resource represents a DICOM series it SHALL contain the Series Instance UID in the identifier element.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "IM Key images represented as an ImagingSelection",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "Key images represented as an ImagingSelection",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "IM Study Instance UID Identifier",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "This profile on Identifier represents the Study Instance UID (0020,000D) for the Imaging Order.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "IM WADO Endpoint",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "This profile defines the WADO endpoint for accessing imaging study content.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Lithuanian Prostate Imaging Quality (PI-QUAL) CodeSystem",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "Local code system for PI-QUAL image quality assessment.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Lithuanian Prostate PRECISE CodeSystem",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "PRECISE categories for longitudinal assessment of prostate MRI follow-up examinations.\nThese categories describe overall change compared to a prior MRI examination.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Observation: Prostate - PSA Density Example",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "Prostate-Specific Antigen Density (PSAD) Observation Example",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Observation: Prostate - PSA Example",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "Prostate Specific Antigen (PSA) Observation Example",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Observation: Prostate - Volume Example",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "Prostate Volume Observation Example",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "PI-QUAL Score",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "PI-QUAL is a quality assurance score for prostate MRI examinations.\nIt reflects whether the technical image quality of a specific MRI exam\nis sufficient to allow reliable interpretation and PI-RADS assessment.\n\nThis score applies to the entire MRI examination (not to individual lesions).\n\nLow PI-QUAL scores indicate that PI-RADS results should be interpreted\nwith caution or may not be reliable.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "PI-QUAL ValueSet",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "PI-RADS Assessment",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "PI-RADS assessment (score 1–5) assigned to a specific prostate lesion\nbased on mpMRI findings.\nThe anatomical location is represented using detailed PI-RADS\nsector-based prostate body structures (39-sector map).",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "PI-RADS Prostate Sector (39-sector map)",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "PI-RADS prostate sector locations based on the 39-sector PI-RADS map.\nIncludes detailed SNOMED CT body structure codes for base/mid/apex,\nzone, side, and anterior/posterior subdivisions.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "PRECISE Category ValueSet",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "Allowed PRECISE categories for longitudinal prostate MRI assessment.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "PRECISE Change Pattern CodeSystem",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "Pattern of change on follow-up MRI.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "PRECISE Change Pattern ValueSet",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "PRECISE Component Codes",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "Local codes for detailed PRECISE assessment components.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "PRECISE Longitudinal Assessment",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "PRECISE is an exam-level longitudinal assessment for prostate MRI follow-up.\nIt summarizes overall change compared to a prior MRI examination, using the PRECISE framework.\n\nPRECISE does not replace PI-RADS (which is lesion-level). Instead, it provides a\npatient/exam-level progression/regression category informed by lesion changes.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Prostate Lesion",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "An anatomical prostate lesion identified on MRI and localized using\nthe PI-RADS 39-sector model.\nLesion location is encoded using specific SNOMED CT body structure\nconcepts representing exact prostate sectors (base/mid/apex, zone,\nside and position).",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Prostate mpMRI Diagnostic Report",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "DiagnosticReport representing a prostate MRI examination (bi-parametric or multi-parametric).\n\nThis resource acts as the clinical and temporal anchor for all imaging-based\nassessments and measurements, including PI-RADS assessment, MRI sequence scores,\nPI-QUAL image quality evaluation, prostate volume and PSAD.\n\nThe report itself contains the overall narrative conclusion, while detailed\nfindings are represented as linked Observation and BodyStructure resources.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Prostate mpMRI Sequence Type ValueSet",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "Sequence/image types used in prostate mpMRI scoring (DICOM terminology).",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Prostate MRI Sequence Score Observation",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "Observation representing a numeric (1–5) assessment score for a specific prostate\nMRI sequence (T2-weighted, DWI, ADC or DCE), evaluated for a defined prostate lesion.\nThese sequence-level scores represent the individual imaging components used\nto derive the overall PI-RADS assessment, but do not themselves constitute a\nfinal diagnostic conclusion.\nAnatomical localization is provided via the referenced LTProstateLesion.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "ImplementationGuide.definition.resource.name",
+          "source" : "Prostate MRI Type ValueSet",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "ImplementationGuide.definition.resource.description",
+          "source" : "Type of prostate MRI examination: bi-parametric or multi-parametric.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.page.source[x]",
+          "context" : "ImplementationGuide.definition.page.source[x]",
+          "source" : "toc.html",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.page.title",
+          "context" : "ImplementationGuide.definition.page.title",
+          "source" : "Table of Contents",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.page.source[x]",
+          "context" : "ImplementationGuide.definition.page.source[x]",
+          "source" : "index.html",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.page.title",
+          "context" : "ImplementationGuide.definition.page.title",
+          "source" : "Home",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.page.source[x]",
+          "context" : "ImplementationGuide.definition.page.source[x]",
+          "source" : "workflow.html",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.page.title",
+          "context" : "ImplementationGuide.definition.page.title",
+          "source" : "Workflow",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

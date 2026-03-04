@@ -1,0 +1,21 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "LTProstatePIQualVS"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "PI-QUAL ValueSet"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Lithuanian Medical Library"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Lithuanian Medical Library"
+msgstr ""
+

@@ -1,0 +1,47 @@
+{
+  "id" : "CodeSystem-lt-prostate-piqual-cs",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "CodeSystem.name",
+          "context" : "CodeSystem.name",
+          "source" : "LTProstatePIQualCS",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.title",
+          "context" : "CodeSystem.title",
+          "source" : "Lithuanian Prostate Imaging Quality (PI-QUAL) CodeSystem",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.publisher",
+          "context" : "CodeSystem.publisher",
+          "source" : "Lithuanian Medical Library",
+          "target" : null
+        },
+        {
+          "id" : "ContactDetail.name",
+          "context" : "ContactDetail.name",
+          "source" : "Lithuanian Medical Library",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.description",
+          "context" : "CodeSystem.description",
+          "source" : "Local code system for PI-QUAL image quality assessment.",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "CodeSystem.concept.display",
+          "source" : "PI-QUAL image quality score",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

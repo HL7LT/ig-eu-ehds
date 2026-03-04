@@ -1,0 +1,29 @@
+{
+  "id" : "Encounter-example-encounter1",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Screening procedure",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Palpation (procedure)",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "attender",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

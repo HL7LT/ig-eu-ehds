@@ -1,0 +1,17 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "LTProstatePIQualCS",
+  "id": "lt-prostate-piqual-cs",
+  "title": "Lithuanian Prostate Imaging Quality (PI-QUAL) CodeSystem",
+  "description": "Local code system for PI-QUAL image quality assessment.",
+  "url": "https://hl7.lt/fhir/prostate/CodeSystem/lt-prostate-piqual-cs",
+  "concept": [
+    {
+      "code": "piqual",
+      "display": "PI-QUAL image quality score"
+    }
+  ],
+  "count": 1
+}

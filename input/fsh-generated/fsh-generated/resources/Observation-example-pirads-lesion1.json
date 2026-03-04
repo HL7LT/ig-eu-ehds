@@ -1,0 +1,49 @@
+{
+  "resourceType": "Observation",
+  "id": "example-pirads-lesion1",
+  "meta": {
+    "profile": [
+      "https://hl7.lt/fhir/prostate/StructureDefinition/lt-prostate-pirads-assessment"
+    ]
+  },
+  "focus": [
+    {
+      "reference": "BodyStructure/example-prostate-lesion1"
+    }
+  ],
+  "method": {
+    "text": "PI-RADS v2.1"
+  },
+  "note": [
+    {
+      "text": "Lesion 1 in right posterolateral basal peripheral zone sector, high suspicion."
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "350501000146102",
+        "system": "http://snomed.info/sct",
+        "display": "Prostate Imaging-Reporting and Data System score"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/example-male-patient"
+  },
+  "encounter": {
+    "reference": "Encounter/example-encounter1"
+  },
+  "effectiveDateTime": "2025-09-22T10:30:00Z",
+  "valueInteger": 4,
+  "bodySite": {
+    "coding": [
+      {
+        "code": "716906001",
+        "system": "http://snomed.info/sct",
+        "display": "Structure of posterolateral basal part of peripheral zone of right half prostate"
+      }
+    ]
+  }
+}

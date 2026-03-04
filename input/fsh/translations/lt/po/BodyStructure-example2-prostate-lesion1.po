@@ -1,0 +1,16 @@
+
+# Coding.display
+#: Coding.display
+msgid "Morphologically abnormal structure"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Structure of anterior middle regional part of transition zone of right half prostate"
+msgstr ""
+
+# BodyStructure.description
+#: BodyStructure.description
+msgid "MRI-visible anterior transition zone lesion (~32 mm), predominantly right-sided with extension across midline to the left (mid-gland)."
+msgstr ""
+

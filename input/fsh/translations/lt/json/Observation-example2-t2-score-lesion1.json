@@ -1,0 +1,23 @@
+{
+  "id" : "Observation-example2-t2-score-lesion1",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "T2 Weighted MR Signal Intensity",
+          "target" : null
+        },
+        {
+          "id" : "Annotation.text",
+          "context" : "Annotation.text",
+          "source" : "T2 score 5 in transition zone lesion.",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

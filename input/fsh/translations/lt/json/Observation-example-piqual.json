@@ -1,0 +1,17 @@
+{
+  "id" : "Observation-example-piqual",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "PI-QUAL image quality score",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

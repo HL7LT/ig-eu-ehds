@@ -1,0 +1,23 @@
+{
+  "id" : "Observation-example2-adc-score-lesion1",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Apparent Diffusion Coefficient",
+          "target" : null
+        },
+        {
+          "id" : "Annotation.text",
+          "context" : "Annotation.text",
+          "source" : "Low ADC corresponding to restricted diffusion (ADC score 5).",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

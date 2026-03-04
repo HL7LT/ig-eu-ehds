@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="lt" id="ValueSet-lt-prostate-piqual-vs" original="Resource ValueSet-lt-prostate-piqual-vs" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-lt-prostate-piqual-vs" resname="ValueSet.name">
+             <notes>
+               <note id="n1">ValueSet.name</note>
+             </notes>
+        <source>LTProstatePIQualVS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-lt-prostate-piqual-vs" resname="ValueSet.title">
+             <notes>
+               <note id="n1">ValueSet.title</note>
+             </notes>
+        <source>PI-QUAL ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-lt-prostate-piqual-vs" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">ValueSet.publisher</note>
+             </notes>
+        <source>Lithuanian Medical Library</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-lt-prostate-piqual-vs" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Lithuanian Medical Library</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

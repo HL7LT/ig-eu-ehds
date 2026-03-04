@@ -1,0 +1,602 @@
+
+# ImplementationGuide.name
+#: ImplementationGuide.name
+msgid "LTProstate"
+msgstr ""
+
+# ImplementationGuide.title
+#: ImplementationGuide.title
+msgid "Lithuanian Prostate Diagnostics Implementation Guide"
+msgstr ""
+
+# ImplementationGuide.publisher
+#: ImplementationGuide.publisher
+msgid "Lithuanian Medical Library"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Lithuanian Medical Library"
+msgstr ""
+
+# ImplementationGuide.description
+#: ImplementationGuide.description
+msgid "Lithuanian Prostate Diagnostics Implementation Guide"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example 2 – ADC Score (Lesion 1)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example 2 – DCE (Lesion 1, Positive)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example 2 – DWI Score (Lesion 1)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example 2 – mpMRI Composition"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example 2 – PI-RADS Assessment (Lesion 1)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example 2 – PRECISE Assessment (Stable Disease)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example 2 – Prostate Lesion 1 (Anterior Mid Transition Zone, crosses midline)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "MRI-visible anterior transition zone lesion (~32 mm), predominantly right-sided with extension across midline to the left (mid-gland)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example 2 – Prostate mpMRI DiagnosticReport (Complete)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example 2 – Prostate mpMRI Procedure"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example 2 – Prostate PSA"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example 2 – Prostate PSA Density"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example 2 – Prostate Volume"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example 2 – T2 Score (Lesion 1)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example DWI score for lesion 1"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example mpMRI Composition"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example of Doctor"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example of Organization"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example of Patient - Janette Petrauskaite"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "An example Patient conforming to the Lithuanian Base Profile."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example of Patient - Tomas Kazlauskas"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "An example male Patient conforming to the Lithuanian Base Profile."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example of Practitioner"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example of the first visit for the breast examination"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example PI-RADS Assessment — Lesion 1"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example PRECISE Assessment – Follow-up MRI"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example Prostate Lesion – Right Posterolateral Basal Peripheral Zone"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "MRI-visible focal lesion in the right posterolateral basal peripheral zone."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example Prostate mpMRI DiagnosticReport"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Example mpMRI report anchor. Structured results will be added as separate Observations and linked later."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example Prostate MRI ImagingStudy"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example Prostate MRI Procedure"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Example Radiologist Role"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "example-piqual"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IM Composition"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Clinical document used to represent a Imaging Study Report for the scope of the HL7 Europe project."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IM Diagnostic Report"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Diagnostic Report profile for Imaging Reports. This document represents the report of an imaging study. It is the anchor resource that refers to all structured data as well as the `Composition` resource that contains the narrative text of the report."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IM Document DiagnosticReport Reference"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "This extension provides a reference to the DiagnosticReport instance that is associated with this Composition."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IM Finding"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Finding during imaging procedure."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IM Image Viewer Endpoint"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "This profile defines a placeholder for an Endpoint for a viewer that can be used to access the study, serie it is present on.
+The application is based on [IHE-IID](https://www.ihe.net/uploadedFiles/Documents/Radiology/IHE_RAD_Suppl_IID.pdf)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IM Imaging Accession Number Identifier"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "This profile on Identifier represents the Accession Number for the Imaging Order."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IM Imaging Device"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "The device the made the image."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IM Imaging Order"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "This profile on ServiceRequest represents the order for the Imaging Study and report."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IM Imaging Procedure"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "This profile on Procedure represents the imaging procedure."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IM Imaging Selection"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Imaging Selection"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IM Imaging Study"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "This profile represents an imaging study instance."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IM Instance Description"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "A description of the instance in an ImagingStudy."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IM Key Image Document Reference"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "A document containing key images for a patient. It can refer to a DICOM or non-DICOM image. When referring to a DICOM image, the DocumentReference.content.attachment.url should be a WADO-URI. When referring to a non-DICOM image, the DocumentReference.content.attachment.url should be a direct URL to the image.
+
+When the resource represents a DICOM instance it SHALL contain a the SOP Instance UID in the identifier element. When the resource represents a DICOM series it SHALL contain the Series Instance UID in the identifier element."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IM Key images represented as an ImagingSelection"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Key images represented as an ImagingSelection"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IM Study Instance UID Identifier"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "This profile on Identifier represents the Study Instance UID (0020,000D) for the Imaging Order."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IM WADO Endpoint"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "This profile defines the WADO endpoint for accessing imaging study content."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Lithuanian Prostate Imaging Quality (PI-QUAL) CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Local code system for PI-QUAL image quality assessment."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Lithuanian Prostate PRECISE CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "PRECISE categories for longitudinal assessment of prostate MRI follow-up examinations.
+These categories describe overall change compared to a prior MRI examination."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Observation: Prostate - PSA Density Example"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Prostate-Specific Antigen Density (PSAD) Observation Example"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Observation: Prostate - PSA Example"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Prostate Specific Antigen (PSA) Observation Example"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Observation: Prostate - Volume Example"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Prostate Volume Observation Example"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "PI-QUAL Score"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "PI-QUAL is a quality assurance score for prostate MRI examinations.
+It reflects whether the technical image quality of a specific MRI exam
+is sufficient to allow reliable interpretation and PI-RADS assessment.
+
+This score applies to the entire MRI examination (not to individual lesions).
+
+Low PI-QUAL scores indicate that PI-RADS results should be interpreted
+with caution or may not be reliable."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "PI-QUAL ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "PI-RADS Assessment"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "PI-RADS assessment (score 1–5) assigned to a specific prostate lesion
+based on mpMRI findings.
+The anatomical location is represented using detailed PI-RADS
+sector-based prostate body structures (39-sector map)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "PI-RADS Prostate Sector (39-sector map)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "PI-RADS prostate sector locations based on the 39-sector PI-RADS map.
+Includes detailed SNOMED CT body structure codes for base/mid/apex,
+zone, side, and anterior/posterior subdivisions."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "PRECISE Category ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Allowed PRECISE categories for longitudinal prostate MRI assessment."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "PRECISE Change Pattern CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Pattern of change on follow-up MRI."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "PRECISE Change Pattern ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "PRECISE Component Codes"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Local codes for detailed PRECISE assessment components."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "PRECISE Longitudinal Assessment"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "PRECISE is an exam-level longitudinal assessment for prostate MRI follow-up.
+It summarizes overall change compared to a prior MRI examination, using the PRECISE framework.
+
+PRECISE does not replace PI-RADS (which is lesion-level). Instead, it provides a
+patient/exam-level progression/regression category informed by lesion changes."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Prostate Lesion"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "An anatomical prostate lesion identified on MRI and localized using
+the PI-RADS 39-sector model.
+Lesion location is encoded using specific SNOMED CT body structure
+concepts representing exact prostate sectors (base/mid/apex, zone,
+side and position)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Prostate mpMRI Diagnostic Report"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "DiagnosticReport representing a prostate MRI examination (bi-parametric or multi-parametric).
+
+This resource acts as the clinical and temporal anchor for all imaging-based
+assessments and measurements, including PI-RADS assessment, MRI sequence scores,
+PI-QUAL image quality evaluation, prostate volume and PSAD.
+
+The report itself contains the overall narrative conclusion, while detailed
+findings are represented as linked Observation and BodyStructure resources."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Prostate mpMRI Sequence Type ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Sequence/image types used in prostate mpMRI scoring (DICOM terminology)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Prostate MRI Sequence Score Observation"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Observation representing a numeric (1–5) assessment score for a specific prostate
+MRI sequence (T2-weighted, DWI, ADC or DCE), evaluated for a defined prostate lesion.
+These sequence-level scores represent the individual imaging components used
+to derive the overall PI-RADS assessment, but do not themselves constitute a
+final diagnostic conclusion.
+Anatomical localization is provided via the referenced LTProstateLesion."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Prostate MRI Type ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Type of prostate MRI examination: bi-parametric or multi-parametric."
+msgstr ""
+
+# ImplementationGuide.definition.page.source[x]
+#: ImplementationGuide.definition.page.source[x]
+msgid "toc.html"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Table of Contents"
+msgstr ""
+
+# ImplementationGuide.definition.page.source[x]
+#: ImplementationGuide.definition.page.source[x]
+msgid "index.html"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Home"
+msgstr ""
+
+# ImplementationGuide.definition.page.source[x]
+#: ImplementationGuide.definition.page.source[x]
+msgid "workflow.html"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Workflow"
+msgstr ""
+

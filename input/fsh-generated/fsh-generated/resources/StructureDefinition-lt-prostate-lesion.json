@@ -1,0 +1,44 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "lt-prostate-lesion",
+  "url": "https://hl7.lt/fhir/prostate/StructureDefinition/lt-prostate-lesion",
+  "name": "LTProstateLesion",
+  "title": "Prostate Lesion",
+  "status": "draft",
+  "description": "An anatomical prostate lesion identified on MRI and localized using\nthe PI-RADS 39-sector model.\nLesion location is encoded using specific SNOMED CT body structure\nconcepts representing exact prostate sectors (base/mid/apex, zone,\nside and position).",
+  "fhirVersion": "5.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "BodyStructure",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/BodyStructure",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "BodyStructure.includedStructure",
+        "path": "BodyStructure.includedStructure",
+        "max": "1"
+      },
+      {
+        "id": "BodyStructure.includedStructure.structure",
+        "path": "BodyStructure.includedStructure.structure",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://hl7.lt/fhir/prostate/ValueSet/lt-prostate-pirads-sector-vs"
+        }
+      },
+      {
+        "id": "BodyStructure.patient",
+        "path": "BodyStructure.patient",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-patient"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

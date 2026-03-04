@@ -1,0 +1,21 @@
+
+# Coding.display
+#: Coding.display
+msgid "Prostate Imaging-Reporting and Data System score"
+msgstr ""
+
+# Annotation.text
+#: Annotation.text
+msgid "Anterior transition zone lesion (~32 mm), extending across midline. Very high suspicion on mpMRI."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Structure of anterior middle regional part of transition zone of right half prostate"
+msgstr ""
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "PI-RADS v2.1"
+msgstr ""
+

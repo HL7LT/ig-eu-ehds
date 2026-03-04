@@ -1,0 +1,35 @@
+{
+  "id" : "Observation-example-pirads-lesion1",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Prostate Imaging-Reporting and Data System score",
+          "target" : null
+        },
+        {
+          "id" : "Annotation.text",
+          "context" : "Annotation.text",
+          "source" : "Lesion 1 in right posterolateral basal peripheral zone sector, high suspicion.",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Structure of posterolateral basal part of peripheral zone of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "CodeableConcept.text",
+          "context" : "CodeableConcept.text",
+          "source" : "PI-RADS v2.1",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

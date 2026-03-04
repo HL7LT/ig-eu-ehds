@@ -1,0 +1,27 @@
+{
+  "resourceType": "Observation",
+  "id": "example-piqual",
+  "meta": {
+    "profile": [
+      "https://hl7.lt/fhir/prostate/StructureDefinition/lt-prostate-piqual-observation"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "piqual",
+        "system": "https://hl7.lt/fhir/prostate/CodeSystem/lt-prostate-piqual-cs",
+        "display": "PI-QUAL image quality score"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/example-male-patient"
+  },
+  "encounter": {
+    "reference": "Encounter/example-encounter1"
+  },
+  "effectiveDateTime": "2025-09-22T10:30:00Z",
+  "valueInteger": 3
+}

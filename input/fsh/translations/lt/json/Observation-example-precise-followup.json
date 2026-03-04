@@ -1,0 +1,65 @@
+{
+  "id" : "Observation-example-precise-followup",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "PRECISE longitudinal assessment",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "PRECISE 4 - Likely progression",
+          "target" : null
+        },
+        {
+          "id" : "Annotation.text",
+          "context" : "Annotation.text",
+          "source" : "Follow-up MRI shows likely progression compared to prior study; progression driven by lesion growth and increased DWI restriction.",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "New lesion indicator",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Change pattern",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Local change",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Best MRI sequence for change assessment",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Diffusion weighted",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Size change in millimeters",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

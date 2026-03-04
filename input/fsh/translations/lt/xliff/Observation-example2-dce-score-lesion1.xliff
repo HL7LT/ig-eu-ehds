@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="lt" id="Observation-example2-dce-score-lesion1" original="Resource Observation-example2-dce-score-lesion1" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Observation-example2-dce-score-lesion1" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>T1 Weighted Dynamic Contrast Enhanced MR Signal Intensity</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-example2-dce-score-lesion1" resname="Annotation.text">
+             <notes>
+               <note id="n1">Annotation.text</note>
+             </notes>
+        <source>Dynamic contrast enhancement reported as positive (+).</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

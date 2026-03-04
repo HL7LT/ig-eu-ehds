@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="lt" id="Observation-prostate-volume-example" original="Resource Observation-prostate-volume-example" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Observation-prostate-volume-example" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Laboratory</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-prostate-volume-example" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Prostate Volume by derived by planimetry (US)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-prostate-volume-example" resname="CodeableConcept.text">
+             <notes>
+               <note id="n1">CodeableConcept.text</note>
+             </notes>
+        <source>Prostate Volume</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-prostate-volume-example" resname="Quantity.unit">
+             <notes>
+               <note id="n1">Quantity.unit</note>
+             </notes>
+        <source>cc</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

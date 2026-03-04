@@ -1,0 +1,23 @@
+{
+  "id" : "Observation-example2-dwi-score-lesion1",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Diffusion weighted",
+          "target" : null
+        },
+        {
+          "id" : "Annotation.text",
+          "context" : "Annotation.text",
+          "source" : "Marked diffusion restriction (DWI score 5).",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

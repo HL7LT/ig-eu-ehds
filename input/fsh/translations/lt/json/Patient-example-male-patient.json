@@ -1,0 +1,53 @@
+{
+  "id" : "Patient-example-male-patient",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "HumanName.text",
+          "context" : "HumanName.text",
+          "source" : "Tomas Kazlauskas",
+          "target" : null
+        },
+        {
+          "id" : "HumanName.family",
+          "context" : "HumanName.family",
+          "source" : "Kazlauskas",
+          "target" : null
+        },
+        {
+          "id" : "HumanName.given",
+          "context" : "HumanName.given",
+          "source" : "Tomas",
+          "target" : null
+        },
+        {
+          "id" : "Address.line",
+          "context" : "Address.line",
+          "source" : "Kalvarijų g. 25",
+          "target" : null
+        },
+        {
+          "id" : "Address.city",
+          "context" : "Address.city",
+          "source" : "Vilnius",
+          "target" : null
+        },
+        {
+          "id" : "Address.postalCode",
+          "context" : "Address.postalCode",
+          "source" : "LT-09309",
+          "target" : null
+        },
+        {
+          "id" : "Address.country",
+          "context" : "Address.country",
+          "source" : "LT",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

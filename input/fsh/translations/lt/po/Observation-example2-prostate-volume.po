@@ -1,0 +1,21 @@
+
+# Coding.display
+#: Coding.display
+msgid "Laboratory"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Prostate Volume by derived by planimetry (US)"
+msgstr ""
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "Prostate Volume"
+msgstr ""
+
+# Quantity.unit
+#: Quantity.unit
+msgid "mL"
+msgstr ""
+

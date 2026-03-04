@@ -1,0 +1,46 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "LTProstateSequenceTypeVS"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "Prostate mpMRI Sequence Type ValueSet"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Lithuanian Medical Library"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Lithuanian Medical Library"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Sequence/image types used in prostate mpMRI scoring (DICOM terminology)."
+msgstr ""
+
+# ValueSet.compose.include.concept.display
+#: ValueSet.compose.include.concept.display
+msgid "T2 Weighted MR Signal Intensity"
+msgstr ""
+
+# ValueSet.compose.include.concept.display
+#: ValueSet.compose.include.concept.display
+msgid "Diffusion weightedT2 Weighted MR Sign"
+msgstr ""
+
+# ValueSet.compose.include.concept.display
+#: ValueSet.compose.include.concept.display
+msgid "Apparent Diffusion Coefficient"
+msgstr ""
+
+# ValueSet.compose.include.concept.display
+#: ValueSet.compose.include.concept.display
+msgid "T1 Weighted Dynamic Contrast Enhanced MR Signal Intensity"
+msgstr ""
+

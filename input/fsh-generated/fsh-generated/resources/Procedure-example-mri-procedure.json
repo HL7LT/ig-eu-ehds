@@ -1,0 +1,22 @@
+{
+  "resourceType": "Procedure",
+  "id": "example-mri-procedure",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImProcedure"
+    ]
+  },
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "code": "719178004",
+        "system": "http://snomed.info/sct",
+        "display": "Multiparametric magnetic resonance imaging of prostate"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/example-male-patient"
+  }
+}

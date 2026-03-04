@@ -1,0 +1,23 @@
+{
+  "id" : "Observation-example-dwi-score",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Diffusion weighted",
+          "target" : null
+        },
+        {
+          "id" : "Annotation.text",
+          "context" : "Annotation.text",
+          "source" : "Marked diffusion restriction in lesion focus.",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

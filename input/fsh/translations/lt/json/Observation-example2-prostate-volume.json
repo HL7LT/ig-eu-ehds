@@ -1,0 +1,35 @@
+{
+  "id" : "Observation-example2-prostate-volume",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Laboratory",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Prostate Volume by derived by planimetry (US)",
+          "target" : null
+        },
+        {
+          "id" : "CodeableConcept.text",
+          "context" : "CodeableConcept.text",
+          "source" : "Prostate Volume",
+          "target" : null
+        },
+        {
+          "id" : "Quantity.unit",
+          "context" : "Quantity.unit",
+          "source" : "mL",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

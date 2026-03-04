@@ -1,0 +1,835 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="lt" id="ImplementationGuide-lt.hl7.fhir.prostate" original="Resource ImplementationGuide-lt.hl7.fhir.prostate" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.name">
+             <notes>
+               <note id="n1">ImplementationGuide.name</note>
+             </notes>
+        <source>LTProstate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.title">
+             <notes>
+               <note id="n1">ImplementationGuide.title</note>
+             </notes>
+        <source>Lithuanian Prostate Diagnostics Implementation Guide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.publisher">
+             <notes>
+               <note id="n1">ImplementationGuide.publisher</note>
+             </notes>
+        <source>Lithuanian Medical Library</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Lithuanian Medical Library</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.description">
+             <notes>
+               <note id="n1">ImplementationGuide.description</note>
+             </notes>
+        <source>Lithuanian Prostate Diagnostics Implementation Guide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example 2 – ADC Score (Lesion 1)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example 2 – DCE (Lesion 1, Positive)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example 2 – DWI Score (Lesion 1)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example 2 – mpMRI Composition</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example 2 – PI-RADS Assessment (Lesion 1)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example 2 – PRECISE Assessment (Stable Disease)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example 2 – Prostate Lesion 1 (Anterior Mid Transition Zone, crosses midline)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>MRI-visible anterior transition zone lesion (~32 mm), predominantly right-sided with extension across midline to the left (mid-gland).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example 2 – Prostate mpMRI DiagnosticReport (Complete)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example 2 – Prostate mpMRI Procedure</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example 2 – Prostate PSA</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example 2 – Prostate PSA Density</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example 2 – Prostate Volume</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example 2 – T2 Score (Lesion 1)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example DWI score for lesion 1</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example mpMRI Composition</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example of Doctor</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example of Organization</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example of Patient - Janette Petrauskaite</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>An example Patient conforming to the Lithuanian Base Profile.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example of Patient - Tomas Kazlauskas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>An example male Patient conforming to the Lithuanian Base Profile.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example of Practitioner</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example of the first visit for the breast examination</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example PI-RADS Assessment — Lesion 1</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example PRECISE Assessment – Follow-up MRI</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example Prostate Lesion – Right Posterolateral Basal Peripheral Zone</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>MRI-visible focal lesion in the right posterolateral basal peripheral zone.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example Prostate mpMRI DiagnosticReport</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Example mpMRI report anchor. Structured results will be added as separate Observations and linked later.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example Prostate MRI ImagingStudy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example Prostate MRI Procedure</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Example Radiologist Role</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>example-piqual</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IM Composition</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Clinical document used to represent a Imaging Study Report for the scope of the HL7 Europe project.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IM Diagnostic Report</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Diagnostic Report profile for Imaging Reports. This document represents the report of an imaging study. It is the anchor resource that refers to all structured data as well as the `Composition` resource that contains the narrative text of the report.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IM Document DiagnosticReport Reference</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>This extension provides a reference to the DiagnosticReport instance that is associated with this Composition.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IM Finding</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Finding during imaging procedure.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IM Image Viewer Endpoint</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>This profile defines a placeholder for an Endpoint for a viewer that can be used to access the study, serie it is present on.
+The application is based on [IHE-IID](https://www.ihe.net/uploadedFiles/Documents/Radiology/IHE_RAD_Suppl_IID.pdf).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IM Imaging Accession Number Identifier</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>This profile on Identifier represents the Accession Number for the Imaging Order.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IM Imaging Device</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>The device the made the image.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IM Imaging Order</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>This profile on ServiceRequest represents the order for the Imaging Study and report.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IM Imaging Procedure</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>This profile on Procedure represents the imaging procedure.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IM Imaging Selection</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Imaging Selection</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IM Imaging Study</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>This profile represents an imaging study instance.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IM Instance Description</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>A description of the instance in an ImagingStudy.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IM Key Image Document Reference</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>A document containing key images for a patient. It can refer to a DICOM or non-DICOM image. When referring to a DICOM image, the DocumentReference.content.attachment.url should be a WADO-URI. When referring to a non-DICOM image, the DocumentReference.content.attachment.url should be a direct URL to the image.
+
+When the resource represents a DICOM instance it SHALL contain a the SOP Instance UID in the identifier element. When the resource represents a DICOM series it SHALL contain the Series Instance UID in the identifier element.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IM Key images represented as an ImagingSelection</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Key images represented as an ImagingSelection</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IM Study Instance UID Identifier</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>This profile on Identifier represents the Study Instance UID (0020,000D) for the Imaging Order.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IM WADO Endpoint</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>This profile defines the WADO endpoint for accessing imaging study content.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Lithuanian Prostate Imaging Quality (PI-QUAL) CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Local code system for PI-QUAL image quality assessment.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Lithuanian Prostate PRECISE CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>PRECISE categories for longitudinal assessment of prostate MRI follow-up examinations.
+These categories describe overall change compared to a prior MRI examination.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Observation: Prostate - PSA Density Example</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Prostate-Specific Antigen Density (PSAD) Observation Example</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Observation: Prostate - PSA Example</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Prostate Specific Antigen (PSA) Observation Example</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Observation: Prostate - Volume Example</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Prostate Volume Observation Example</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>PI-QUAL Score</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>PI-QUAL is a quality assurance score for prostate MRI examinations.
+It reflects whether the technical image quality of a specific MRI exam
+is sufficient to allow reliable interpretation and PI-RADS assessment.
+
+This score applies to the entire MRI examination (not to individual lesions).
+
+Low PI-QUAL scores indicate that PI-RADS results should be interpreted
+with caution or may not be reliable.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>PI-QUAL ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>PI-RADS Assessment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>PI-RADS assessment (score 1–5) assigned to a specific prostate lesion
+based on mpMRI findings.
+The anatomical location is represented using detailed PI-RADS
+sector-based prostate body structures (39-sector map).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>PI-RADS Prostate Sector (39-sector map)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>PI-RADS prostate sector locations based on the 39-sector PI-RADS map.
+Includes detailed SNOMED CT body structure codes for base/mid/apex,
+zone, side, and anterior/posterior subdivisions.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>PRECISE Category ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Allowed PRECISE categories for longitudinal prostate MRI assessment.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>PRECISE Change Pattern CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Pattern of change on follow-up MRI.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>PRECISE Change Pattern ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>PRECISE Component Codes</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Local codes for detailed PRECISE assessment components.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>PRECISE Longitudinal Assessment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>PRECISE is an exam-level longitudinal assessment for prostate MRI follow-up.
+It summarizes overall change compared to a prior MRI examination, using the PRECISE framework.
+
+PRECISE does not replace PI-RADS (which is lesion-level). Instead, it provides a
+patient/exam-level progression/regression category informed by lesion changes.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Prostate Lesion</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>An anatomical prostate lesion identified on MRI and localized using
+the PI-RADS 39-sector model.
+Lesion location is encoded using specific SNOMED CT body structure
+concepts representing exact prostate sectors (base/mid/apex, zone,
+side and position).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Prostate mpMRI Diagnostic Report</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>DiagnosticReport representing a prostate MRI examination (bi-parametric or multi-parametric).
+
+This resource acts as the clinical and temporal anchor for all imaging-based
+assessments and measurements, including PI-RADS assessment, MRI sequence scores,
+PI-QUAL image quality evaluation, prostate volume and PSAD.
+
+The report itself contains the overall narrative conclusion, while detailed
+findings are represented as linked Observation and BodyStructure resources.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Prostate mpMRI Sequence Type ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Sequence/image types used in prostate mpMRI scoring (DICOM terminology).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Prostate MRI Sequence Score Observation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Observation representing a numeric (1–5) assessment score for a specific prostate
+MRI sequence (T2-weighted, DWI, ADC or DCE), evaluated for a defined prostate lesion.
+These sequence-level scores represent the individual imaging components used
+to derive the overall PI-RADS assessment, but do not themselves constitute a
+final diagnostic conclusion.
+Anatomical localization is provided via the referenced LTProstateLesion.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Prostate MRI Type ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Type of prostate MRI examination: bi-parametric or multi-parametric.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.page.source[x]">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.source[x]</note>
+             </notes>
+        <source>toc.html</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Table of Contents</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.page.source[x]">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.source[x]</note>
+             </notes>
+        <source>index.html</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Home</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.page.source[x]">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.source[x]</note>
+             </notes>
+        <source>workflow.html</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-lt.hl7.fhir.prostate" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Workflow</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

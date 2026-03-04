@@ -1,0 +1,11 @@
+
+# Coding.display
+#: Coding.display
+msgid "Apparent Diffusion Coefficient"
+msgstr ""
+
+# Annotation.text
+#: Annotation.text
+msgid "Low ADC corresponding to restricted diffusion (ADC score 5)."
+msgstr ""
+

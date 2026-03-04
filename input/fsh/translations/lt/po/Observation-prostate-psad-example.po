@@ -1,0 +1,36 @@
+
+# Coding.display
+#: Coding.display
+msgid "Laboratory"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Prostate specific Ag/Prostate volume calculated"
+msgstr ""
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "PSA Density"
+msgstr ""
+
+# Quantity.unit
+#: Quantity.unit
+msgid "ng/mL/cc"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "High"
+msgstr ""
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "Elevated density (>0.15 indicates risk)"
+msgstr ""
+
+# Annotation.text
+#: Annotation.text
+msgid "Calculated based on PSA of 9.0 ng/mL and Volume of 50 cc."
+msgstr ""
+

@@ -1,0 +1,23 @@
+{
+  "id" : "Observation-example2-dce-score-lesion1",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "T1 Weighted Dynamic Contrast Enhanced MR Signal Intensity",
+          "target" : null
+        },
+        {
+          "id" : "Annotation.text",
+          "context" : "Annotation.text",
+          "source" : "Dynamic contrast enhancement reported as positive (+).",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

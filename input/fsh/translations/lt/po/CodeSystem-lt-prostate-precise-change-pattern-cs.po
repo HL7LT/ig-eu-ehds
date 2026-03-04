@@ -1,0 +1,36 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "LTProstatePreciseChangePatternCS"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "PRECISE Change Pattern CodeSystem"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "Lithuanian Medical Library"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Lithuanian Medical Library"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Pattern of change on follow-up MRI."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Local change"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Diffuse change"
+msgstr ""
+

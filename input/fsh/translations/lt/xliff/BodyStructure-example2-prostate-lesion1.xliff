@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="lt" id="BodyStructure-example2-prostate-lesion1" original="Resource BodyStructure-example2-prostate-lesion1" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="BodyStructure-example2-prostate-lesion1" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Morphologically abnormal structure</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="BodyStructure-example2-prostate-lesion1" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Structure of anterior middle regional part of transition zone of right half prostate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="BodyStructure-example2-prostate-lesion1" resname="BodyStructure.description">
+             <notes>
+               <note id="n1">BodyStructure.description</note>
+             </notes>
+        <source>MRI-visible anterior transition zone lesion (~32 mm), predominantly right-sided with extension across midline to the left (mid-gland).</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

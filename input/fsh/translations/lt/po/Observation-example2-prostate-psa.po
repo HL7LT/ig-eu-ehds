@@ -1,0 +1,21 @@
+
+# Coding.display
+#: Coding.display
+msgid "Laboratory"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Prostate Specific Ag [Mass/volume] in Serum or Plasma"
+msgstr ""
+
+# Quantity.unit
+#: Quantity.unit
+msgid "ng/mL"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Abnormal"
+msgstr ""
+

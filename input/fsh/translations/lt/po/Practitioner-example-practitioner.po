@@ -1,0 +1,11 @@
+
+# HumanName.text
+#: HumanName.text
+msgid "Registrar"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Triage nurse (occupation)"
+msgstr ""
+

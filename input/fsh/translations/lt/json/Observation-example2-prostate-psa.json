@@ -1,0 +1,35 @@
+{
+  "id" : "Observation-example2-prostate-psa",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Laboratory",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Prostate Specific Ag [Mass/volume] in Serum or Plasma",
+          "target" : null
+        },
+        {
+          "id" : "Quantity.unit",
+          "context" : "Quantity.unit",
+          "source" : "ng/mL",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Abnormal",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

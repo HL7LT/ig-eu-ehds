@@ -1,0 +1,11 @@
+
+# Coding.display
+#: Coding.display
+msgid "T2 Weighted MR Signal Intensity"
+msgstr ""
+
+# Annotation.text
+#: Annotation.text
+msgid "T2 score 5 in transition zone lesion."
+msgstr ""
+

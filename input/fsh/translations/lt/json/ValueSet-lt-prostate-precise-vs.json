@@ -1,0 +1,41 @@
+{
+  "id" : "ValueSet-lt-prostate-precise-vs",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "ValueSet.name",
+          "context" : "ValueSet.name",
+          "source" : "LTProstatePreciseVS",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.title",
+          "context" : "ValueSet.title",
+          "source" : "PRECISE Category ValueSet",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.publisher",
+          "context" : "ValueSet.publisher",
+          "source" : "Lithuanian Medical Library",
+          "target" : null
+        },
+        {
+          "id" : "ContactDetail.name",
+          "context" : "ContactDetail.name",
+          "source" : "Lithuanian Medical Library",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.description",
+          "context" : "ValueSet.description",
+          "source" : "Allowed PRECISE categories for longitudinal prostate MRI assessment.",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

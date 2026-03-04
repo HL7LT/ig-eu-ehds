@@ -1,0 +1,11 @@
+
+# Coding.display
+#: Coding.display
+msgid "Multiparametric magnetic resonance imaging of prostate"
+msgstr ""
+
+# Annotation.text
+#: Annotation.text
+msgid "Multiparametric prostate MRI performed with intravenous gadolinium-based contrast agent (16 mL)."
+msgstr ""
+

@@ -1,0 +1,29 @@
+{
+  "id" : "BodyStructure-example-prostate-lesion1",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Morphologically abnormal structure",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Structure of posterolateral basal part of peripheral zone of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "BodyStructure.description",
+          "context" : "BodyStructure.description",
+          "source" : "MRI-visible focal lesion in the right posterolateral basal peripheral zone.",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

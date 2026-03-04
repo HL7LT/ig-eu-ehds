@@ -1,0 +1,23 @@
+{
+  "id" : "Procedure-example2-mri-procedure",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Multiparametric magnetic resonance imaging of prostate",
+          "target" : null
+        },
+        {
+          "id" : "Annotation.text",
+          "context" : "Annotation.text",
+          "source" : "Multiparametric prostate MRI performed with intravenous gadolinium-based contrast agent (16 mL).",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

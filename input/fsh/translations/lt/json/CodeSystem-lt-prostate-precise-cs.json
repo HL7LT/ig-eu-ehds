@@ -1,0 +1,83 @@
+{
+  "id" : "CodeSystem-lt-prostate-precise-cs",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "CodeSystem.name",
+          "context" : "CodeSystem.name",
+          "source" : "LTProstatePreciseCS",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.title",
+          "context" : "CodeSystem.title",
+          "source" : "Lithuanian Prostate PRECISE CodeSystem",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.publisher",
+          "context" : "CodeSystem.publisher",
+          "source" : "Lithuanian Medical Library",
+          "target" : null
+        },
+        {
+          "id" : "ContactDetail.name",
+          "context" : "ContactDetail.name",
+          "source" : "Lithuanian Medical Library",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.description",
+          "context" : "CodeSystem.description",
+          "source" : "PRECISE categories for longitudinal assessment of prostate MRI follow-up examinations.\nThese categories describe overall change compared to a prior MRI examination.",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "CodeSystem.concept.display",
+          "source" : "PRECISE 1 - Resolution or definite regression",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "CodeSystem.concept.display",
+          "source" : "PRECISE 2 - Likely regression",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "CodeSystem.concept.display",
+          "source" : "PRECISE 3 - Stable disease",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "CodeSystem.concept.display",
+          "source" : "PRECISE 3V - Stable volume but suspicious change",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "CodeSystem.concept.display",
+          "source" : "PRECISE 4 - Likely progression",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "CodeSystem.concept.display",
+          "source" : "PRECISE 5 - Definite progression",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.concept.display",
+          "context" : "CodeSystem.concept.display",
+          "source" : "PRECISE X - Inadequate comparison or non-evaluable",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

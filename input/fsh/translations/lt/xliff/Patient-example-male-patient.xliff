@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="lt" id="Patient-example-male-patient" original="Resource Patient-example-male-patient" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Patient-example-male-patient" resname="HumanName.text">
+             <notes>
+               <note id="n1">HumanName.text</note>
+             </notes>
+        <source>Tomas Kazlauskas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Patient-example-male-patient" resname="HumanName.family">
+             <notes>
+               <note id="n1">HumanName.family</note>
+             </notes>
+        <source>Kazlauskas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Patient-example-male-patient" resname="HumanName.given">
+             <notes>
+               <note id="n1">HumanName.given</note>
+             </notes>
+        <source>Tomas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Patient-example-male-patient" resname="Address.line">
+             <notes>
+               <note id="n1">Address.line</note>
+             </notes>
+        <source>Kalvarijų g. 25</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Patient-example-male-patient" resname="Address.city">
+             <notes>
+               <note id="n1">Address.city</note>
+             </notes>
+        <source>Vilnius</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Patient-example-male-patient" resname="Address.postalCode">
+             <notes>
+               <note id="n1">Address.postalCode</note>
+             </notes>
+        <source>LT-09309</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Patient-example-male-patient" resname="Address.country">
+             <notes>
+               <note id="n1">Address.country</note>
+             </notes>
+        <source>LT</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,17 @@
+{
+  "id" : "Organization-example-organization",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Organization.name",
+          "context" : "Organization.name",
+          "source" : "Breast Clinic",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

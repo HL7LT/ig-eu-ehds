@@ -1,0 +1,36 @@
+
+# HumanName.text
+#: HumanName.text
+msgid "Janette Petrauskaite"
+msgstr ""
+
+# HumanName.family
+#: HumanName.family
+msgid "Petrauskaite"
+msgstr ""
+
+# HumanName.given
+#: HumanName.given
+msgid "Janette"
+msgstr ""
+
+# Address.line
+#: Address.line
+msgid "Gedimino pr. 10"
+msgstr ""
+
+# Address.city
+#: Address.city
+msgid "Vilnius"
+msgstr ""
+
+# Address.postalCode
+#: Address.postalCode
+msgid "LT-01103"
+msgstr ""
+
+# Address.country
+#: Address.country
+msgid "LT"
+msgstr ""
+

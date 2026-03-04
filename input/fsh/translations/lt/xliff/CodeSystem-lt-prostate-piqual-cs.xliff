@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="lt" id="CodeSystem-lt-prostate-piqual-cs" original="Resource CodeSystem-lt-prostate-piqual-cs" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-lt-prostate-piqual-cs" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>LTProstatePIQualCS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-piqual-cs" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>Lithuanian Prostate Imaging Quality (PI-QUAL) CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-piqual-cs" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>Lithuanian Medical Library</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-piqual-cs" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Lithuanian Medical Library</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-piqual-cs" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>Local code system for PI-QUAL image quality assessment.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-lt-prostate-piqual-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>PI-QUAL image quality score</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

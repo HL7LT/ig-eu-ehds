@@ -1,0 +1,53 @@
+{
+  "id" : "Patient-example-patient",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "HumanName.text",
+          "context" : "HumanName.text",
+          "source" : "Janette Petrauskaite",
+          "target" : null
+        },
+        {
+          "id" : "HumanName.family",
+          "context" : "HumanName.family",
+          "source" : "Petrauskaite",
+          "target" : null
+        },
+        {
+          "id" : "HumanName.given",
+          "context" : "HumanName.given",
+          "source" : "Janette",
+          "target" : null
+        },
+        {
+          "id" : "Address.line",
+          "context" : "Address.line",
+          "source" : "Gedimino pr. 10",
+          "target" : null
+        },
+        {
+          "id" : "Address.city",
+          "context" : "Address.city",
+          "source" : "Vilnius",
+          "target" : null
+        },
+        {
+          "id" : "Address.postalCode",
+          "context" : "Address.postalCode",
+          "source" : "LT-01103",
+          "target" : null
+        },
+        {
+          "id" : "Address.country",
+          "context" : "Address.country",
+          "source" : "LT",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

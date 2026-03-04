@@ -1,0 +1,9 @@
+{
+  "id" : "ImagingStudy-example-imagingstudy",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt"
+    }
+  ]
+}

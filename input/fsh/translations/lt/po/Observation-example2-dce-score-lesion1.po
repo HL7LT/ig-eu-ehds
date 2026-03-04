@@ -1,0 +1,11 @@
+
+# Coding.display
+#: Coding.display
+msgid "T1 Weighted Dynamic Contrast Enhanced MR Signal Intensity"
+msgstr ""
+
+# Annotation.text
+#: Annotation.text
+msgid "Dynamic contrast enhancement reported as positive (+)."
+msgstr ""
+

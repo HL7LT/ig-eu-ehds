@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="lt" id="Observation-example-pirads-lesion1" original="Resource Observation-example-pirads-lesion1" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Observation-example-pirads-lesion1" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Prostate Imaging-Reporting and Data System score</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-example-pirads-lesion1" resname="Annotation.text">
+             <notes>
+               <note id="n1">Annotation.text</note>
+             </notes>
+        <source>Lesion 1 in right posterolateral basal peripheral zone sector, high suspicion.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-example-pirads-lesion1" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Structure of posterolateral basal part of peripheral zone of right half prostate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-example-pirads-lesion1" resname="CodeableConcept.text">
+             <notes>
+               <note id="n1">CodeableConcept.text</note>
+             </notes>
+        <source>PI-RADS v2.1</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,59 @@
+{
+  "id" : "StructureDefinition-im-accession-number-identifier",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "StructureDefinition.name",
+          "context" : "A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
+          "source" : "ImAccessionNumberIdentifier",
+          "target" : "ImAccessionNumberIdentifier"
+        },
+        {
+          "id" : "StructureDefinition.title",
+          "context" : "A short, descriptive, user-friendly title for the structure definition.",
+          "source" : "IM Imaging Accession Number Identifier",
+          "target" : "IM Imaging Accession Number Identifier"
+        },
+        {
+          "id" : "StructureDefinition.publisher",
+          "context" : "The name of the organization or individual responsible for the release and ongoing maintenance of the structure definition.",
+          "source" : "Lithuanian Medical Library",
+          "target" : "Lithuanian Medical Library"
+        },
+        {
+          "id" : "StructureDefinition.contact.name",
+          "context" : "The name of an individual to contact.",
+          "source" : "Lithuanian Medical Library",
+          "target" : "Lithuanian Medical Library"
+        },
+        {
+          "id" : "StructureDefinition.copyright",
+          "context" : "A copyright statement relating to the structure definition and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the structure definition.  The short copyright declaration (e.g. (c) '2015+ xyz organization' should be sent in the copyrightLabel element.",
+          "source" : "Used by permission of HL7 Europe, all rights reserved Creative Commons License",
+          "target" : "Used by permission of HL7 Europe, all rights reserved Creative Commons License"
+        },
+        {
+          "id" : "StructureDefinition.mapping.v2/name",
+          "context" : "A name for the specification that is being mapped to.",
+          "source" : "HL7 V2 Mapping",
+          "target" : "HL7 V2 Mapping"
+        },
+        {
+          "id" : "StructureDefinition.mapping.rim/name",
+          "context" : "A name for the specification that is being mapped to.",
+          "source" : "RIM Mapping",
+          "target" : "RIM Mapping"
+        },
+        {
+          "id" : "StructureDefinition.mapping.servd/name",
+          "context" : "A name for the specification that is being mapped to.",
+          "source" : "ServD",
+          "target" : "ServD"
+        }
+      ]
+    }
+  ]
+}

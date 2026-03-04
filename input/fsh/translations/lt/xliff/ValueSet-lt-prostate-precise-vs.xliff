@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="lt" id="ValueSet-lt-prostate-precise-vs" original="Resource ValueSet-lt-prostate-precise-vs" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-lt-prostate-precise-vs" resname="ValueSet.name">
+             <notes>
+               <note id="n1">ValueSet.name</note>
+             </notes>
+        <source>LTProstatePreciseVS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-lt-prostate-precise-vs" resname="ValueSet.title">
+             <notes>
+               <note id="n1">ValueSet.title</note>
+             </notes>
+        <source>PRECISE Category ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-lt-prostate-precise-vs" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">ValueSet.publisher</note>
+             </notes>
+        <source>Lithuanian Medical Library</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-lt-prostate-precise-vs" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Lithuanian Medical Library</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-lt-prostate-precise-vs" resname="ValueSet.description">
+             <notes>
+               <note id="n1">ValueSet.description</note>
+             </notes>
+        <source>Allowed PRECISE categories for longitudinal prostate MRI assessment.</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

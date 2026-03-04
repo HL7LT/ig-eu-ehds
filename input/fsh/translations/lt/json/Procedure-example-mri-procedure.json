@@ -1,0 +1,17 @@
+{
+  "id" : "Procedure-example-mri-procedure",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Multiparametric magnetic resonance imaging of prostate",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

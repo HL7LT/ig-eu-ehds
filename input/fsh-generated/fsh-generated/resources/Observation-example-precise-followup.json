@@ -1,0 +1,115 @@
+{
+  "resourceType": "Observation",
+  "id": "example-precise-followup",
+  "meta": {
+    "profile": [
+      "https://hl7.lt/fhir/prostate/StructureDefinition/lt-prostate-precise-assessment"
+    ]
+  },
+  "derivedFrom": [
+    {
+      "reference": "ImagingStudy/example-imagingstudy"
+    }
+  ],
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "new-lesion",
+            "system": "https://hl7.lt/fhir/prostate/CodeSystem/lt-prostate-precise-component-cs",
+            "display": "New lesion indicator"
+          }
+        ]
+      },
+      "valueBoolean": false
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "change-pattern",
+            "system": "https://hl7.lt/fhir/prostate/CodeSystem/lt-prostate-precise-component-cs",
+            "display": "Change pattern"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "local",
+            "system": "https://hl7.lt/fhir/prostate/CodeSystem/lt-prostate-precise-change-pattern-cs",
+            "display": "Local change"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "best-sequence",
+            "system": "https://hl7.lt/fhir/prostate/CodeSystem/lt-prostate-precise-component-cs",
+            "display": "Best MRI sequence for change assessment"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "113043",
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "display": "Diffusion weighted"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "size-change-mm",
+            "system": "https://hl7.lt/fhir/prostate/CodeSystem/lt-prostate-precise-component-cs",
+            "display": "Size change in millimeters"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "code": "mm",
+        "value": 3
+      }
+    }
+  ],
+  "note": [
+    {
+      "text": "Follow-up MRI shows likely progression compared to prior study; progression driven by lesion growth and increased DWI restriction."
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "precise-assessment",
+        "system": "https://hl7.lt/fhir/prostate/CodeSystem/lt-prostate-precise-component-cs",
+        "display": "PRECISE longitudinal assessment"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/example-male-patient"
+  },
+  "encounter": {
+    "reference": "Encounter/example-encounter1"
+  },
+  "effectiveDateTime": "2026-03-15T10:30:00Z",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "precise-4",
+        "system": "https://hl7.lt/fhir/prostate/CodeSystem/lt-prostate-precise-cs",
+        "display": "PRECISE 4 - Likely progression"
+      }
+    ]
+  }
+}

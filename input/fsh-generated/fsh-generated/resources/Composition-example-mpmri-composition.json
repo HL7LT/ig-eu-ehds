@@ -1,0 +1,174 @@
+{
+  "resourceType": "Composition",
+  "id": "example-mpmri-composition",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImComposition"
+    ]
+  },
+  "subject": [
+    {
+      "reference": "Patient/example-male-patient"
+    }
+  ],
+  "author": [
+    {
+      "reference": "PractitionerRole/example-radiologist-role"
+    }
+  ],
+  "identifier": [
+    {
+      "system": "https://hl7.lt/fhir/prostate/composition-id",
+      "value": "mpmri-report-2025-0001"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.eu/fhir/imaging-r5/StructureDefinition/im-composition-diagnosticReportReference",
+      "valueReference": {
+        "reference": "DiagnosticReport/example-mpmri-report"
+      }
+    }
+  ],
+  "event": [
+    {
+      "detail": [
+        {
+          "reference": {
+            "reference": "ImagingStudy/example-imagingstudy"
+          }
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "reference": {
+            "reference": "Procedure/example-mri-procedure"
+          }
+        }
+      ]
+    }
+  ],
+  "section": [
+    {
+      "entry": [
+        {
+          "reference": "ImagingStudy/example-imagingstudy"
+        }
+      ],
+      "text": {
+        "status": "generated",
+        "div": "<div><p>Multiparametric prostate MRI performed.</p></div>"
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "18726-0",
+            "system": "http://loinc.org"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "55115-0",
+            "system": "http://loinc.org",
+            "display": "Requested imaging studies information Document"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "11329-0",
+            "system": "http://loinc.org",
+            "display": "History general Narrative - Reported"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "55111-9",
+            "system": "http://loinc.org",
+            "display": "Current imaging procedure descriptions Document"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "18834-2",
+            "system": "http://loinc.org",
+            "display": "Radiology Comparison study (narrative)"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "59776-5",
+            "system": "http://loinc.org",
+            "display": "Findings"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "19005-8",
+            "system": "http://loinc.org",
+            "display": "Radiology Imaging study [Impression] (narrative)"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "18783-1",
+            "system": "http://loinc.org",
+            "display": "Radiology Study recommendation (narrative)"
+          }
+        ]
+      }
+    }
+  ],
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "18748-4",
+          "system": "http://loinc.org",
+          "display": "Diagnostic imaging study"
+        }
+      ]
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "code": "imaging-report-v0-0-1",
+        "system": "http://hl7.eu/fhir/imaging-r5/CodeSystem/Hl7EuDocumentTypes",
+        "display": "Imaging Report V0.0.1"
+      }
+    ]
+  },
+  "status": "final",
+  "date": "2025-09-22T10:30:00Z",
+  "title": "Multiparametric prostate MRI report"
+}

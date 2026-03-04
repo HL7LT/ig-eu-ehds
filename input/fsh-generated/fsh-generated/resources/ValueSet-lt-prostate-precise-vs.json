@@ -1,0 +1,16 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "LTProstatePreciseVS",
+  "id": "lt-prostate-precise-vs",
+  "title": "PRECISE Category ValueSet",
+  "description": "Allowed PRECISE categories for longitudinal prostate MRI assessment.",
+  "url": "https://hl7.lt/fhir/prostate/ValueSet/lt-prostate-precise-vs",
+  "compose": {
+    "include": [
+      {
+        "system": "https://hl7.lt/fhir/prostate/CodeSystem/lt-prostate-precise-cs"
+      }
+    ]
+  }
+}

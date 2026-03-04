@@ -1,0 +1,36 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "LTProstateMRITypeVS"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "Prostate MRI Type ValueSet"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Lithuanian Medical Library"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Lithuanian Medical Library"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Type of prostate MRI examination: bi-parametric or multi-parametric."
+msgstr ""
+
+# ValueSet.compose.include.concept.display
+#: ValueSet.compose.include.concept.display
+msgid "Magnetic resonance imaging of prostate (procedure)"
+msgstr ""
+
+# ValueSet.compose.include.concept.display
+#: ValueSet.compose.include.concept.display
+msgid "Multiparametric magnetic resonance imaging of prostate (procedure)"
+msgstr ""
+

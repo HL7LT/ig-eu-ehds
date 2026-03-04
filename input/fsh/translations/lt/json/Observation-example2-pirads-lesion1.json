@@ -1,0 +1,35 @@
+{
+  "id" : "Observation-example2-pirads-lesion1",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "lt",
+      "entries" : [
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Prostate Imaging-Reporting and Data System score",
+          "target" : null
+        },
+        {
+          "id" : "Annotation.text",
+          "context" : "Annotation.text",
+          "source" : "Anterior transition zone lesion (~32 mm), extending across midline. Very high suspicion on mpMRI.",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "Coding.display",
+          "source" : "Structure of anterior middle regional part of transition zone of right half prostate",
+          "target" : null
+        },
+        {
+          "id" : "CodeableConcept.text",
+          "context" : "CodeableConcept.text",
+          "source" : "PI-RADS v2.1",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

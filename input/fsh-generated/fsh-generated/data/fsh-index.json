@@ -1,0 +1,514 @@
+[
+  {
+    "outputFile": "BodyStructure-example-prostate-lesion1.json",
+    "fshName": "example-prostate-lesion1",
+    "fshType": "Instance",
+    "fshFile": "profiles\\lt-prostate-lesion.fsh",
+    "startLine": 21,
+    "endLine": 29
+  },
+  {
+    "outputFile": "BodyStructure-example2-prostate-lesion1.json",
+    "fshName": "example2-prostate-lesion1",
+    "fshType": "Instance",
+    "fshFile": "examples\\prostate\\example-mpmri-report-prostate-lt.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "CodeSystem-lt-prostate-piqual-cs.json",
+    "fshName": "LTProstatePIQualCS",
+    "fshType": "CodeSystem",
+    "fshFile": "profiles\\lt-prostate-pi-qual.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
+    "outputFile": "CodeSystem-lt-prostate-precise-change-pattern-cs.json",
+    "fshName": "LTProstatePreciseChangePatternCS",
+    "fshType": "CodeSystem",
+    "fshFile": "profiles\\lt-prostate-precise.fsh",
+    "startLine": 22,
+    "endLine": 27
+  },
+  {
+    "outputFile": "CodeSystem-lt-prostate-precise-component-cs.json",
+    "fshName": "LTProstatePreciseComponentCS",
+    "fshType": "CodeSystem",
+    "fshFile": "profiles\\lt-prostate-precise.fsh",
+    "startLine": 34,
+    "endLine": 42
+  },
+  {
+    "outputFile": "CodeSystem-lt-prostate-precise-cs.json",
+    "fshName": "LTProstatePreciseCS",
+    "fshType": "CodeSystem",
+    "fshFile": "profiles\\lt-prostate-precise.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "Composition-example-mpmri-composition.json",
+    "fshName": "example-mpmri-composition",
+    "fshType": "Instance",
+    "fshFile": "examples\\base\\examples-composition.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "Composition-example2-mpmri-composition.json",
+    "fshName": "example2-mpmri-composition",
+    "fshType": "Instance",
+    "fshFile": "examples\\prostate\\example-mpmri-report-prostate-lt.fsh",
+    "startLine": 151,
+    "endLine": 168
+  },
+  {
+    "outputFile": "DiagnosticReport-example-mpmri-report.json",
+    "fshName": "example-mpmri-report",
+    "fshType": "Instance",
+    "fshFile": "profiles\\lt-prostate-mp-mri-report.fsh",
+    "startLine": 45,
+    "endLine": 72
+  },
+  {
+    "outputFile": "DiagnosticReport-example2-mpmri-report.json",
+    "fshName": "example2-mpmri-report",
+    "fshType": "Instance",
+    "fshFile": "examples\\prostate\\example-mpmri-report-prostate-lt.fsh",
+    "startLine": 171,
+    "endLine": 196
+  },
+  {
+    "outputFile": "Encounter-example-encounter1.json",
+    "fshName": "example-encounter1",
+    "fshType": "Instance",
+    "fshFile": "examples\\base\\examples-encounter.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ImagingStudy-example-imagingstudy.json",
+    "fshName": "example-imagingstudy",
+    "fshType": "Instance",
+    "fshFile": "profiles-eu\\im-imaging-study.fsh",
+    "startLine": 77,
+    "endLine": 84
+  },
+  {
+    "outputFile": "Observation-example-dwi-score.json",
+    "fshName": "example-dwi-score",
+    "fshType": "Instance",
+    "fshFile": "profiles\\lt-prostate-sequence-score.fsh",
+    "startLine": 43,
+    "endLine": 54
+  },
+  {
+    "outputFile": "Observation-example-piqual.json",
+    "fshName": "example-piqual",
+    "fshType": "Instance",
+    "fshFile": "profiles\\lt-prostate-pi-qual.fsh",
+    "startLine": 42,
+    "endLine": 50
+  },
+  {
+    "outputFile": "Observation-example-pirads-lesion1.json",
+    "fshName": "example-pirads-lesion1",
+    "fshType": "Instance",
+    "fshFile": "profiles\\lt-prostate-pirads-assesment.fsh",
+    "startLine": 86,
+    "endLine": 103
+  },
+  {
+    "outputFile": "Observation-example-precise-followup.json",
+    "fshName": "example-precise-followup",
+    "fshType": "Instance",
+    "fshFile": "profiles\\lt-prostate-precise.fsh",
+    "startLine": 109,
+    "endLine": 126
+  },
+  {
+    "outputFile": "Observation-example2-adc-score-lesion1.json",
+    "fshName": "example2-adc-score-lesion1",
+    "fshType": "Instance",
+    "fshFile": "examples\\prostate\\example-mpmri-report-prostate-lt.fsh",
+    "startLine": 55,
+    "endLine": 66
+  },
+  {
+    "outputFile": "Observation-example2-dce-score-lesion1.json",
+    "fshName": "example2-dce-score-lesion1",
+    "fshType": "Instance",
+    "fshFile": "examples\\prostate\\example-mpmri-report-prostate-lt.fsh",
+    "startLine": 69,
+    "endLine": 80
+  },
+  {
+    "outputFile": "Observation-example2-dwi-score-lesion1.json",
+    "fshName": "example2-dwi-score-lesion1",
+    "fshType": "Instance",
+    "fshFile": "examples\\prostate\\example-mpmri-report-prostate-lt.fsh",
+    "startLine": 41,
+    "endLine": 52
+  },
+  {
+    "outputFile": "Observation-example2-pirads-lesion1.json",
+    "fshName": "example2-pirads-lesion1",
+    "fshType": "Instance",
+    "fshFile": "examples\\prostate\\example-mpmri-report-prostate-lt.fsh",
+    "startLine": 11,
+    "endLine": 24
+  },
+  {
+    "outputFile": "Observation-example2-precise-followup.json",
+    "fshName": "example2-precise-followup",
+    "fshType": "Instance",
+    "fshFile": "examples\\prostate\\example-mpmri-report-prostate-lt.fsh",
+    "startLine": 83,
+    "endLine": 97
+  },
+  {
+    "outputFile": "Observation-example2-prostate-psa.json",
+    "fshName": "example2-prostate-psa",
+    "fshType": "Instance",
+    "fshFile": "examples\\prostate\\example-mpmri-report-prostate-lt.fsh",
+    "startLine": 100,
+    "endLine": 110
+  },
+  {
+    "outputFile": "Observation-example2-prostate-psad.json",
+    "fshName": "example2-prostate-psad",
+    "fshType": "Instance",
+    "fshFile": "examples\\prostate\\example-mpmri-report-prostate-lt.fsh",
+    "startLine": 126,
+    "endLine": 138
+  },
+  {
+    "outputFile": "Observation-example2-prostate-volume.json",
+    "fshName": "example2-prostate-volume",
+    "fshType": "Instance",
+    "fshFile": "examples\\prostate\\example-mpmri-report-prostate-lt.fsh",
+    "startLine": 113,
+    "endLine": 123
+  },
+  {
+    "outputFile": "Observation-example2-t2-score-lesion1.json",
+    "fshName": "example2-t2-score-lesion1",
+    "fshType": "Instance",
+    "fshFile": "examples\\prostate\\example-mpmri-report-prostate-lt.fsh",
+    "startLine": 27,
+    "endLine": 38
+  },
+  {
+    "outputFile": "Observation-prostate-psa-example.json",
+    "fshName": "prostate-psa-example",
+    "fshType": "Instance",
+    "fshFile": "examples\\lab\\prostate-observations.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "Observation-prostate-psad-example.json",
+    "fshName": "prostate-psad-example",
+    "fshType": "Instance",
+    "fshFile": "examples\\lab\\prostate-observations.fsh",
+    "startLine": 29,
+    "endLine": 43
+  },
+  {
+    "outputFile": "Observation-prostate-volume-example.json",
+    "fshName": "prostate-volume-example",
+    "fshType": "Instance",
+    "fshFile": "examples\\lab\\prostate-observations.fsh",
+    "startLine": 15,
+    "endLine": 26
+  },
+  {
+    "outputFile": "Organization-example-organization.json",
+    "fshName": "example-organization",
+    "fshType": "Instance",
+    "fshFile": "examples\\base\\examples-organization.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
+    "outputFile": "Patient-example-male-patient.json",
+    "fshName": "example-male-patient",
+    "fshType": "Instance",
+    "fshFile": "base\\examples-patient-male.fsh",
+    "startLine": 1,
+    "endLine": 34
+  },
+  {
+    "outputFile": "Patient-example-patient.json",
+    "fshName": "example-patient",
+    "fshType": "Instance",
+    "fshFile": "base\\examples-patient-female.fsh",
+    "startLine": 1,
+    "endLine": 32
+  },
+  {
+    "outputFile": "Practitioner-example-doctor.json",
+    "fshName": "example-doctor",
+    "fshType": "Instance",
+    "fshFile": "examples\\base\\examples-practitioner.fsh",
+    "startLine": 8,
+    "endLine": 13
+  },
+  {
+    "outputFile": "Practitioner-example-practitioner.json",
+    "fshName": "example-practitioner",
+    "fshType": "Instance",
+    "fshFile": "examples\\base\\examples-practitioner.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "PractitionerRole-example-radiologist-role.json",
+    "fshName": "example-radiologist-role",
+    "fshType": "Instance",
+    "fshFile": "examples\\base\\examples-practitioner.fsh",
+    "startLine": 15,
+    "endLine": 21
+  },
+  {
+    "outputFile": "Procedure-example-mri-procedure.json",
+    "fshName": "example-mri-procedure",
+    "fshType": "Instance",
+    "fshFile": "profiles\\lt-prostate-mp-mri-report.fsh",
+    "startLine": 76,
+    "endLine": 82
+  },
+  {
+    "outputFile": "Procedure-example2-mri-procedure.json",
+    "fshName": "example2-mri-procedure",
+    "fshType": "Instance",
+    "fshFile": "examples\\prostate\\example-mpmri-report-prostate-lt.fsh",
+    "startLine": 141,
+    "endLine": 148
+  },
+  {
+    "outputFile": "StructureDefinition-ImComposition.json",
+    "fshName": "ImComposition",
+    "fshType": "Profile",
+    "fshFile": "profiles-eu\\im-composition.fsh",
+    "startLine": 1,
+    "endLine": 169
+  },
+  {
+    "outputFile": "StructureDefinition-ImDiagnosticReport.json",
+    "fshName": "ImDiagnosticReport",
+    "fshType": "Profile",
+    "fshFile": "profiles-eu\\im-diagnostic-report.fsh",
+    "startLine": 1,
+    "endLine": 72
+  },
+  {
+    "outputFile": "StructureDefinition-ImFinding.json",
+    "fshName": "ImFinding",
+    "fshType": "Profile",
+    "fshFile": "profiles-eu\\im-finding.fsh",
+    "startLine": 1,
+    "endLine": 29
+  },
+  {
+    "outputFile": "StructureDefinition-ImImageIidViewerEndpoint.json",
+    "fshName": "ImImageIidViewerEndpoint",
+    "fshType": "Profile",
+    "fshFile": "profiles-eu\\im-image-viewer-endpoint.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
+    "outputFile": "StructureDefinition-ImImagingDevice.json",
+    "fshName": "ImImagingDevice",
+    "fshType": "Profile",
+    "fshFile": "profiles-eu\\im-device.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "StructureDefinition-ImImagingSelection.json",
+    "fshName": "ImImagingSelection",
+    "fshType": "Profile",
+    "fshFile": "profiles-eu\\im-image-selection.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
+    "outputFile": "StructureDefinition-ImImagingStudy.json",
+    "fshName": "ImImagingStudy",
+    "fshType": "Profile",
+    "fshFile": "profiles-eu\\im-imaging-study.fsh",
+    "startLine": 1,
+    "endLine": 69
+  },
+  {
+    "outputFile": "StructureDefinition-ImKeyImageDocumentReference.json",
+    "fshName": "ImKeyImageDocumentReference",
+    "fshType": "Profile",
+    "fshFile": "profiles-eu\\im-keyimage-document-reference.fsh",
+    "startLine": 1,
+    "endLine": 75
+  },
+  {
+    "outputFile": "StructureDefinition-ImKeyImageImagingSelection.json",
+    "fshName": "ImKeyImageImagingSelection",
+    "fshType": "Profile",
+    "fshFile": "profiles-eu\\im-keyimage-selection.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
+    "outputFile": "StructureDefinition-ImOrder.json",
+    "fshName": "ImOrder",
+    "fshType": "Profile",
+    "fshFile": "profiles-eu\\im-order.fsh",
+    "startLine": 1,
+    "endLine": 37
+  },
+  {
+    "outputFile": "StructureDefinition-ImProcedure.json",
+    "fshName": "ImProcedure",
+    "fshType": "Profile",
+    "fshFile": "profiles-eu\\im-procedure.fsh",
+    "startLine": 1,
+    "endLine": 39
+  },
+  {
+    "outputFile": "StructureDefinition-ImWadoEndpoint.json",
+    "fshName": "ImWadoEndpoint",
+    "fshType": "Profile",
+    "fshFile": "profiles-eu\\im-wado-endpoint.fsh",
+    "startLine": 1,
+    "endLine": 67
+  },
+  {
+    "outputFile": "StructureDefinition-im-accession-number-identifier.json",
+    "fshName": "ImAccessionNumberIdentifier",
+    "fshType": "Profile",
+    "fshFile": "profiles-eu\\im-accession-number-identifier.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "StructureDefinition-im-composition-diagnosticReportReference.json",
+    "fshName": "ImDiagnosticReportReference",
+    "fshType": "Extension",
+    "fshFile": "profiles-eu\\im-composition-diagnostic-report-reference.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "StructureDefinition-im-study-instance-uid-identifier.json",
+    "fshName": "ImStudyInstanceUidIdentifier",
+    "fshType": "Profile",
+    "fshFile": "profiles-eu\\im-study-instance-uid-identifier.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "StructureDefinition-instance-description.json",
+    "fshName": "ImImagingStudyInstanceDescription",
+    "fshType": "Extension",
+    "fshFile": "profiles-eu\\im-instance-description.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "StructureDefinition-lt-prostate-lesion.json",
+    "fshName": "LTProstateLesion",
+    "fshType": "Profile",
+    "fshFile": "profiles\\lt-prostate-lesion.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "StructureDefinition-lt-prostate-mpmri-report.json",
+    "fshName": "LTProstateMpMRIReport",
+    "fshType": "Profile",
+    "fshFile": "profiles\\lt-prostate-mp-mri-report.fsh",
+    "startLine": 8,
+    "endLine": 42
+  },
+  {
+    "outputFile": "StructureDefinition-lt-prostate-piqual-observation.json",
+    "fshName": "LTProstatePIQualObservation",
+    "fshType": "Profile",
+    "fshFile": "profiles\\lt-prostate-pi-qual.fsh",
+    "startLine": 13,
+    "endLine": 40
+  },
+  {
+    "outputFile": "StructureDefinition-lt-prostate-pirads-assessment.json",
+    "fshName": "LTProstatePIRADSAssessment",
+    "fshType": "Profile",
+    "fshFile": "profiles\\lt-prostate-pirads-assesment.fsh",
+    "startLine": 51,
+    "endLine": 83
+  },
+  {
+    "outputFile": "StructureDefinition-lt-prostate-precise-assessment.json",
+    "fshName": "LTProstatePreciseAssessment",
+    "fshType": "Profile",
+    "fshFile": "profiles\\lt-prostate-precise.fsh",
+    "startLine": 44,
+    "endLine": 105
+  },
+  {
+    "outputFile": "StructureDefinition-lt-prostate-sequence-score-observation.json",
+    "fshName": "LTProstateSequenceScoreObservation",
+    "fshType": "Profile",
+    "fshFile": "profiles\\lt-prostate-sequence-score.fsh",
+    "startLine": 11,
+    "endLine": 39
+  },
+  {
+    "outputFile": "ValueSet-lt-prostate-mri-type-vs.json",
+    "fshName": "LTProstateMRITypeVS",
+    "fshType": "ValueSet",
+    "fshFile": "profiles\\lt-prostate-mp-mri-report.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-lt-prostate-piqual-vs.json",
+    "fshName": "LTProstatePIQualVS",
+    "fshType": "ValueSet",
+    "fshFile": "profiles\\lt-prostate-pi-qual.fsh",
+    "startLine": 7,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-lt-prostate-pirads-sector-vs.json",
+    "fshName": "LTProstatePIRADSSectorVS",
+    "fshType": "ValueSet",
+    "fshFile": "profiles\\lt-prostate-pirads-assesment.fsh",
+    "startLine": 1,
+    "endLine": 48
+  },
+  {
+    "outputFile": "ValueSet-lt-prostate-precise-change-pattern-vs.json",
+    "fshName": "LTProstatePreciseChangePatternVS",
+    "fshType": "ValueSet",
+    "fshFile": "profiles\\lt-prostate-precise.fsh",
+    "startLine": 29,
+    "endLine": 32
+  },
+  {
+    "outputFile": "ValueSet-lt-prostate-precise-vs.json",
+    "fshName": "LTProstatePreciseVS",
+    "fshType": "ValueSet",
+    "fshFile": "profiles\\lt-prostate-precise.fsh",
+    "startLine": 16,
+    "endLine": 20
+  },
+  {
+    "outputFile": "ValueSet-lt-prostate-sequence-type-vs.json",
+    "fshName": "LTProstateSequenceTypeVS",
+    "fshType": "ValueSet",
+    "fshFile": "profiles\\lt-prostate-sequence-score.fsh",
+    "startLine": 1,
+    "endLine": 8
+  }
+]

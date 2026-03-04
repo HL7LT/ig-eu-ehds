@@ -1,0 +1,160 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "lt-procedure",
+  "url": "https://hl7.eu/fhir/StructureDefinition/lt-procedure",
+  "name": "LTBaseProcedure",
+  "title": "LT Base Procedure",
+  "status": "active",
+  "experimental": true,
+  "description": "Lithuanian Base Procedure profile, used for documenting healthcare procedures.",
+  "fhirVersion": "5.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ProcedureEu",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure.status",
+        "path": "Procedure.status",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.category",
+        "path": "Procedure.category",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.code",
+        "path": "Procedure.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.subject",
+        "path": "Procedure.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://hl7.eu/fhir/StructureDefinition/lt-patient"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.encounter",
+        "path": "Procedure.encounter",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://hl7.eu/fhir/StructureDefinition/lt-encounter"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.occurrence[x]",
+        "path": "Procedure.occurrence[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.performer",
+        "path": "Procedure.performer",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.performer.actor",
+        "path": "Procedure.performer.actor",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://hl7.eu/fhir/StructureDefinition/lt-practitioner",
+              "https://hl7.eu/fhir/StructureDefinition/lt-practitioner-role",
+              "https://hl7.eu/fhir/StructureDefinition/lt-organization",
+              "https://hl7.eu/fhir/StructureDefinition/lt-patient",
+              "https://hl7.eu/fhir/StructureDefinition/lt-related-person",
+              "https://hl7.eu/fhir/StructureDefinition/lt-care-team",
+              "https://hl7.eu/fhir/StructureDefinition/lt-healthcare-service",
+              "http://hl7.org/fhir/StructureDefinition/Device"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.performer.onBehalfOf",
+        "path": "Procedure.performer.onBehalfOf",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://hl7.eu/fhir/StructureDefinition/lt-organization"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Procedure.location",
+        "path": "Procedure.location",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://hl7.eu/fhir/StructureDefinition/lt-location"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Procedure.reason",
+        "path": "Procedure.reason",
+        "type": [
+          {
+            "code": "CodeableReference",
+            "targetProfile": [
+              "https://hl7.eu/fhir/StructureDefinition/lt-condition",
+              "https://hl7.eu/fhir/StructureDefinition/lt-observation",
+              "https://hl7.eu/fhir/StructureDefinition/lt-diagnostic-report",
+              "https://hl7.eu/fhir/StructureDefinition/lt-document-reference"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.bodySite",
+        "path": "Procedure.bodySite",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.outcome",
+        "path": "Procedure.outcome",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.report",
+        "path": "Procedure.report",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://hl7.eu/fhir/StructureDefinition/lt-diagnostic-report",
+              "https://hl7.eu/fhir/StructureDefinition/lt-document-reference",
+              "https://hl7.eu/fhir/StructureDefinition/lt-composition"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Procedure.note",
+        "path": "Procedure.note",
+        "mustSupport": true
+      }
+    ]
+  }
+}

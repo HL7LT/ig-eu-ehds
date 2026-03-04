@@ -1,0 +1,24 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "lt-location",
+  "url": "https://hl7.eu/fhir/StructureDefinition/lt-location",
+  "name": "LTBaseLocation",
+  "title": "LT Base Location",
+  "status": "active",
+  "experimental": true,
+  "description": "Lithuanian Base Location profile, used for documenting healthcare locations.",
+  "fhirVersion": "5.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Location",
+  "baseDefinition": "http://hl7.eu/fhir/base-r5/StructureDefinition/location-eu",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Location",
+        "path": "Location"
+      }
+    ]
+  }
+}

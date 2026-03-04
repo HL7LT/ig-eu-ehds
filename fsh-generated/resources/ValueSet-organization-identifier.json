@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "LTBaseOrganizationIdentifier",
+  "id": "organization-identifier",
+  "title": "Organization Identifier",
+  "description": "A curated list of identifier systems for organizations.",
+  "url": "https://hl7.eu/fhir/ValueSet/organization-identifier",
+  "language": "en",
+  "version": "1.0.0",
+  "experimental": false,
+  "publisher": "HL7 Lithuania",
+  "compose": {
+    "include": [
+      {
+        "system": "https://hl7.lt/fhir/tx/CodeSystem/identifier-domain",
+        "concept": [
+          {
+            "code": "http://esveikata.lt/Identifier/SVEIDRAID"
+          },
+          {
+            "code": "http://esveikata.lt/Identifier/SPILIS"
+          },
+          {
+            "code": "http://esveikata.lt/Identifier/ESPBI"
+          },
+          {
+            "code": "http://esveikata.lt/Identifier/VAPRIS"
+          }
+        ]
+      }
+    ]
+  }
+}

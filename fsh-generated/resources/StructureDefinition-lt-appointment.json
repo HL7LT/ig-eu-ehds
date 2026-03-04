@@ -1,0 +1,102 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "lt-appointment",
+  "url": "https://hl7.eu/fhir/StructureDefinition/lt-appointment",
+  "name": "LTBaseAppointment",
+  "title": "LT Base Appointment",
+  "status": "active",
+  "experimental": true,
+  "description": "Lithuanian Base Appointment profile, used for planing visit to healthcare services.",
+  "fhirVersion": "5.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Appointment",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Appointment",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Appointment.status",
+        "path": "Appointment.status",
+        "mustSupport": true
+      },
+      {
+        "id": "Appointment.class",
+        "path": "Appointment.class",
+        "mustSupport": true
+      },
+      {
+        "id": "Appointment.serviceCategory",
+        "path": "Appointment.serviceCategory",
+        "mustSupport": true
+      },
+      {
+        "id": "Appointment.specialty",
+        "path": "Appointment.specialty",
+        "mustSupport": true
+      },
+      {
+        "id": "Appointment.appointmentType",
+        "path": "Appointment.appointmentType",
+        "mustSupport": true
+      },
+      {
+        "id": "Appointment.replaces",
+        "path": "Appointment.replaces",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://hl7.eu/fhir/StructureDefinition/lt-appointment"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Appointment.start",
+        "path": "Appointment.start",
+        "mustSupport": true
+      },
+      {
+        "id": "Appointment.end",
+        "path": "Appointment.end",
+        "mustSupport": true
+      },
+      {
+        "id": "Appointment.note",
+        "path": "Appointment.note",
+        "mustSupport": true
+      },
+      {
+        "id": "Appointment.participant",
+        "path": "Appointment.participant",
+        "mustSupport": true
+      },
+      {
+        "id": "Appointment.participant.actor",
+        "path": "Appointment.participant.actor",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://hl7.eu/fhir/StructureDefinition/lt-patient",
+              "https://hl7.eu/fhir/StructureDefinition/lt-practitioner",
+              "https://hl7.eu/fhir/StructureDefinition/lt-practitioner-role",
+              "https://hl7.eu/fhir/StructureDefinition/lt-related-person",
+              "https://hl7.eu/fhir/StructureDefinition/lt-care-team",
+              "https://hl7.eu/fhir/StructureDefinition/lt-location",
+              "https://hl7.eu/fhir/StructureDefinition/lt-healthcare-service",
+              "http://hl7.org/fhir/StructureDefinition/Group",
+              "http://hl7.org/fhir/StructureDefinition/Device"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Appointment.participant.status",
+        "path": "Appointment.participant.status",
+        "mustSupport": true
+      }
+    ]
+  }
+}

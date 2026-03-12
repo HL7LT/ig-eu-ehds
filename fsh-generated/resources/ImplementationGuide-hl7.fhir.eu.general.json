@@ -27,7 +27,7 @@
     {
       "coding": [
         {
-          "code": "LT",
+          "code": "EU",
           "system": "urn:iso:std:iso:3166"
         }
       ]
@@ -55,12 +55,6 @@
       "version": "current",
       "uri": "http://hl7.eu/fhir/extensions/ImplementationGuide/hl7.fhir.eu.extensions",
       "id": "hl7_fhir_eu_extensions"
-    },
-    {
-      "packageId": "lt.hl7.fhir.vitalsigns",
-      "version": "0.0.1",
-      "uri": "https://hl7.lt/fhir/vitalsigns/ImplementationGuide/lt.hl7.fhir.vitalsigns",
-      "id": "lt_hl7_fhir_vitalsigns"
     }
   ],
   "definition": {

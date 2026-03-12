@@ -3,7 +3,7 @@
     "outputFile": "CodeSystem-identifier-domain.json",
     "fshName": "LTBaseIdentifierDomain",
     "fshType": "CodeSystem",
-    "fshFile": "terminology\\IdentifierDomain.fsh",
+    "fshFile": "terminology/IdentifierDomain.fsh",
     "startLine": 1,
     "endLine": 44
   },
@@ -11,7 +11,7 @@
     "outputFile": "Condition-example-cancer.json",
     "fshName": "example-cancer",
     "fshType": "Instance",
-    "fshFile": "profiles\\LTBaseCondition.fsh",
+    "fshFile": "profiles/LTBaseCondition.fsh",
     "startLine": 25,
     "endLine": 43
   },
@@ -19,7 +19,7 @@
     "outputFile": "Encounter-example-encounter.json",
     "fshName": "example-encounter",
     "fshType": "Instance",
-    "fshFile": "profiles\\LTBaseEncounter.fsh",
+    "fshFile": "profiles/LTBaseEncounter.fsh",
     "startLine": 79,
     "endLine": 113
   },
@@ -27,7 +27,7 @@
     "outputFile": "Encounter-example-pencounter.json",
     "fshName": "example-pencounter",
     "fshType": "Instance",
-    "fshFile": "profiles\\LTBaseEncounter.fsh",
+    "fshFile": "profiles/LTBaseEncounter.fsh",
     "startLine": 119,
     "endLine": 137
   },
@@ -35,7 +35,7 @@
     "outputFile": "ImagingStudy-example-imagingstudy.json",
     "fshName": "example-imagingstudy",
     "fshType": "Instance",
-    "fshFile": "profiles-eu im\\im-imaging-study.fsh",
+    "fshFile": "profiles-eu im/im-imaging-study.fsh",
     "startLine": 77,
     "endLine": 84
   },
@@ -43,7 +43,7 @@
     "outputFile": "Location-example-location.json",
     "fshName": "example-location",
     "fshType": "Instance",
-    "fshFile": "profiles\\LTBaseLocation.fsh",
+    "fshFile": "profiles/LTBaseLocation.fsh",
     "startLine": 11,
     "endLine": 26
   },
@@ -51,7 +51,7 @@
     "outputFile": "Observation-example-LTBaseobservation-blood-pressure.json",
     "fshName": "example-LTBaseobservation-blood-pressure",
     "fshType": "Instance",
-    "fshFile": "profiles\\LTBaseObservation.fsh",
+    "fshFile": "profiles/LTBaseObservation.fsh",
     "startLine": 64,
     "endLine": 105
   },
@@ -59,7 +59,7 @@
     "outputFile": "Observation-example-gland-density-fatty.json",
     "fshName": "example-gland-density-fatty",
     "fshType": "Instance",
-    "fshFile": "profiles\\LTBaseObservation.fsh",
+    "fshFile": "profiles/LTBaseObservation.fsh",
     "startLine": 111,
     "endLine": 123
   },
@@ -67,7 +67,7 @@
     "outputFile": "Organization-example-lmb.json",
     "fshName": "example-lmb",
     "fshType": "Instance",
-    "fshFile": "profiles\\LTBaseOrganization.fsh",
+    "fshFile": "profiles/LTBaseOrganization.fsh",
     "startLine": 45,
     "endLine": 72
   },
@@ -75,7 +75,7 @@
     "outputFile": "Organization-example-organization.json",
     "fshName": "example-organization",
     "fshType": "Instance",
-    "fshFile": "profiles\\LTBaseOrganization.fsh",
+    "fshFile": "profiles/LTBaseOrganization.fsh",
     "startLine": 74,
     "endLine": 96
   },
@@ -83,7 +83,7 @@
     "outputFile": "Patient-example-male-patient.json",
     "fshName": "example-male-patient",
     "fshType": "Instance",
-    "fshFile": "base\\examples-patient.fsh",
+    "fshFile": "base/examples-patient.fsh",
     "startLine": 1,
     "endLine": 34
   },
@@ -91,7 +91,7 @@
     "outputFile": "Patient-example-patient.json",
     "fshName": "example-patient",
     "fshType": "Instance",
-    "fshFile": "profiles\\LTBasePatient.fsh",
+    "fshFile": "profiles/LTBasePatient.fsh",
     "startLine": 28,
     "endLine": 67
   },
@@ -99,7 +99,7 @@
     "outputFile": "Practitioner-example-practitioner.json",
     "fshName": "example-practitioner",
     "fshType": "Instance",
-    "fshFile": "profiles\\LTBasePractitioner.fsh",
+    "fshFile": "profiles/LTBasePractitioner.fsh",
     "startLine": 21,
     "endLine": 54
   },
@@ -107,7 +107,7 @@
     "outputFile": "PractitionerRole-example-practitioner-role.json",
     "fshName": "example-practitioner-role",
     "fshType": "Instance",
-    "fshFile": "profiles\\LTBasePractitionerRole.fsh",
+    "fshFile": "profiles/LTBasePractitionerRole.fsh",
     "startLine": 19,
     "endLine": 28
   },
@@ -115,7 +115,7 @@
     "outputFile": "RelatedPerson-example-related-person.json",
     "fshName": "example-related-person",
     "fshType": "Instance",
-    "fshFile": "profiles\\LTBaseRelatedPerson.fsh",
+    "fshFile": "profiles/LTBaseRelatedPerson.fsh",
     "startLine": 16,
     "endLine": 28
   },
@@ -123,7 +123,7 @@
     "outputFile": "StructureDefinition-CarePlanEu.json",
     "fshName": "CarePlanEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu\\eu-careplan.fsh",
+    "fshFile": "profiles-eu/eu-careplan.fsh",
     "startLine": 1,
     "endLine": 25
   },
@@ -131,7 +131,7 @@
     "outputFile": "StructureDefinition-CompositionEu.json",
     "fshName": "CompositionEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu\\eu-composition.fsh",
+    "fshFile": "profiles-eu/eu-composition.fsh",
     "startLine": 1,
     "endLine": 30
   },
@@ -139,7 +139,7 @@
     "outputFile": "StructureDefinition-ConditionEu.json",
     "fshName": "ConditionEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu\\eu-condition.fsh",
+    "fshFile": "profiles-eu/eu-condition.fsh",
     "startLine": 1,
     "endLine": 23
   },
@@ -147,7 +147,7 @@
     "outputFile": "StructureDefinition-CrossVersionMediaViewExtension.json",
     "fshName": "CrossVersionMediaViewExtension",
     "fshType": "Extension",
-    "fshFile": "profiles-eu\\eu-cross-version-media-view-ext.fsh",
+    "fshFile": "profiles-eu/eu-cross-version-media-view-ext.fsh",
     "startLine": 1,
     "endLine": 19
   },
@@ -155,7 +155,7 @@
     "outputFile": "StructureDefinition-DocumentReferenceEu.json",
     "fshName": "DocumentReferenceEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu\\eu-document-reference.fsh",
+    "fshFile": "profiles-eu/eu-document-reference.fsh",
     "startLine": 1,
     "endLine": 22
   },
@@ -163,7 +163,7 @@
     "outputFile": "StructureDefinition-EndpointEu.json",
     "fshName": "EndpointEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu\\eu-endpoint.fsh",
+    "fshFile": "profiles-eu/eu-endpoint.fsh",
     "startLine": 1,
     "endLine": 20
   },
@@ -171,7 +171,7 @@
     "outputFile": "StructureDefinition-ImComposition.json",
     "fshName": "ImComposition",
     "fshType": "Profile",
-    "fshFile": "profiles-eu im\\im-composition.fsh",
+    "fshFile": "profiles-eu im/im-composition.fsh",
     "startLine": 1,
     "endLine": 169
   },
@@ -179,7 +179,7 @@
     "outputFile": "StructureDefinition-ImDiagnosticReport.json",
     "fshName": "ImDiagnosticReport",
     "fshType": "Profile",
-    "fshFile": "profiles-eu im\\im-diagnostic-report.fsh",
+    "fshFile": "profiles-eu im/im-diagnostic-report.fsh",
     "startLine": 1,
     "endLine": 72
   },
@@ -187,7 +187,7 @@
     "outputFile": "StructureDefinition-ImFinding.json",
     "fshName": "ImFinding",
     "fshType": "Profile",
-    "fshFile": "profiles-eu im\\im-finding.fsh",
+    "fshFile": "profiles-eu im/im-finding.fsh",
     "startLine": 1,
     "endLine": 29
   },
@@ -195,7 +195,7 @@
     "outputFile": "StructureDefinition-ImImageIidViewerEndpoint.json",
     "fshName": "ImImageIidViewerEndpoint",
     "fshType": "Profile",
-    "fshFile": "profiles-eu im\\im-image-viewer-endpoint.fsh",
+    "fshFile": "profiles-eu im/im-image-viewer-endpoint.fsh",
     "startLine": 1,
     "endLine": 30
   },
@@ -203,7 +203,7 @@
     "outputFile": "StructureDefinition-ImImagingDevice.json",
     "fshName": "ImImagingDevice",
     "fshType": "Profile",
-    "fshFile": "profiles-eu im\\im-device.fsh",
+    "fshFile": "profiles-eu im/im-device.fsh",
     "startLine": 1,
     "endLine": 27
   },
@@ -211,7 +211,7 @@
     "outputFile": "StructureDefinition-ImImagingSelection.json",
     "fshName": "ImImagingSelection",
     "fshType": "Profile",
-    "fshFile": "profiles-eu im\\im-image-selection.fsh",
+    "fshFile": "profiles-eu im/im-image-selection.fsh",
     "startLine": 1,
     "endLine": 26
   },
@@ -219,7 +219,7 @@
     "outputFile": "StructureDefinition-ImImagingStudy.json",
     "fshName": "ImImagingStudy",
     "fshType": "Profile",
-    "fshFile": "profiles-eu im\\im-imaging-study.fsh",
+    "fshFile": "profiles-eu im/im-imaging-study.fsh",
     "startLine": 1,
     "endLine": 69
   },
@@ -227,7 +227,7 @@
     "outputFile": "StructureDefinition-ImKeyImageDocumentReference.json",
     "fshName": "ImKeyImageDocumentReference",
     "fshType": "Profile",
-    "fshFile": "profiles-eu im\\im-keyimage-document-reference.fsh",
+    "fshFile": "profiles-eu im/im-keyimage-document-reference.fsh",
     "startLine": 1,
     "endLine": 75
   },
@@ -235,7 +235,7 @@
     "outputFile": "StructureDefinition-ImKeyImageImagingSelection.json",
     "fshName": "ImKeyImageImagingSelection",
     "fshType": "Profile",
-    "fshFile": "profiles-eu im\\im-keyimage-selection.fsh",
+    "fshFile": "profiles-eu im/im-keyimage-selection.fsh",
     "startLine": 1,
     "endLine": 26
   },
@@ -243,7 +243,7 @@
     "outputFile": "StructureDefinition-ImOrder.json",
     "fshName": "ImOrder",
     "fshType": "Profile",
-    "fshFile": "profiles-eu im\\im-order.fsh",
+    "fshFile": "profiles-eu im/im-order.fsh",
     "startLine": 1,
     "endLine": 37
   },
@@ -251,7 +251,7 @@
     "outputFile": "StructureDefinition-ImProcedure.json",
     "fshName": "ImProcedure",
     "fshType": "Profile",
-    "fshFile": "profiles-eu im\\im-procedure.fsh",
+    "fshFile": "profiles-eu im/im-procedure.fsh",
     "startLine": 1,
     "endLine": 39
   },
@@ -259,7 +259,7 @@
     "outputFile": "StructureDefinition-ImWadoEndpoint.json",
     "fshName": "ImWadoEndpoint",
     "fshType": "Profile",
-    "fshFile": "profiles-eu im\\im-wado-endpoint.fsh",
+    "fshFile": "profiles-eu im/im-wado-endpoint.fsh",
     "startLine": 1,
     "endLine": 67
   },
@@ -267,7 +267,7 @@
     "outputFile": "StructureDefinition-ObservationEu.json",
     "fshName": "ObservationEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu\\eu-observation.fsh",
+    "fshFile": "profiles-eu/eu-observation.fsh",
     "startLine": 1,
     "endLine": 27
   },
@@ -275,7 +275,7 @@
     "outputFile": "StructureDefinition-ProcedureEu.json",
     "fshName": "ProcedureEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu\\eu-procedure.fsh",
+    "fshFile": "profiles-eu/eu-procedure.fsh",
     "startLine": 1,
     "endLine": 27
   },
@@ -283,7 +283,7 @@
     "outputFile": "StructureDefinition-SimpleQuantityEu.json",
     "fshName": "SimpleQuantityEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu\\datatype\\simple-quantity-eu.fsh",
+    "fshFile": "profiles-eu/datatype/simple-quantity-eu.fsh",
     "startLine": 1,
     "endLine": 30
   },
@@ -291,7 +291,7 @@
     "outputFile": "StructureDefinition-im-accession-number-identifier.json",
     "fshName": "ImAccessionNumberIdentifier",
     "fshType": "Profile",
-    "fshFile": "profiles-eu im\\im-accession-number-identifier.fsh",
+    "fshFile": "profiles-eu im/im-accession-number-identifier.fsh",
     "startLine": 1,
     "endLine": 23
   },
@@ -299,7 +299,7 @@
     "outputFile": "StructureDefinition-im-composition-diagnosticReportReference.json",
     "fshName": "ImDiagnosticReportReference",
     "fshType": "Extension",
-    "fshFile": "profiles-eu im\\im-composition-diagnostic-report-reference.fsh",
+    "fshFile": "profiles-eu im/im-composition-diagnostic-report-reference.fsh",
     "startLine": 1,
     "endLine": 24
   },
@@ -307,7 +307,7 @@
     "outputFile": "StructureDefinition-im-study-instance-uid-identifier.json",
     "fshName": "ImStudyInstanceUidIdentifier",
     "fshType": "Profile",
-    "fshFile": "profiles-eu im\\im-study-instance-uid-identifier.fsh",
+    "fshFile": "profiles-eu im/im-study-instance-uid-identifier.fsh",
     "startLine": 1,
     "endLine": 22
   },
@@ -315,7 +315,7 @@
     "outputFile": "StructureDefinition-instance-description.json",
     "fshName": "ImImagingStudyInstanceDescription",
     "fshType": "Extension",
-    "fshFile": "profiles-eu im\\im-instance-description.fsh",
+    "fshFile": "profiles-eu im/im-instance-description.fsh",
     "startLine": 1,
     "endLine": 18
   },
@@ -323,7 +323,7 @@
     "outputFile": "StructureDefinition-location-eu-core.json",
     "fshName": "LocationEuCore",
     "fshType": "Profile",
-    "fshFile": "profiles-eu\\location-eu.fsh",
+    "fshFile": "profiles-eu/location-eu.fsh",
     "startLine": 1,
     "endLine": 26
   },
@@ -331,7 +331,7 @@
     "outputFile": "StructureDefinition-lt-appointment.json",
     "fshName": "LTBaseAppointment",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseAppointment.fsh",
+    "fshFile": "profiles/LTBaseAppointment.fsh",
     "startLine": 1,
     "endLine": 20
   },
@@ -339,7 +339,7 @@
     "outputFile": "StructureDefinition-lt-care-plan.json",
     "fshName": "LTBaseCarePlan",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseCarePlan.fsh",
+    "fshFile": "profiles/LTBaseCarePlan.fsh",
     "startLine": 1,
     "endLine": 35
   },
@@ -347,7 +347,7 @@
     "outputFile": "StructureDefinition-lt-care-team.json",
     "fshName": "LTBaseCareTeam",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseCareTeam.fsh",
+    "fshFile": "profiles/LTBaseCareTeam.fsh",
     "startLine": 1,
     "endLine": 20
   },
@@ -355,7 +355,7 @@
     "outputFile": "StructureDefinition-lt-composition.json",
     "fshName": "LTBaseComposition",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseComposition.fsh",
+    "fshFile": "profiles/LTBaseComposition.fsh",
     "startLine": 1,
     "endLine": 28
   },
@@ -363,7 +363,7 @@
     "outputFile": "StructureDefinition-lt-condition.json",
     "fshName": "LTBaseCondition",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseCondition.fsh",
+    "fshFile": "profiles/LTBaseCondition.fsh",
     "startLine": 1,
     "endLine": 23
   },
@@ -371,7 +371,7 @@
     "outputFile": "StructureDefinition-lt-diagnostic-report.json",
     "fshName": "LTBaseDiagnosticReport",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseDiagnosticReport.fsh",
+    "fshFile": "profiles/LTBaseDiagnosticReport.fsh",
     "startLine": 1,
     "endLine": 37
   },
@@ -379,7 +379,7 @@
     "outputFile": "StructureDefinition-lt-document-reference.json",
     "fshName": "LTBaseDocumentReference",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseDocumentReference.fsh",
+    "fshFile": "profiles/LTBaseDocumentReference.fsh",
     "startLine": 1,
     "endLine": 22
   },
@@ -387,7 +387,7 @@
     "outputFile": "StructureDefinition-lt-encounter.json",
     "fshName": "LTBaseEncounter",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseEncounter.fsh",
+    "fshFile": "profiles/LTBaseEncounter.fsh",
     "startLine": 1,
     "endLine": 74
   },
@@ -395,7 +395,7 @@
     "outputFile": "StructureDefinition-lt-episode-of-care.json",
     "fshName": "LTBaseEpisodeOfCare",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseEpisodeOfCare.fsh",
+    "fshFile": "profiles/LTBaseEpisodeOfCare.fsh",
     "startLine": 1,
     "endLine": 24
   },
@@ -403,7 +403,7 @@
     "outputFile": "StructureDefinition-lt-family-member-history.json",
     "fshName": "LTBaseFamilyMemberHistory",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseFamilyMemberHistory.fsh",
+    "fshFile": "profiles/LTBaseFamilyMemberHistory.fsh",
     "startLine": 1,
     "endLine": 18
   },
@@ -411,7 +411,7 @@
     "outputFile": "StructureDefinition-lt-goal.json",
     "fshName": "LTBaseGoal",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseGoal.fsh",
+    "fshFile": "profiles/LTBaseGoal.fsh",
     "startLine": 1,
     "endLine": 23
   },
@@ -419,7 +419,7 @@
     "outputFile": "StructureDefinition-lt-healthcare-service.json",
     "fshName": "LTBaseHealthcareService",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseHealthcareService.fsh",
+    "fshFile": "profiles/LTBaseHealthcareService.fsh",
     "startLine": 1,
     "endLine": 19
   },
@@ -427,7 +427,7 @@
     "outputFile": "StructureDefinition-lt-imagingstudy.json",
     "fshName": "LTBaseImagingStudy",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseImagingStudy.fsh",
+    "fshFile": "profiles/LTBaseImagingStudy.fsh",
     "startLine": 1,
     "endLine": 22
   },
@@ -435,7 +435,7 @@
     "outputFile": "StructureDefinition-lt-location.json",
     "fshName": "LTBaseLocation",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseLocation.fsh",
+    "fshFile": "profiles/LTBaseLocation.fsh",
     "startLine": 3,
     "endLine": 9
   },
@@ -443,7 +443,7 @@
     "outputFile": "StructureDefinition-lt-observation.json",
     "fshName": "LTBaseObservation",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseObservation.fsh",
+    "fshFile": "profiles/LTBaseObservation.fsh",
     "startLine": 1,
     "endLine": 61
   },
@@ -451,7 +451,7 @@
     "outputFile": "StructureDefinition-lt-organization.json",
     "fshName": "LTBaseOrganization",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseOrganization.fsh",
+    "fshFile": "profiles/LTBaseOrganization.fsh",
     "startLine": 1,
     "endLine": 42
   },
@@ -459,7 +459,7 @@
     "outputFile": "StructureDefinition-lt-patient.json",
     "fshName": "LTBasePatient",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBasePatient.fsh",
+    "fshFile": "profiles/LTBasePatient.fsh",
     "startLine": 1,
     "endLine": 25
   },
@@ -467,7 +467,7 @@
     "outputFile": "StructureDefinition-lt-practitioner-role.json",
     "fshName": "LTBasePractitionerRole",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBasePractitionerRole.fsh",
+    "fshFile": "profiles/LTBasePractitionerRole.fsh",
     "startLine": 1,
     "endLine": 17
   },
@@ -475,7 +475,7 @@
     "outputFile": "StructureDefinition-lt-practitioner.json",
     "fshName": "LTBasePractitioner",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBasePractitioner.fsh",
+    "fshFile": "profiles/LTBasePractitioner.fsh",
     "startLine": 1,
     "endLine": 19
   },
@@ -483,7 +483,7 @@
     "outputFile": "StructureDefinition-lt-procedure.json",
     "fshName": "LTBaseProcedure",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseProcedure.fsh",
+    "fshFile": "profiles/LTBaseProcedure.fsh",
     "startLine": 1,
     "endLine": 28
   },
@@ -491,7 +491,7 @@
     "outputFile": "StructureDefinition-lt-related-person.json",
     "fshName": "LTBaseRelatedPerson",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseRelatedPerson.fsh",
+    "fshFile": "profiles/LTBaseRelatedPerson.fsh",
     "startLine": 1,
     "endLine": 14
   },
@@ -499,7 +499,7 @@
     "outputFile": "StructureDefinition-lt-service-request.json",
     "fshName": "LTBaseServiceRequest",
     "fshType": "Profile",
-    "fshFile": "profiles\\LTBaseServiceRequest.fsh",
+    "fshFile": "profiles/LTBaseServiceRequest.fsh",
     "startLine": 1,
     "endLine": 33
   },
@@ -507,7 +507,7 @@
     "outputFile": "StructureDefinition-medicalTestResult-eu-core.json",
     "fshName": "MedicalTestResultEuCore",
     "fshType": "Profile",
-    "fshFile": "profiles-eu\\medicalTestResult-eu-core.fsh",
+    "fshFile": "profiles-eu/medicalTestResult-eu-core.fsh",
     "startLine": 10,
     "endLine": 98
   },
@@ -515,7 +515,7 @@
     "outputFile": "StructureDefinition-quantity-eu.json",
     "fshName": "QuantityEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu\\datatype\\quantity-eu.fsh",
+    "fshFile": "profiles-eu/datatype/quantity-eu.fsh",
     "startLine": 1,
     "endLine": 30
   },
@@ -523,7 +523,7 @@
     "outputFile": "StructureDefinition-range-eu.json",
     "fshName": "RangeEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu\\datatype\\range-eu.fsh",
+    "fshFile": "profiles-eu/datatype/range-eu.fsh",
     "startLine": 1,
     "endLine": 23
   },
@@ -531,7 +531,7 @@
     "outputFile": "ValueSet-organization-identifier.json",
     "fshName": "LTBaseOrganizationIdentifier",
     "fshType": "ValueSet",
-    "fshFile": "terminology\\IdentifierDomain.fsh",
+    "fshFile": "terminology/IdentifierDomain.fsh",
     "startLine": 46,
     "endLine": 58
   },
@@ -539,7 +539,7 @@
     "outputFile": "ValueSet-patient-identifier.json",
     "fshName": "PatientIdentifier",
     "fshType": "ValueSet",
-    "fshFile": "terminology\\IdentifierDomain.fsh",
+    "fshFile": "terminology/IdentifierDomain.fsh",
     "startLine": 61,
     "endLine": 78
   },
@@ -547,7 +547,7 @@
     "outputFile": "ValueSet-report-code.json",
     "fshName": "ReportCode",
     "fshType": "ValueSet",
-    "fshFile": "terminology\\ReportCode.fsh",
+    "fshFile": "terminology/ReportCode.fsh",
     "startLine": 1,
     "endLine": 11
   }

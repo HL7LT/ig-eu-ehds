@@ -163,10 +163,11 @@ menu:
 # is specified by id or name, SUSHI will replace it with the correct
 # URL when generating the IG JSON.
 #
+
 groups:
   GroupA:
-    name: HL7 EU Base profiles
-    description: HL7 EU Base profiles
+    name: "HL7 EU Base profiles"
+    description: "Temporary copy of the EU profiles"
     resources:
     - StructureDefinition/CarePlanEu
     - StructureDefinition/CompositionEu
@@ -178,6 +179,9 @@ groups:
     - StructureDefinition/ProcedureEu
     - StructureDefinition/location-eu-core
     - StructureDefinition/medicalTestResult-eu-core
+    - StructureDefinition/quantity-eu
+    - StructureDefinition/range-eu
+    - StructureDefinition/SimpleQuantityEu
   GroupB:
     name: HL7 EU Imaging profiles
     description: HL7 EU Imaging profiles

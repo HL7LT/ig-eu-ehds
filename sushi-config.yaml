@@ -3,9 +3,9 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.eu.general
+id: lt.hl7.fhir.eu
 canonical: https://hl7.eu/fhir
-name: HL7EUGeneral
+name: HL7EU
 title: HL7 Europe General Implementation Guide
 description: HL7 Europe General Implementation Guide including EU Imaging and EU Laboratory profiles
 status: draft # draft | active | retired | unknown

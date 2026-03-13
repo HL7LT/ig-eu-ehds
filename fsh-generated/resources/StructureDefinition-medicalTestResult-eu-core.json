@@ -116,7 +116,7 @@
         "requirements": "EHDSObservation.code",
         "binding": {
           "strength": "preferred",
-          "valueSet": "http://hl7.eu/fhir/base/ValueSet/lab-obsCode-eu-lab"
+          "valueSet": "http://hl7.eu/fhir/laboratory/ValueSet/lab-obsCode-eu-lab"
         }
       },
       {
@@ -303,7 +303,7 @@
         "requirements": "EHDSObservation.component.code",
         "binding": {
           "strength": "preferred",
-          "valueSet": "http://hl7.eu/fhir/base/ValueSet/lab-obsCode-eu-lab"
+          "valueSet": "http://hl7.eu/fhir/laboratory/ValueSet/lab-obsCode-eu-lab"
         }
       },
       {

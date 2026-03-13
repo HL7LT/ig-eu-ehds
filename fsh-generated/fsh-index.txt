@@ -1,70 +1,47 @@
-Output File                                                        Name                                      Type        FSH File                                                       Lines
-CodeSystem-identifier-domain.json                                  LTBaseIdentifierDomain                    CodeSystem  terminology/IdentifierDomain.fsh                               1 - 44
-Condition-example-cancer.json                                      example-cancer                            Instance    profiles/LTBaseCondition.fsh                                   25 - 43
-Encounter-example-encounter.json                                   example-encounter                         Instance    profiles/LTBaseEncounter.fsh                                   79 - 113
-Encounter-example-pencounter.json                                  example-pencounter                        Instance    profiles/LTBaseEncounter.fsh                                   119 - 137
-ImagingStudy-example-imagingstudy.json                             example-imagingstudy                      Instance    profiles-eu im/im-imaging-study.fsh                            77 - 84
-Location-example-location.json                                     example-location                          Instance    profiles/LTBaseLocation.fsh                                    11 - 26
-Observation-example-LTBaseobservation-blood-pressure.json          example-LTBaseobservation-blood-pressure  Instance    profiles/LTBaseObservation.fsh                                 64 - 105
-Observation-example-gland-density-fatty.json                       example-gland-density-fatty               Instance    profiles/LTBaseObservation.fsh                                 111 - 123
-Organization-example-lmb.json                                      example-lmb                               Instance    profiles/LTBaseOrganization.fsh                                45 - 72
-Organization-example-organization.json                             example-organization                      Instance    profiles/LTBaseOrganization.fsh                                74 - 96
-Patient-example-male-patient.json                                  example-male-patient                      Instance    base/examples-patient.fsh                                      1 - 34
-Patient-example-patient.json                                       example-patient                           Instance    profiles/LTBasePatient.fsh                                     28 - 67
-Practitioner-example-practitioner.json                             example-practitioner                      Instance    profiles/LTBasePractitioner.fsh                                21 - 54
-PractitionerRole-example-practitioner-role.json                    example-practitioner-role                 Instance    profiles/LTBasePractitionerRole.fsh                            19 - 28
-RelatedPerson-example-related-person.json                          example-related-person                    Instance    profiles/LTBaseRelatedPerson.fsh                               16 - 28
-StructureDefinition-CarePlanEu.json                                CarePlanEu                                Profile     profiles-eu/eu-careplan.fsh                                    1 - 25
-StructureDefinition-CompositionEu.json                             CompositionEu                             Profile     profiles-eu/eu-composition.fsh                                 1 - 30
-StructureDefinition-ConditionEu.json                               ConditionEu                               Profile     profiles-eu/eu-condition.fsh                                   1 - 23
-StructureDefinition-CrossVersionMediaViewExtension.json            CrossVersionMediaViewExtension            Extension   profiles-eu/eu-cross-version-media-view-ext.fsh                1 - 19
-StructureDefinition-DocumentReferenceEu.json                       DocumentReferenceEu                       Profile     profiles-eu/eu-document-reference.fsh                          1 - 22
-StructureDefinition-EndpointEu.json                                EndpointEu                                Profile     profiles-eu/eu-endpoint.fsh                                    1 - 20
-StructureDefinition-ImComposition.json                             ImComposition                             Profile     profiles-eu im/im-composition.fsh                              1 - 169
-StructureDefinition-ImDiagnosticReport.json                        ImDiagnosticReport                        Profile     profiles-eu im/im-diagnostic-report.fsh                        1 - 72
-StructureDefinition-ImFinding.json                                 ImFinding                                 Profile     profiles-eu im/im-finding.fsh                                  1 - 29
-StructureDefinition-ImImageIidViewerEndpoint.json                  ImImageIidViewerEndpoint                  Profile     profiles-eu im/im-image-viewer-endpoint.fsh                    1 - 30
-StructureDefinition-ImImagingDevice.json                           ImImagingDevice                           Profile     profiles-eu im/im-device.fsh                                   1 - 27
-StructureDefinition-ImImagingSelection.json                        ImImagingSelection                        Profile     profiles-eu im/im-image-selection.fsh                          1 - 26
-StructureDefinition-ImImagingStudy.json                            ImImagingStudy                            Profile     profiles-eu im/im-imaging-study.fsh                            1 - 69
-StructureDefinition-ImKeyImageDocumentReference.json               ImKeyImageDocumentReference               Profile     profiles-eu im/im-keyimage-document-reference.fsh              1 - 75
-StructureDefinition-ImKeyImageImagingSelection.json                ImKeyImageImagingSelection                Profile     profiles-eu im/im-keyimage-selection.fsh                       1 - 26
-StructureDefinition-ImOrder.json                                   ImOrder                                   Profile     profiles-eu im/im-order.fsh                                    1 - 37
-StructureDefinition-ImProcedure.json                               ImProcedure                               Profile     profiles-eu im/im-procedure.fsh                                1 - 39
-StructureDefinition-ImWadoEndpoint.json                            ImWadoEndpoint                            Profile     profiles-eu im/im-wado-endpoint.fsh                            1 - 67
-StructureDefinition-ObservationEu.json                             ObservationEu                             Profile     profiles-eu/eu-observation.fsh                                 1 - 27
-StructureDefinition-ProcedureEu.json                               ProcedureEu                               Profile     profiles-eu/eu-procedure.fsh                                   1 - 27
-StructureDefinition-SimpleQuantityEu.json                          SimpleQuantityEu                          Profile     profiles-eu/datatype/simple-quantity-eu.fsh                    1 - 30
-StructureDefinition-im-accession-number-identifier.json            ImAccessionNumberIdentifier               Profile     profiles-eu im/im-accession-number-identifier.fsh              1 - 23
-StructureDefinition-im-composition-diagnosticReportReference.json  ImDiagnosticReportReference               Extension   profiles-eu im/im-composition-diagnostic-report-reference.fsh  1 - 24
-StructureDefinition-im-study-instance-uid-identifier.json          ImStudyInstanceUidIdentifier              Profile     profiles-eu im/im-study-instance-uid-identifier.fsh            1 - 22
-StructureDefinition-instance-description.json                      ImImagingStudyInstanceDescription         Extension   profiles-eu im/im-instance-description.fsh                     1 - 18
-StructureDefinition-location-eu-core.json                          LocationEuCore                            Profile     profiles-eu/location-eu.fsh                                    1 - 26
-StructureDefinition-lt-appointment.json                            LTBaseAppointment                         Profile     profiles/LTBaseAppointment.fsh                                 1 - 20
-StructureDefinition-lt-care-plan.json                              LTBaseCarePlan                            Profile     profiles/LTBaseCarePlan.fsh                                    1 - 35
-StructureDefinition-lt-care-team.json                              LTBaseCareTeam                            Profile     profiles/LTBaseCareTeam.fsh                                    1 - 20
-StructureDefinition-lt-composition.json                            LTBaseComposition                         Profile     profiles/LTBaseComposition.fsh                                 1 - 28
-StructureDefinition-lt-condition.json                              LTBaseCondition                           Profile     profiles/LTBaseCondition.fsh                                   1 - 23
-StructureDefinition-lt-diagnostic-report.json                      LTBaseDiagnosticReport                    Profile     profiles/LTBaseDiagnosticReport.fsh                            1 - 37
-StructureDefinition-lt-document-reference.json                     LTBaseDocumentReference                   Profile     profiles/LTBaseDocumentReference.fsh                           1 - 22
-StructureDefinition-lt-encounter.json                              LTBaseEncounter                           Profile     profiles/LTBaseEncounter.fsh                                   1 - 74
-StructureDefinition-lt-episode-of-care.json                        LTBaseEpisodeOfCare                       Profile     profiles/LTBaseEpisodeOfCare.fsh                               1 - 24
-StructureDefinition-lt-family-member-history.json                  LTBaseFamilyMemberHistory                 Profile     profiles/LTBaseFamilyMemberHistory.fsh                         1 - 18
-StructureDefinition-lt-goal.json                                   LTBaseGoal                                Profile     profiles/LTBaseGoal.fsh                                        1 - 23
-StructureDefinition-lt-healthcare-service.json                     LTBaseHealthcareService                   Profile     profiles/LTBaseHealthcareService.fsh                           1 - 19
-StructureDefinition-lt-imagingstudy.json                           LTBaseImagingStudy                        Profile     profiles/LTBaseImagingStudy.fsh                                1 - 22
-StructureDefinition-lt-location.json                               LTBaseLocation                            Profile     profiles/LTBaseLocation.fsh                                    3 - 9
-StructureDefinition-lt-observation.json                            LTBaseObservation                         Profile     profiles/LTBaseObservation.fsh                                 1 - 61
-StructureDefinition-lt-organization.json                           LTBaseOrganization                        Profile     profiles/LTBaseOrganization.fsh                                1 - 42
-StructureDefinition-lt-patient.json                                LTBasePatient                             Profile     profiles/LTBasePatient.fsh                                     1 - 25
-StructureDefinition-lt-practitioner-role.json                      LTBasePractitionerRole                    Profile     profiles/LTBasePractitionerRole.fsh                            1 - 17
-StructureDefinition-lt-practitioner.json                           LTBasePractitioner                        Profile     profiles/LTBasePractitioner.fsh                                1 - 19
-StructureDefinition-lt-procedure.json                              LTBaseProcedure                           Profile     profiles/LTBaseProcedure.fsh                                   1 - 28
-StructureDefinition-lt-related-person.json                         LTBaseRelatedPerson                       Profile     profiles/LTBaseRelatedPerson.fsh                               1 - 14
-StructureDefinition-lt-service-request.json                        LTBaseServiceRequest                      Profile     profiles/LTBaseServiceRequest.fsh                              1 - 33
-StructureDefinition-medicalTestResult-eu-core.json                 MedicalTestResultEuCore                   Profile     profiles-eu/medicalTestResult-eu-core.fsh                      10 - 98
-StructureDefinition-quantity-eu.json                               QuantityEu                                Profile     profiles-eu/datatype/quantity-eu.fsh                           1 - 30
-StructureDefinition-range-eu.json                                  RangeEu                                   Profile     profiles-eu/datatype/range-eu.fsh                              1 - 23
-ValueSet-organization-identifier.json                              LTBaseOrganizationIdentifier              ValueSet    terminology/IdentifierDomain.fsh                               46 - 58
-ValueSet-patient-identifier.json                                   PatientIdentifier                         ValueSet    terminology/IdentifierDomain.fsh                               61 - 78
-ValueSet-report-code.json                                          ReportCode                                ValueSet    terminology/ReportCode.fsh                                     1 - 11
+Output File                                                        Name                               Type       FSH File                                                            Lines
+StructureDefinition-CarePlanEu.json                                CarePlanEu                         Profile    profiles-eu-base/eu-careplan.fsh                                    1 - 25
+StructureDefinition-CodeableConcept-uv-ips.json                    CodeableConceptIPS                 Profile    eu-lab/datatype/codeable-concept-uv-ips.fsh                         4 - 59
+StructureDefinition-Coding-uv-ips.json                             CodingIPS                          Profile    eu-lab/datatype/coding-ips.fsh                                      3 - 52
+StructureDefinition-Composition-eu-lab.json                        CompositionLabReportEu             Profile    eu-lab/composition-eu-lab.fsh                                       13 - 130
+StructureDefinition-CompositionEu.json                             CompositionEu                      Profile    profiles-eu-base/eu-composition.fsh                                 1 - 30
+StructureDefinition-ConditionEu.json                               ConditionEu                        Profile    profiles-eu-base/eu-condition.fsh                                   1 - 23
+StructureDefinition-CrossVersionMediaViewExtension.json            CrossVersionMediaViewExtension     Extension  profiles-eu-base/eu-cross-version-media-view-ext.fsh                1 - 19
+StructureDefinition-DiagnosticReport-eu-lab.json                   DiagnosticReportLabEu              Profile    eu-lab/diagnostic-report-eu-lab.fsh                                 12 - 90
+StructureDefinition-DocumentReferenceEu.json                       DocumentReferenceEu                Profile    profiles-eu-base/eu-document-reference.fsh                          1 - 22
+StructureDefinition-EndpointEu.json                                EndpointEu                         Profile    profiles-eu-base/eu-endpoint.fsh                                    1 - 20
+StructureDefinition-ImComposition.json                             ImComposition                      Profile    profiles-eu-imaging/im-composition.fsh                              1 - 169
+StructureDefinition-ImDiagnosticReport.json                        ImDiagnosticReport                 Profile    profiles-eu-imaging/im-diagnostic-report.fsh                        1 - 72
+StructureDefinition-ImFinding.json                                 ImFinding                          Profile    profiles-eu-imaging/im-finding.fsh                                  1 - 29
+StructureDefinition-ImImageIidViewerEndpoint.json                  ImImageIidViewerEndpoint           Profile    profiles-eu-imaging/im-image-viewer-endpoint.fsh                    1 - 30
+StructureDefinition-ImImagingDevice.json                           ImImagingDevice                    Profile    profiles-eu-imaging/im-device.fsh                                   1 - 27
+StructureDefinition-ImImagingSelection.json                        ImImagingSelection                 Profile    profiles-eu-imaging/im-image-selection.fsh                          1 - 26
+StructureDefinition-ImImagingStudy.json                            ImImagingStudy                     Profile    profiles-eu-imaging/im-imaging-study.fsh                            1 - 69
+StructureDefinition-ImKeyImageDocumentReference.json               ImKeyImageDocumentReference        Profile    profiles-eu-imaging/im-keyimage-document-reference.fsh              1 - 75
+StructureDefinition-ImKeyImageImagingSelection.json                ImKeyImageImagingSelection         Profile    profiles-eu-imaging/im-keyimage-selection.fsh                       1 - 26
+StructureDefinition-ImOrder.json                                   ImOrder                            Profile    profiles-eu-imaging/im-order.fsh                                    1 - 37
+StructureDefinition-ImProcedure.json                               ImProcedure                        Profile    profiles-eu-imaging/im-procedure.fsh                                1 - 39
+StructureDefinition-ImWadoEndpoint.json                            ImWadoEndpoint                     Profile    profiles-eu-imaging/im-wado-endpoint.fsh                            1 - 67
+StructureDefinition-Observation-resultslab-eu-lab.json             ObservationResultsLaboratoryEu     Profile    eu-lab/observation-eu-lab.fsh                                       1 - 177
+StructureDefinition-ObservationEu.json                             ObservationEu                      Profile    profiles-eu-base/eu-observation.fsh                                 1 - 27
+StructureDefinition-ProcedureEu.json                               ProcedureEu                        Profile    profiles-eu-base/eu-procedure.fsh                                   1 - 27
+StructureDefinition-Quantity-eu-lab.json                           QuantityEuLab                      Profile    eu-lab/datatype/quantity-eu-lab.fsh                                 6 - 24
+StructureDefinition-Quantity-uv-ips.json                           QuantityIPS                        Profile    eu-lab/datatype/quantity-uv-ips.fsh                                 3 - 28
+StructureDefinition-Range-uv-ips.json                              RangeIPS                           Profile    eu-lab/datatype/range-uv-ips.fsh                                    4 - 28
+StructureDefinition-Ratio-eu-lab.json                              RatioEuLab                         Profile    eu-lab/datatype/ratio-eu-lab.fsh                                    6 - 25
+StructureDefinition-Ratio-uv-ips.json                              RatioIPS                           Profile    eu-lab/datatype/ratio-uv-ips.fsh                                    4 - 23
+StructureDefinition-ServiceRequest-eu-lab.json                     ServiceRequestLabEu                Profile    eu-lab/service-request-eu-lab.fsh                                   5 - 31
+StructureDefinition-SimpleQuantity-uv-ips.json                     SimpleQuantityIPS                  Profile    eu-lab/datatype/simple-quantity-uv-ips.fsh                          3 - 28
+StructureDefinition-SimpleQuantityEu.json                          SimpleQuantityEu                   Profile    profiles-eu-base/datatype/simple-quantity-eu.fsh                    1 - 30
+StructureDefinition-Specimen-eu-lab.json                           SpecimenEu                         Profile    eu-lab/specimen-eu-lab.fsh                                          7 - 34
+StructureDefinition-Substance-additive-eu-lab.json                 SpecimenAdditiveSubstance          Profile    eu-lab/substance-additiove-eu-lab.fsh                               4 - 19
+StructureDefinition-composition-diagnosticReportReference.json     DiagnosticReportReference          Extension  eu-lab/diagnostic-report-reference-eu-lab.fsh                       3 - 25
+StructureDefinition-im-accession-number-identifier.json            ImAccessionNumberIdentifier        Profile    profiles-eu-imaging/im-accession-number-identifier.fsh              1 - 23
+StructureDefinition-im-composition-diagnosticReportReference.json  ImDiagnosticReportReference        Extension  profiles-eu-imaging/im-composition-diagnostic-report-reference.fsh  1 - 24
+StructureDefinition-im-study-instance-uid-identifier.json          ImStudyInstanceUidIdentifier       Profile    profiles-eu-imaging/im-study-instance-uid-identifier.fsh            1 - 22
+StructureDefinition-instance-description.json                      ImImagingStudyInstanceDescription  Extension  profiles-eu-imaging/im-instance-description.fsh                     1 - 18
+StructureDefinition-location-eu-core.json                          LocationEuCore                     Profile    profiles-eu-base/location-eu.fsh                                    1 - 26
+StructureDefinition-medicalTestResult-eu-core.json                 MedicalTestResultEuCore            Profile    profiles-eu-base/medicalTestResult-eu-core.fsh                      10 - 98
+StructureDefinition-quantity-eu.json                               QuantityEu                         Profile    profiles-eu-base/datatype/quantity-eu.fsh                           1 - 30
+StructureDefinition-range-eu.json                                  RangeEu                            Profile    profiles-eu-base/datatype/range-eu.fsh                              1 - 23
+StructureDefinition-specimen-container-type.json                   SpecimenContainerType              Extension  eu-lab/container-type.fsh                                           4 - 33
+ValueSet-report-code.json                                          ReportCode                         ValueSet   terminology/ReportCode.fsh                                          1 - 11

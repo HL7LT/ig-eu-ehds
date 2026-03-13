@@ -21,30 +21,13 @@ publisher:
   email: info@medicinosnk.lt
 
 dependencies:
-  lt.hl7.fhir.base: current
   hl7.fhir.eu.base-r5: 0.1.0
   hl7.fhir.eu.extensions: current
-#  hl7.fhir.eu.imaging-r5: current
-#  lt.hl7.fhir.laboratory: current
-  
-# hl7.fhir.eu.imaging-r5: 0.1.0  
+
 # HL7 Europe Imaging FHIR IG (https://build.fhir.org/ig/hl7-eu/imaging-r5) not published yeat :(
 # instead of that we use copy https://build.fhir.org/ig/oijauregui/ehdsimaging-r5/en
 
-
-# hl7.fhir.uv.dicom-r5: 4.0.0
-# hl7.fhir.uv.breast-r5: 4.0.0
-# hl7.fhir.uv.breast-radiology-r5: 4.0
-
-#  lt.hl7.fhir.vitalsigns: dev
-#  hl7.fhir.us.core: 8.0.0
-#  hl7.fhir.uv.ips.r5: 4.0.0  #FHIR IPS R5 base
-#   fhir.base.template: 0.8.1
-#   # while we don't strictly needs this, this helps resolve the DICOM supplement correctly until tx.fhir.org can do this
-#   fhir.dicom:
-#     id: fhir_dicom
-#     uri: http://fhir.org/packages/fhir.dicom/ImplementationGuide/fhir.dicom
-#     version: 2025.2.20250411
+# HL7 Europe Laboratory Report (https://build.fhir.org/ig/hl7-eu/laboratory/en/)
 
 # the following are for offline use only
 #  hl7.fhir.uv.tools.r5: 0.5.0
@@ -182,6 +165,20 @@ menu:
 #
 groups:
   GroupA:
+    name: HL7 EU Base profiles
+    description: HL7 EU Base profiles
+    resources:
+    - StructureDefinition/CarePlanEu
+    - StructureDefinition/CompositionEu
+    - StructureDefinition/ConditionEu
+    - StructureDefinition/CrossVersionMediaViewExtension
+    - StructureDefinition/DocumentReferenceEu
+    - StructureDefinition/EndpointEu
+    - StructureDefinition/ObservationEu
+    - StructureDefinition/ProcedureEu
+    - StructureDefinition/location-eu-core
+    - StructureDefinition/medicalTestResult-eu-core
+  GroupB:
     name: HL7 EU Imaging profiles
     description: HL7 EU Imaging profiles
     resources:
@@ -201,6 +198,31 @@ groups:
     - StructureDefinition/im-composition-diagnosticReportReference
     - StructureDefinition/im-study-instance-uid-identifier
     - StructureDefinition/im-accession-number-identifier
+  GroupC:
+    name: "EU Lab profiles"
+    description: "EU Lab profiles"
+    resources:
+    - StructureDefinition/Composition-eu-lab
+    - StructureDefinition/composition-diagnosticReportReference
+    - StructureDefinition/DiagnosticReport-eu-lab
+    - StructureDefinition/Observation-resultslab-eu-lab
+    - StructureDefinition/specimen-container-type
+    - StructureDefinition/ServiceRequest-eu-lab
+    - StructureDefinition/Specimen-eu-lab
+    - StructureDefinition/Substance-additive-eu-lab
+  GroupD:
+    name: "IPS data types"
+    description: "IPS data types"
+    resources:
+    - StructureDefinition/CodeableConcept-uv-ips
+    - StructureDefinition/Coding-uv-ips
+    - StructureDefinition/Quantity-eu-lab
+    - StructureDefinition/Quantity-uv-ips
+    - StructureDefinition/Range-uv-ips
+    - StructureDefinition/Ratio-eu-lab
+    - StructureDefinition/Ratio-uv-ips
+    - StructureDefinition/SimpleQuantity-uv-ips
+
 
 #   GroupB:
 #     name: Group B

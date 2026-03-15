@@ -9,7 +9,7 @@ name: Hl7Eu
 title: HL7 Europe IG Snapshot
 description: The copy of the Laboratory Report and Imaging Report Implementation Guide, to enable them for development of the Lithuanian Implementation Guides. The content is based on the HL7 Europe IGs. This IG should be removed after publication of the official IG-s.
 status: draft # draft | active | retired | unknown
-version: 0.0.1
+version: 0.0.2
 fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build
@@ -21,7 +21,7 @@ publisher:
   email: info@medicinosnk.lt
 
 dependencies:
-  hl7.terminology.r5: 7.1.0  # should be first
+  hl7.terminology.r5: 7.1.0
   hl7.fhir.eu.base-r5: 0.1.0
   hl7.fhir.eu.extensions.r5: 1.2.0
 

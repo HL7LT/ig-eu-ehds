@@ -11,7 +11,7 @@
       "valueCode": "draft"
     }
   ],
-  "url": "https://hl7.eu/fhir/StructureDefinition/medicalTestResult-eu-core",
+  "url": "https://hl7.lt/fhir/eu/StructureDefinition/medicalTestResult-eu-core",
   "version": "2.0.0-ballot",
   "name": "MedicalTestResultEuCore",
   "title": "MedicalTestResult (EU core)",
@@ -270,7 +270,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://hl7.eu/fhir/StructureDefinition/medicalTestResult-eu-core",
+              "https://hl7.lt/fhir/eu/StructureDefinition/medicalTestResult-eu-core",
               "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse"
             ]
           }
@@ -284,7 +284,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://hl7.eu/fhir/StructureDefinition/medicalTestResult-eu-core",
+              "https://hl7.lt/fhir/eu/StructureDefinition/medicalTestResult-eu-core",
               "http://hl7.org/fhir/StructureDefinition/ImagingStudy",
               "http://hl7.org/fhir/StructureDefinition/DocumentReference",
               "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse"

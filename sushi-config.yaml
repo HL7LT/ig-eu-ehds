@@ -4,10 +4,10 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: lt.hl7.fhir.eu
-canonical: https://hl7.eu/fhir
-name: HL7EU
-title: HL7 Europe General Implementation Guide
-description: HL7 Europe General Implementation Guide including EU Imaging and EU Laboratory profiles
+canonical: https://hl7.lt/fhir/eu
+name: Hl7Eu
+title: HL7 Europe IG Snapshot
+description: The copy of the Laboratory Report and Imaging Report Implementation Guide, to enable them for development of the Lithuanian Implementation Guides. The content is based on the HL7 Europe IGs. This IG should be removed after publication of the official IG-s.
 status: draft # draft | active | retired | unknown
 version: 0.0.1
 fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html

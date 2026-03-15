@@ -35,7 +35,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Composition",
-  "baseDefinition": "https://hl7.eu/fhir/StructureDefinition/CompositionEu",
+  "baseDefinition": "https://hl7.lt/fhir/eu/StructureDefinition/CompositionEu",
   "derivation": "constraint",
   "differential": {
     "element": [

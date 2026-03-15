@@ -1,14 +1,14 @@
 {
    "package-id": "lt.hl7.fhir.eu",
    "version": "0.0.1",
-   "path": "https://hl7.eu/fhir/0.0.1",
+   "path": "https://hl7.lt/fhir/eu/0.0.1",
    "mode": "milestone",
    "status": "draft",
    "sequence": "Releases",
-   "desc": "Initial draft release of the HL7 Europe General Implementation Guide.",
+   "desc": "Initial draft release of the HL7 Europe IG Snapshot.",
    "first": true,
-   "title": "HL7 Europe General Implementation Guide",
+   "title": "HL7 Europe IG Snapshot",
    "ci-build": "http://build.fhir.org/ig/HL7LT/ig-eu-ehds",
    "category": "Infrastructure",
-   "introduction": "HL7 Europe General Implementation Guide including EU Imaging and EU Laboratory profiles."
+   "introduction": "The copy of the Laboratory Report and Imaging Report Implementation Guide, to enable them for development of the Lithuanian Implementation Guides. The content is based on the HL7 Europe IGs. This IG should be removed after publication of the official IG-s."
 }

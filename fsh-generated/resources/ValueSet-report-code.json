@@ -5,7 +5,7 @@
   "id": "report-code",
   "title": "Report Code",
   "description": "Diagnostic report codes including all subtypes of Clinical procedure report, excluding the root concept itself.",
-  "url": "https://hl7.eu/fhir/ValueSet/report-code",
+  "url": "https://hl7.lt/fhir/eu/ValueSet/report-code",
   "language": "en",
   "version": "1.0.0",
   "experimental": false,

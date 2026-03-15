@@ -21,9 +21,9 @@ publisher:
   email: info@medicinosnk.lt
 
 dependencies:
+  hl7.terminology.r5: 7.1.0  # should be first
   hl7.fhir.eu.base-r5: 0.1.0
   hl7.fhir.eu.extensions.r5: 1.2.0
-  hl7.terminology.r5: 7.1.0
 
 # HL7 Europe Imaging FHIR IG (https://build.fhir.org/ig/hl7-eu/imaging-r5) not published yeat :(
 # instead of that we use copy https://build.fhir.org/ig/oijauregui/ehdsimaging-r5/en

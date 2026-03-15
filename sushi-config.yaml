@@ -21,7 +21,7 @@ publisher:
   email: info@medicinosnk.lt
 
 dependencies:
-  hl7.terminology.r5: 7.1.0
+  hl7.terminology.r5: 7.1.0  # it should be first, don't change it
   hl7.fhir.eu.base-r5: 0.1.0
   hl7.fhir.eu.extensions.r5: 1.2.0
 

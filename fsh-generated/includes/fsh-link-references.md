@@ -2,6 +2,8 @@
 [CodingIPS]: StructureDefinition-Coding-uv-ips.html
 [CompositionLabReportEu]: StructureDefinition-Composition-eu-lab.html
 [DiagnosticReportLabEu]: StructureDefinition-DiagnosticReport-eu-lab.html
+[DoseLengthUnitsEuImaging]: ValueSet-im-dose-length-units.html
+[EffectiveDoseUnitsEuImaging]: ValueSet-im-effective-dose-units.html
 [CarePlanEu]: StructureDefinition-CarePlanEu.html
 [CompositionEu]: StructureDefinition-CompositionEu.html
 [ConditionEu]: StructureDefinition-ConditionEu.html
@@ -15,6 +17,7 @@
 [SimpleQuantityEu]: StructureDefinition-SimpleQuantityEu.html
 [DiagnosticReportReference]: StructureDefinition-composition-diagnosticReportReference.html
 [SpecimenContainerType]: StructureDefinition-specimen-container-type.html
+[GraySquareUnitsEuImaging]: ValueSet-im-gray-square-units.html
 [ImComposition]: StructureDefinition-ImComposition.html
 [ImDiagnosticReport]: StructureDefinition-ImDiagnosticReport.html
 [ImDiagnosticReportReference]: StructureDefinition-im-composition-diagnosticReportReference.html
@@ -34,6 +37,7 @@
 [LocationEuCore]: StructureDefinition-location-eu-core.html
 [MedicalTestResultEuCore]: StructureDefinition-medicalTestResult-eu-core.html
 [ObservationResultsLaboratoryEu]: StructureDefinition-Observation-resultslab-eu-lab.html
+[ObservationRadiationDoseEuImaging]: StructureDefinition-ObservationRadiationDoseEuImaging.html
 [QuantityEuLab]: StructureDefinition-Quantity-eu-lab.html
 [QuantityIPS]: StructureDefinition-Quantity-uv-ips.html
 [RangeIPS]: StructureDefinition-Range-uv-ips.html

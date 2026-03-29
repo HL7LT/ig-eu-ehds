@@ -23,6 +23,7 @@ StructureDefinition-ImProcedure.json                               ImProcedure  
 StructureDefinition-ImWadoEndpoint.json                            ImWadoEndpoint                     Profile    profiles-eu-imaging/im-wado-endpoint.fsh                            1 - 67
 StructureDefinition-Observation-resultslab-eu-lab.json             ObservationResultsLaboratoryEu     Profile    eu-lab/observation-eu-lab.fsh                                       1 - 177
 StructureDefinition-ObservationEu.json                             ObservationEu                      Profile    profiles-eu-base/eu-observation.fsh                                 1 - 27
+StructureDefinition-ObservationRadiationDoseEuImaging.json         ObservationRadiationDoseEuImaging  Profile    profiles-eu-imaging/im-radiationdose-observation.fsh                1 - 95
 StructureDefinition-ProcedureEu.json                               ProcedureEu                        Profile    profiles-eu-base/eu-procedure.fsh                                   1 - 27
 StructureDefinition-Quantity-eu-lab.json                           QuantityEuLab                      Profile    eu-lab/datatype/quantity-eu-lab.fsh                                 6 - 24
 StructureDefinition-Quantity-uv-ips.json                           QuantityIPS                        Profile    eu-lab/datatype/quantity-uv-ips.fsh                                 3 - 28
@@ -44,4 +45,7 @@ StructureDefinition-medicalTestResult-eu-core.json                 MedicalTestRe
 StructureDefinition-quantity-eu.json                               QuantityEu                         Profile    profiles-eu-base/datatype/quantity-eu.fsh                           1 - 30
 StructureDefinition-range-eu.json                                  RangeEu                            Profile    profiles-eu-base/datatype/range-eu.fsh                              1 - 23
 StructureDefinition-specimen-container-type.json                   SpecimenContainerType              Extension  eu-lab/container-type.fsh                                           4 - 33
+ValueSet-im-dose-length-units.json                                 DoseLengthUnitsEuImaging           ValueSet   profiles-eu-imaging/im-radiationdose-observation.fsh                106 - 112
+ValueSet-im-effective-dose-units.json                              EffectiveDoseUnitsEuImaging        ValueSet   profiles-eu-imaging/im-radiationdose-observation.fsh                97 - 104
+ValueSet-im-gray-square-units.json                                 GraySquareUnitsEuImaging           ValueSet   profiles-eu-imaging/im-radiationdose-observation.fsh                114 - 121
 ValueSet-report-code.json                                          ReportCode                         ValueSet   terminology/ReportCode.fsh                                          1 - 11

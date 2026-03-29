@@ -200,6 +200,7 @@ groups:
     - StructureDefinition/ImFinding
     - StructureDefinition/ImDiagnosticReport
     - StructureDefinition/instance-description
+    - StructureDefinition/ObservationRadiationDoseEuImaging
     - StructureDefinition/im-composition-diagnosticReportReference
     - StructureDefinition/im-study-instance-uid-identifier
     - StructureDefinition/im-accession-number-identifier

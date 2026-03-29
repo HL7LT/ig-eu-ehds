@@ -192,6 +192,14 @@
     "endLine": 27
   },
   {
+    "outputFile": "StructureDefinition-ObservationRadiationDoseEuImaging.json",
+    "fshName": "ObservationRadiationDoseEuImaging",
+    "fshType": "Profile",
+    "fshFile": "profiles-eu-imaging/im-radiationdose-observation.fsh",
+    "startLine": 1,
+    "endLine": 95
+  },
+  {
     "outputFile": "StructureDefinition-ProcedureEu.json",
     "fshName": "ProcedureEu",
     "fshType": "Profile",
@@ -358,6 +366,30 @@
     "fshFile": "eu-lab/container-type.fsh",
     "startLine": 4,
     "endLine": 33
+  },
+  {
+    "outputFile": "ValueSet-im-dose-length-units.json",
+    "fshName": "DoseLengthUnitsEuImaging",
+    "fshType": "ValueSet",
+    "fshFile": "profiles-eu-imaging/im-radiationdose-observation.fsh",
+    "startLine": 106,
+    "endLine": 112
+  },
+  {
+    "outputFile": "ValueSet-im-effective-dose-units.json",
+    "fshName": "EffectiveDoseUnitsEuImaging",
+    "fshType": "ValueSet",
+    "fshFile": "profiles-eu-imaging/im-radiationdose-observation.fsh",
+    "startLine": 97,
+    "endLine": 104
+  },
+  {
+    "outputFile": "ValueSet-im-gray-square-units.json",
+    "fshName": "GraySquareUnitsEuImaging",
+    "fshType": "ValueSet",
+    "fshFile": "profiles-eu-imaging/im-radiationdose-observation.fsh",
+    "startLine": 114,
+    "endLine": 121
   },
   {
     "outputFile": "ValueSet-report-code.json",

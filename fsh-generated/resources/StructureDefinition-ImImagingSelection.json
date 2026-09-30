@@ -69,7 +69,7 @@
           "discriminator": [
             {
               "type": "profile",
-              "path": "$this"
+              "path": "resolve()"
             }
           ],
           "ordered": false,

@@ -3,7 +3,7 @@
     "outputFile": "StructureDefinition-CarePlanEu.json",
     "fshName": "CarePlanEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-base/eu-careplan.fsh",
+    "fshFile": "profiles-eu-base\\eu-careplan.fsh",
     "startLine": 1,
     "endLine": 25
   },
@@ -11,23 +11,23 @@
     "outputFile": "StructureDefinition-CodeableConcept-uv-ips.json",
     "fshName": "CodeableConceptIPS",
     "fshType": "Profile",
-    "fshFile": "eu-lab/datatype/codeable-concept-uv-ips.fsh",
+    "fshFile": "eu-lab\\datatype\\codeable-concept-uv-ips.fsh",
     "startLine": 4,
-    "endLine": 59
+    "endLine": 38
   },
   {
     "outputFile": "StructureDefinition-Coding-uv-ips.json",
     "fshName": "CodingIPS",
     "fshType": "Profile",
-    "fshFile": "eu-lab/datatype/coding-ips.fsh",
+    "fshFile": "eu-lab\\datatype\\coding-ips.fsh",
     "startLine": 3,
-    "endLine": 52
+    "endLine": 36
   },
   {
     "outputFile": "StructureDefinition-Composition-eu-lab.json",
     "fshName": "CompositionLabReportEu",
     "fshType": "Profile",
-    "fshFile": "eu-lab/composition-eu-lab.fsh",
+    "fshFile": "eu-lab\\composition-eu-lab.fsh",
     "startLine": 13,
     "endLine": 130
   },
@@ -35,7 +35,7 @@
     "outputFile": "StructureDefinition-CompositionEu.json",
     "fshName": "CompositionEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-base/eu-composition.fsh",
+    "fshFile": "profiles-eu-base\\eu-composition.fsh",
     "startLine": 1,
     "endLine": 30
   },
@@ -43,7 +43,7 @@
     "outputFile": "StructureDefinition-ConditionEu.json",
     "fshName": "ConditionEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-base/eu-condition.fsh",
+    "fshFile": "profiles-eu-base\\eu-condition.fsh",
     "startLine": 1,
     "endLine": 23
   },
@@ -51,7 +51,7 @@
     "outputFile": "StructureDefinition-CrossVersionMediaViewExtension.json",
     "fshName": "CrossVersionMediaViewExtension",
     "fshType": "Extension",
-    "fshFile": "profiles-eu-base/eu-cross-version-media-view-ext.fsh",
+    "fshFile": "profiles-eu-base\\eu-cross-version-media-view-ext.fsh",
     "startLine": 1,
     "endLine": 19
   },
@@ -59,7 +59,7 @@
     "outputFile": "StructureDefinition-DiagnosticReport-eu-lab.json",
     "fshName": "DiagnosticReportLabEu",
     "fshType": "Profile",
-    "fshFile": "eu-lab/diagnostic-report-eu-lab.fsh",
+    "fshFile": "eu-lab\\diagnostic-report-eu-lab.fsh",
     "startLine": 12,
     "endLine": 90
   },
@@ -67,7 +67,7 @@
     "outputFile": "StructureDefinition-DocumentReferenceEu.json",
     "fshName": "DocumentReferenceEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-base/eu-document-reference.fsh",
+    "fshFile": "profiles-eu-base\\eu-document-reference.fsh",
     "startLine": 1,
     "endLine": 22
   },
@@ -75,7 +75,7 @@
     "outputFile": "StructureDefinition-EndpointEu.json",
     "fshName": "EndpointEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-base/eu-endpoint.fsh",
+    "fshFile": "profiles-eu-base\\eu-endpoint.fsh",
     "startLine": 1,
     "endLine": 20
   },
@@ -83,23 +83,23 @@
     "outputFile": "StructureDefinition-ImComposition.json",
     "fshName": "ImComposition",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-imaging/im-composition.fsh",
+    "fshFile": "profiles-eu-imaging\\im-composition.fsh",
     "startLine": 1,
-    "endLine": 169
+    "endLine": 172
   },
   {
     "outputFile": "StructureDefinition-ImDiagnosticReport.json",
     "fshName": "ImDiagnosticReport",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-imaging/im-diagnostic-report.fsh",
+    "fshFile": "profiles-eu-imaging\\im-diagnostic-report.fsh",
     "startLine": 1,
-    "endLine": 72
+    "endLine": 78
   },
   {
     "outputFile": "StructureDefinition-ImFinding.json",
     "fshName": "ImFinding",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-imaging/im-finding.fsh",
+    "fshFile": "profiles-eu-imaging\\im-finding.fsh",
     "startLine": 1,
     "endLine": 29
   },
@@ -107,7 +107,7 @@
     "outputFile": "StructureDefinition-ImImageIidViewerEndpoint.json",
     "fshName": "ImImageIidViewerEndpoint",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-imaging/im-image-viewer-endpoint.fsh",
+    "fshFile": "profiles-eu-imaging\\im-image-viewer-endpoint.fsh",
     "startLine": 1,
     "endLine": 30
   },
@@ -115,7 +115,7 @@
     "outputFile": "StructureDefinition-ImImagingDevice.json",
     "fshName": "ImImagingDevice",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-imaging/im-device.fsh",
+    "fshFile": "profiles-eu-imaging\\im-device.fsh",
     "startLine": 1,
     "endLine": 27
   },
@@ -123,7 +123,7 @@
     "outputFile": "StructureDefinition-ImImagingSelection.json",
     "fshName": "ImImagingSelection",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-imaging/im-image-selection.fsh",
+    "fshFile": "profiles-eu-imaging\\im-image-selection.fsh",
     "startLine": 1,
     "endLine": 26
   },
@@ -131,7 +131,7 @@
     "outputFile": "StructureDefinition-ImImagingStudy.json",
     "fshName": "ImImagingStudy",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-imaging/im-imaging-study.fsh",
+    "fshFile": "profiles-eu-imaging\\im-imaging-study.fsh",
     "startLine": 1,
     "endLine": 69
   },
@@ -139,7 +139,7 @@
     "outputFile": "StructureDefinition-ImKeyImageDocumentReference.json",
     "fshName": "ImKeyImageDocumentReference",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-imaging/im-keyimage-document-reference.fsh",
+    "fshFile": "profiles-eu-imaging\\im-keyimage-document-reference.fsh",
     "startLine": 1,
     "endLine": 75
   },
@@ -147,7 +147,7 @@
     "outputFile": "StructureDefinition-ImKeyImageImagingSelection.json",
     "fshName": "ImKeyImageImagingSelection",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-imaging/im-keyimage-selection.fsh",
+    "fshFile": "profiles-eu-imaging\\im-keyimage-selection.fsh",
     "startLine": 1,
     "endLine": 26
   },
@@ -155,7 +155,7 @@
     "outputFile": "StructureDefinition-ImOrder.json",
     "fshName": "ImOrder",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-imaging/im-order.fsh",
+    "fshFile": "profiles-eu-imaging\\im-order.fsh",
     "startLine": 1,
     "endLine": 37
   },
@@ -163,7 +163,7 @@
     "outputFile": "StructureDefinition-ImProcedure.json",
     "fshName": "ImProcedure",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-imaging/im-procedure.fsh",
+    "fshFile": "profiles-eu-imaging\\im-procedure.fsh",
     "startLine": 1,
     "endLine": 39
   },
@@ -171,7 +171,7 @@
     "outputFile": "StructureDefinition-ImWadoEndpoint.json",
     "fshName": "ImWadoEndpoint",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-imaging/im-wado-endpoint.fsh",
+    "fshFile": "profiles-eu-imaging\\im-wado-endpoint.fsh",
     "startLine": 1,
     "endLine": 67
   },
@@ -179,15 +179,15 @@
     "outputFile": "StructureDefinition-Observation-resultslab-eu-lab.json",
     "fshName": "ObservationResultsLaboratoryEu",
     "fshType": "Profile",
-    "fshFile": "eu-lab/observation-eu-lab.fsh",
+    "fshFile": "eu-lab\\observation-eu-lab.fsh",
     "startLine": 1,
-    "endLine": 177
+    "endLine": 140
   },
   {
     "outputFile": "StructureDefinition-ObservationEu.json",
     "fshName": "ObservationEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-base/eu-observation.fsh",
+    "fshFile": "profiles-eu-base\\eu-observation.fsh",
     "startLine": 1,
     "endLine": 27
   },
@@ -195,7 +195,7 @@
     "outputFile": "StructureDefinition-ObservationRadiationDoseEuImaging.json",
     "fshName": "ObservationRadiationDoseEuImaging",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-imaging/im-radiationdose-observation.fsh",
+    "fshFile": "profiles-eu-imaging\\im-radiationdose-observation.fsh",
     "startLine": 1,
     "endLine": 95
   },
@@ -203,15 +203,15 @@
     "outputFile": "StructureDefinition-ProcedureEu.json",
     "fshName": "ProcedureEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-base/eu-procedure.fsh",
+    "fshFile": "profiles-eu-base\\eu-procedure.fsh",
     "startLine": 1,
-    "endLine": 27
+    "endLine": 21
   },
   {
     "outputFile": "StructureDefinition-Quantity-eu-lab.json",
     "fshName": "QuantityEuLab",
     "fshType": "Profile",
-    "fshFile": "eu-lab/datatype/quantity-eu-lab.fsh",
+    "fshFile": "eu-lab\\datatype\\quantity-eu-lab.fsh",
     "startLine": 6,
     "endLine": 24
   },
@@ -219,23 +219,23 @@
     "outputFile": "StructureDefinition-Quantity-uv-ips.json",
     "fshName": "QuantityIPS",
     "fshType": "Profile",
-    "fshFile": "eu-lab/datatype/quantity-uv-ips.fsh",
+    "fshFile": "eu-lab\\datatype\\quantity-uv-ips.fsh",
     "startLine": 3,
-    "endLine": 28
+    "endLine": 33
   },
   {
     "outputFile": "StructureDefinition-Range-uv-ips.json",
     "fshName": "RangeIPS",
     "fshType": "Profile",
-    "fshFile": "eu-lab/datatype/range-uv-ips.fsh",
+    "fshFile": "eu-lab\\datatype\\range-uv-ips.fsh",
     "startLine": 4,
-    "endLine": 28
+    "endLine": 33
   },
   {
     "outputFile": "StructureDefinition-Ratio-eu-lab.json",
     "fshName": "RatioEuLab",
     "fshType": "Profile",
-    "fshFile": "eu-lab/datatype/ratio-eu-lab.fsh",
+    "fshFile": "eu-lab\\datatype\\ratio-eu-lab.fsh",
     "startLine": 6,
     "endLine": 25
   },
@@ -243,15 +243,15 @@
     "outputFile": "StructureDefinition-Ratio-uv-ips.json",
     "fshName": "RatioIPS",
     "fshType": "Profile",
-    "fshFile": "eu-lab/datatype/ratio-uv-ips.fsh",
+    "fshFile": "eu-lab\\datatype\\ratio-uv-ips.fsh",
     "startLine": 4,
-    "endLine": 23
+    "endLine": 28
   },
   {
     "outputFile": "StructureDefinition-ServiceRequest-eu-lab.json",
     "fshName": "ServiceRequestLabEu",
     "fshType": "Profile",
-    "fshFile": "eu-lab/service-request-eu-lab.fsh",
+    "fshFile": "eu-lab\\service-request-eu-lab.fsh",
     "startLine": 5,
     "endLine": 31
   },
@@ -259,15 +259,15 @@
     "outputFile": "StructureDefinition-SimpleQuantity-uv-ips.json",
     "fshName": "SimpleQuantityIPS",
     "fshType": "Profile",
-    "fshFile": "eu-lab/datatype/simple-quantity-uv-ips.fsh",
+    "fshFile": "eu-lab\\datatype\\simple-quantity-uv-ips.fsh",
     "startLine": 3,
-    "endLine": 28
+    "endLine": 33
   },
   {
     "outputFile": "StructureDefinition-SimpleQuantityEu.json",
     "fshName": "SimpleQuantityEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-base/datatype/simple-quantity-eu.fsh",
+    "fshFile": "profiles-eu-base\\datatype\\simple-quantity-eu.fsh",
     "startLine": 1,
     "endLine": 30
   },
@@ -275,7 +275,7 @@
     "outputFile": "StructureDefinition-Specimen-eu-lab.json",
     "fshName": "SpecimenEu",
     "fshType": "Profile",
-    "fshFile": "eu-lab/specimen-eu-lab.fsh",
+    "fshFile": "eu-lab\\specimen-eu-lab.fsh",
     "startLine": 7,
     "endLine": 34
   },
@@ -283,7 +283,7 @@
     "outputFile": "StructureDefinition-Substance-additive-eu-lab.json",
     "fshName": "SpecimenAdditiveSubstance",
     "fshType": "Profile",
-    "fshFile": "eu-lab/substance-additiove-eu-lab.fsh",
+    "fshFile": "eu-lab\\substance-additiove-eu-lab.fsh",
     "startLine": 4,
     "endLine": 19
   },
@@ -291,7 +291,7 @@
     "outputFile": "StructureDefinition-composition-diagnosticReportReference.json",
     "fshName": "DiagnosticReportReference",
     "fshType": "Extension",
-    "fshFile": "eu-lab/diagnostic-report-reference-eu-lab.fsh",
+    "fshFile": "eu-lab\\diagnostic-report-reference-eu-lab.fsh",
     "startLine": 3,
     "endLine": 25
   },
@@ -299,7 +299,7 @@
     "outputFile": "StructureDefinition-im-accession-number-identifier.json",
     "fshName": "ImAccessionNumberIdentifier",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-imaging/im-accession-number-identifier.fsh",
+    "fshFile": "profiles-eu-imaging\\im-accession-number-identifier.fsh",
     "startLine": 1,
     "endLine": 23
   },
@@ -307,7 +307,7 @@
     "outputFile": "StructureDefinition-im-composition-diagnosticReportReference.json",
     "fshName": "ImDiagnosticReportReference",
     "fshType": "Extension",
-    "fshFile": "profiles-eu-imaging/im-composition-diagnostic-report-reference.fsh",
+    "fshFile": "profiles-eu-imaging\\im-composition-diagnostic-report-reference.fsh",
     "startLine": 1,
     "endLine": 24
   },
@@ -315,7 +315,7 @@
     "outputFile": "StructureDefinition-im-study-instance-uid-identifier.json",
     "fshName": "ImStudyInstanceUidIdentifier",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-imaging/im-study-instance-uid-identifier.fsh",
+    "fshFile": "profiles-eu-imaging\\im-study-instance-uid-identifier.fsh",
     "startLine": 1,
     "endLine": 22
   },
@@ -323,7 +323,7 @@
     "outputFile": "StructureDefinition-instance-description.json",
     "fshName": "ImImagingStudyInstanceDescription",
     "fshType": "Extension",
-    "fshFile": "profiles-eu-imaging/im-instance-description.fsh",
+    "fshFile": "profiles-eu-imaging\\im-instance-description.fsh",
     "startLine": 1,
     "endLine": 18
   },
@@ -331,7 +331,7 @@
     "outputFile": "StructureDefinition-location-eu-core.json",
     "fshName": "LocationEuCore",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-base/location-eu.fsh",
+    "fshFile": "profiles-eu-base\\location-eu.fsh",
     "startLine": 1,
     "endLine": 26
   },
@@ -339,7 +339,7 @@
     "outputFile": "StructureDefinition-medicalTestResult-eu-core.json",
     "fshName": "MedicalTestResultEuCore",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-base/medicalTestResult-eu-core.fsh",
+    "fshFile": "profiles-eu-base\\medicalTestResult-eu-core.fsh",
     "startLine": 10,
     "endLine": 98
   },
@@ -347,7 +347,7 @@
     "outputFile": "StructureDefinition-quantity-eu.json",
     "fshName": "QuantityEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-base/datatype/quantity-eu.fsh",
+    "fshFile": "profiles-eu-base\\datatype\\quantity-eu.fsh",
     "startLine": 1,
     "endLine": 30
   },
@@ -355,7 +355,7 @@
     "outputFile": "StructureDefinition-range-eu.json",
     "fshName": "RangeEu",
     "fshType": "Profile",
-    "fshFile": "profiles-eu-base/datatype/range-eu.fsh",
+    "fshFile": "profiles-eu-base\\datatype\\range-eu.fsh",
     "startLine": 1,
     "endLine": 23
   },
@@ -363,15 +363,15 @@
     "outputFile": "StructureDefinition-specimen-container-type.json",
     "fshName": "SpecimenContainerType",
     "fshType": "Extension",
-    "fshFile": "eu-lab/container-type.fsh",
+    "fshFile": "eu-lab\\container-type.fsh",
     "startLine": 4,
-    "endLine": 33
+    "endLine": 37
   },
   {
     "outputFile": "ValueSet-im-dose-length-units.json",
     "fshName": "DoseLengthUnitsEuImaging",
     "fshType": "ValueSet",
-    "fshFile": "profiles-eu-imaging/im-radiationdose-observation.fsh",
+    "fshFile": "profiles-eu-imaging\\im-radiationdose-observation.fsh",
     "startLine": 106,
     "endLine": 112
   },
@@ -379,7 +379,7 @@
     "outputFile": "ValueSet-im-effective-dose-units.json",
     "fshName": "EffectiveDoseUnitsEuImaging",
     "fshType": "ValueSet",
-    "fshFile": "profiles-eu-imaging/im-radiationdose-observation.fsh",
+    "fshFile": "profiles-eu-imaging\\im-radiationdose-observation.fsh",
     "startLine": 97,
     "endLine": 104
   },
@@ -387,7 +387,7 @@
     "outputFile": "ValueSet-im-gray-square-units.json",
     "fshName": "GraySquareUnitsEuImaging",
     "fshType": "ValueSet",
-    "fshFile": "profiles-eu-imaging/im-radiationdose-observation.fsh",
+    "fshFile": "profiles-eu-imaging\\im-radiationdose-observation.fsh",
     "startLine": 114,
     "endLine": 121
   },
@@ -395,7 +395,7 @@
     "outputFile": "ValueSet-report-code.json",
     "fshName": "ReportCode",
     "fshType": "ValueSet",
-    "fshFile": "terminology/ReportCode.fsh",
+    "fshFile": "terminology\\ReportCode.fsh",
     "startLine": 1,
     "endLine": 11
   }

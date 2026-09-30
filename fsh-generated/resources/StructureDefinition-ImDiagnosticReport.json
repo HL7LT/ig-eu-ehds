@@ -217,7 +217,7 @@
           "discriminator": [
             {
               "type": "profile",
-              "path": "$this"
+              "path": "resolve()"
             }
           ],
           "ordered": false,
@@ -288,7 +288,7 @@
           "discriminator": [
             {
               "type": "value",
-              "path": "reference"
+              "path": "type"
             }
           ],
           "ordered": false,

@@ -9,11 +9,15 @@ name: Hl7Eu
 title: HL7 Europe IG Snapshot
 description: The copy of the Laboratory Report and Imaging Report Implementation Guide, to enable them for development of the Lithuanian Implementation Guides. The content is based on the HL7 Europe IGs. This IG should be removed after publication of the official IG-s.
 status: draft # draft | active | retired | unknown
-version: 0.0.2
+version: 0.0.3
 fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build
-jurisdiction: urn:iso:std:iso:3166#EU #"Lithuania" temporarily disabled due to issues with IG publisher translation template
+# Europe, as UN M49 region 150. "EU" is not an ISO 3166-1 code, and the IG's
+# jurisdiction is stamped onto every conformance resource this guide publishes,
+# so an invalid code here is reported once per resource. The profiles in this
+# guide already use m49.htm#150 for the same concept.
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#150
 #jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#440 // Lithuania (Code 440 from UN M.49)
 publisher:
   name: Lithuanian Medical Library
@@ -21,9 +25,20 @@ publisher:
   email: info@medicinosnk.lt
 
 dependencies:
-  hl7.terminology.r5: 7.1.0  # it should be first, don't change it
+  # hl7.terminology.r5 must stay first in this block; do not reorder.
+  # uri names the ImplementationGuide resource this package ships; the package
+  # canonical alone is not it, and the publisher asks for the IG URL.
+  hl7.terminology.r5:
+    id: hl7tx
+    uri: http://terminology.hl7.org/ImplementationGuide/hl7.terminology
+    version: 7.1.0
   hl7.fhir.eu.base-r5: 0.1.0
-  hl7.fhir.eu.extensions.r5: 1.2.0
+  # uri names the ImplementationGuide resource this package ships; the package
+  # canonical alone is not it, and the publisher asks for the IG URL.
+  hl7.fhir.eu.extensions.r5:
+    id: hl7euextr5
+    uri: http://hl7.eu/fhir/extensions/ImplementationGuide/hl7.fhir.eu.extensions
+    version: 1.2.0
 
 # HL7 Europe Imaging FHIR IG (https://build.fhir.org/ig/hl7-eu/imaging-r5) not published yeat :(
 # instead of that we use copy https://build.fhir.org/ig/oijauregui/ehdsimaging-r5/en
@@ -64,8 +79,59 @@ pages:
 
 
 parameters:
-  special-url-base: https://hl7.eu/fhir
-  special-url: https://terminology.hl7.lt/fhir
+  # Canonicals this guide deliberately hosts outside its own base. See
+  # _audit/fix-special-url.js for why each namespace is re-hosted here.
+  special-url-base:
+    - http://hl7.eu/fhir
+    - http://hl7.org/fhir/uv/ips
+  special-url:
+    - http://hl7.eu/fhir/base-r5/StructureDefinition/location-eu
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/CarePlanEu
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/ConditionEu
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/CrossVersionMediaViewExtension
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/DocumentReferenceEu
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/EndpointEu
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImComposition
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImDiagnosticReport
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImFinding
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImImageIidViewerEndpoint
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImImagingDevice
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImImagingSelection
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImImagingStudy
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImKeyImageDocumentReference
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImKeyImageImagingSelection
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImOrder
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImProcedure
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImWadoEndpoint
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/ObservationEu
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/ObservationRadiationDoseEuImaging
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/ProcedureEu
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/SimpleQuantityEu
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/im-accession-number-identifier
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/im-composition-diagnosticReportReference
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/im-study-instance-uid-identifier
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/instance-description
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/quantity-eu
+    - http://hl7.eu/fhir/imaging-r5/StructureDefinition/range-eu
+    - http://hl7.eu/fhir/imaging-r5/ValueSet/im-dose-length-units
+    - http://hl7.eu/fhir/imaging-r5/ValueSet/im-effective-dose-units
+    - http://hl7.eu/fhir/imaging-r5/ValueSet/im-gray-square-units
+    - http://hl7.eu/fhir/laboratory/StructureDefinition/Composition-eu-lab
+    - http://hl7.eu/fhir/laboratory/StructureDefinition/DiagnosticReport-eu-lab
+    - http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab
+    - http://hl7.eu/fhir/laboratory/StructureDefinition/Quantity-eu-lab
+    - http://hl7.eu/fhir/laboratory/StructureDefinition/Ratio-eu-lab
+    - http://hl7.eu/fhir/laboratory/StructureDefinition/ServiceRequest-eu-lab
+    - http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab
+    - http://hl7.eu/fhir/laboratory/StructureDefinition/Substance-additive-eu-lab
+    - http://hl7.eu/fhir/laboratory/StructureDefinition/composition-diagnosticReportReference
+    - http://hl7.org/fhir/StructureDefinition/specimen-container-type
+    - http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips
+    - http://hl7.org/fhir/uv/ips/StructureDefinition/Coding-uv-ips
+    - http://hl7.org/fhir/uv/ips/StructureDefinition/Quantity-uv-ips
+    - http://hl7.org/fhir/uv/ips/StructureDefinition/Range-uv-ips
+    - http://hl7.org/fhir/uv/ips/StructureDefinition/Ratio-uv-ips
+    - http://hl7.org/fhir/uv/ips/StructureDefinition/SimpleQuantity-uv-ips
 
   excludettl: true
   shownav: true

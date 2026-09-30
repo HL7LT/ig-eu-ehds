@@ -15,6 +15,10 @@ Context: Specimen.container
 // * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics"
 // * ^extension[=].valueCode = #can-bind
 * ^url = "http://hl7.org/fhir/StructureDefinition/specimen-container-type"
+// Owning committee, required by the publisher for artefacts in the hl7.org
+// namespace. Value read from hl7.fhir.r4.core 4.0.1, which owns this artefact.
+* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
+* ^extension[=].valueCode = #oo
 // * ^identifier.system = "urn:ietf:rfc:3986"
 // * ^identifier.value = "urn:oid:2.16.840.1.113883.4.642.5.1407"
 * ^version = "5.2.0"

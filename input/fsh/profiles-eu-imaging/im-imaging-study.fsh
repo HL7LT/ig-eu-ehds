@@ -34,7 +34,7 @@ Description: "This profile represents an imaging study instance."
 * basedOn[imorderaccession].identifier 1..
 * basedOn[imorderaccession].identifier only $AccessionNumberIdentifierEuImagingUrl
 * endpoint ^slicing.discriminator.type = #profile
-* endpoint ^slicing.discriminator.path = "$this"
+* endpoint ^slicing.discriminator.path = "resolve()"
 * endpoint ^slicing.ordered = false
 * endpoint ^slicing.rules = #open
 * endpoint contains
@@ -43,7 +43,7 @@ Description: "This profile represents an imaging study instance."
 * endpoint[wado] only Reference($EndpointWadoEuImagingUrl)
 * endpoint[iid] only Reference($EndpointImageIidViewerEuImagingUrl)
 * series.endpoint ^slicing.discriminator.type = #profile
-* series.endpoint ^slicing.discriminator.path = "$this"
+* series.endpoint ^slicing.discriminator.path = "resolve()"
 * series.endpoint ^slicing.ordered = false
 * series.endpoint ^slicing.rules = #open
 * series.endpoint contains

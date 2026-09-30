@@ -76,35 +76,6 @@
             ]
           }
         ]
-      },
-      {
-        "id": "Procedure.used",
-        "path": "Procedure.used",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "concept"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        }
-      },
-      {
-        "id": "Procedure.used:device",
-        "path": "Procedure.used",
-        "sliceName": "device",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "CodeableReference",
-            "targetProfile": [
-              "http://hl7.org/fhir/StructureDefinition/Device"
-            ]
-          }
-        ]
       }
     ]
   }

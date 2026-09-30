@@ -19,7 +19,7 @@ Description: "Imaging Selection"
 * ^url = $ImagingSelectionEuImagingUrl
 * subject only Reference($EuPatientUrl)
 * derivedFrom ^slicing.discriminator.type = #profile
-* derivedFrom ^slicing.discriminator.path = "$this"
+* derivedFrom ^slicing.discriminator.path = "resolve()"
 * derivedFrom ^slicing.ordered = false
 * derivedFrom ^slicing.rules = #open
 * derivedFrom contains study 1..1

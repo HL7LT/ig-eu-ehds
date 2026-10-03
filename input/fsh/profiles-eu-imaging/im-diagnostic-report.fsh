@@ -47,7 +47,7 @@ Description: "Diagnostic Report profile for Imaging Reports. This document repre
 // * subject only Reference($ImPatient)
 * subject only Reference($EuPatientUrl)
 * performer ^slicing.discriminator.type = #profile
-* performer ^slicing.discriminator.path = "$this"
+* performer ^slicing.discriminator.path = "resolve()"
 * performer ^slicing.ordered = false
 * performer ^slicing.rules = #open
 * performer contains author 1..*
@@ -60,7 +60,13 @@ Description: "Diagnostic Report profile for Imaging Reports. This document repre
 * resultsInterpreter[author] only Reference($EuPractitionerRoleUrl)
 * study only Reference($ImagingStudyEuImagingUrl)
 * supportingInfo ^slicing.discriminator.type = #value
-* supportingInfo ^slicing.discriminator.path = "reference"
+// Corrected here, not as transcribed upstream — see _audit/FIXES.md. The slicing named
+// "reference" while the only assertion is a pattern on supportingInfo:procedure.type, so
+// nothing could discriminate the slices. It has to be fixed where the slicing is
+// defined: a derived profile may not change an inherited discriminator, and attempting
+// it in ig-lt-prostate stopped that guide building. imaging-report-lt in ig-lt-base
+// already carries the same correction.
+* supportingInfo ^slicing.discriminator.path = "type"
 * supportingInfo ^slicing.ordered = false
 * supportingInfo ^slicing.rules = #open
 * supportingInfo.type from $valueset-diagnosticreport-report-support-info (extensible)

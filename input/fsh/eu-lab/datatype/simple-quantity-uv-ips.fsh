@@ -14,6 +14,11 @@ Description: "Data type profile SimpleQuantity constrained to use UCUM as the co
 // * ^extension[=].valueCode.extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"
 // * ^extension[=].valueCode.extension.valueCanonical = "http://hl7.org/fhir/uv/ips/ImplementationGuide/ig-uv-ips"
 * ^url = "http://hl7.org/fhir/uv/ips/StructureDefinition/SimpleQuantity-uv-ips"
+// Owning committee. IPS states it in prose — publisher is the HL7 Patient Care
+// Work Group — but omits the machine-readable extension, so the publisher reports
+// it missing against every copy, including IPS’s own.
+* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
+* ^extension[=].valueCode = #pc
 * ^version = "1.1.0"
 * ^publisher = "Health Level Seven International - Patient Care Work Group"
 * ^contact.telecom.system = #url

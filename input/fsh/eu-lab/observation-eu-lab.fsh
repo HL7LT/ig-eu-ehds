@@ -90,27 +90,11 @@ This observation may represent the result of a simple laboratory test such as he
 * valueCodeableConcept only $CodeableConcept-uv-ips
 * valueCodeableConcept from $results-coded-values-laboratory-uv-ips (preferred)
 * valueCodeableConcept ^sliceName = "valueCodeableConcept"
-* valueCodeableConcept ^binding.extension[0].extension[0].url = "purpose"
-* valueCodeableConcept ^binding.extension[=].extension[=].valueCode = #candidate
-* valueCodeableConcept ^binding.extension[=].extension[+].url = "valueSet"
-* valueCodeableConcept ^binding.extension[=].extension[=].valueCanonical = "http://hl7.org/fhir/uv/ips/ValueSet/results-blood-group-snomed-ct-ips-free-set"
-* valueCodeableConcept ^binding.extension[=].extension[+].url = "documentation"
-* valueCodeableConcept ^binding.extension[=].extension[=].valueMarkdown = "Additional conformance binding to a blood group findings value set for laboratory result values from the SNOMED CT IPS free set for use globally (in SNOMED member and non-member jurisdictions)."
-* valueCodeableConcept ^binding.extension[=].url = "http://hl7.org/fhir/tools/StructureDefinition/additional-binding"
-* valueCodeableConcept ^binding.extension[+].extension[0].url = "purpose"
-* valueCodeableConcept ^binding.extension[=].extension[=].valueCode = #candidate
-* valueCodeableConcept ^binding.extension[=].extension[+].url = "valueSet"
-* valueCodeableConcept ^binding.extension[=].extension[=].valueCanonical = "http://hl7.org/fhir/uv/ips/ValueSet/results-presence-absence-snomed-ct-ips-free-set"
-* valueCodeableConcept ^binding.extension[=].extension[+].url = "documentation"
-* valueCodeableConcept ^binding.extension[=].extension[=].valueMarkdown = "Additional conformance binding to a presence and absence findings (qualifier values) value set for laboratory result values from the SNOMED CT IPS free set for use globally (in SNOMED member and non-member jurisdictions)."
-* valueCodeableConcept ^binding.extension[=].url = "http://hl7.org/fhir/tools/StructureDefinition/additional-binding"
-* valueCodeableConcept ^binding.extension[+].extension[0].url = "purpose"
-* valueCodeableConcept ^binding.extension[=].extension[=].valueCode = #candidate
-* valueCodeableConcept ^binding.extension[=].extension[+].url = "valueSet"
-* valueCodeableConcept ^binding.extension[=].extension[=].valueCanonical = "http://hl7.org/fhir/uv/ips/ValueSet/results-microorganism-snomed-ct-ips-free-set"
-* valueCodeableConcept ^binding.extension[=].extension[+].url = "documentation"
-* valueCodeableConcept ^binding.extension[=].extension[=].valueMarkdown = "Additional conformance binding to a microorganisms value set for laboratory result values from the SNOMED CT IPS free set for use globally (in SNOMED member and non-member jurisdictions)."
-* valueCodeableConcept ^binding.extension[=].url = "http://hl7.org/fhir/tools/StructureDefinition/additional-binding"
+// The additional-binding extensions were removed here: the tools extension
+// declares R4 as the latest version it may be used with, and this is an R5
+// profile. They were advisory "candidate" bindings onto IPS free-set value
+// sets, which an R5 guide cannot resolve in any case, and they constrained
+// nothing. See _audit/FIXES.md.
 * dataAbsentReason ^short = "Provides a reason why the expected value is missing."
 * interpretation only $CodeableConcept-uv-ips
 * method only $CodeableConcept-uv-ips
@@ -154,27 +138,6 @@ This observation may represent the result of a simple laboratory test such as he
 * component.valueCodeableConcept only $CodeableConcept-uv-ips
 * component.valueCodeableConcept from $results-coded-values-laboratory-uv-ips (preferred)
 * component.valueCodeableConcept ^sliceName = "valueCodeableConcept"
-* component.valueCodeableConcept ^binding.extension[0].extension[0].url = "purpose"
-* component.valueCodeableConcept ^binding.extension[=].extension[=].valueCode = #candidate
-* component.valueCodeableConcept ^binding.extension[=].extension[+].url = "valueSet"
-* component.valueCodeableConcept ^binding.extension[=].extension[=].valueCanonical = "http://hl7.org/fhir/uv/ips/ValueSet/results-blood-group-snomed-ct-ips-free-set"
-* component.valueCodeableConcept ^binding.extension[=].extension[+].url = "documentation"
-* component.valueCodeableConcept ^binding.extension[=].extension[=].valueMarkdown = "Additional conformance binding to a blood group findings value set for laboratory result values from the SNOMED CT IPS free set for use globally (in SNOMED member and non-member jurisdictions)."
-* component.valueCodeableConcept ^binding.extension[=].url = "http://hl7.org/fhir/tools/StructureDefinition/additional-binding"
-* component.valueCodeableConcept ^binding.extension[+].extension[0].url = "purpose"
-* component.valueCodeableConcept ^binding.extension[=].extension[=].valueCode = #candidate
-* component.valueCodeableConcept ^binding.extension[=].extension[+].url = "valueSet"
-* component.valueCodeableConcept ^binding.extension[=].extension[=].valueCanonical = "http://hl7.org/fhir/uv/ips/ValueSet/results-presence-absence-snomed-ct-ips-free-set"
-* component.valueCodeableConcept ^binding.extension[=].extension[+].url = "documentation"
-* component.valueCodeableConcept ^binding.extension[=].extension[=].valueMarkdown = "Additional conformance binding to a presence and absence findings (qualifier values) value set for laboratory result values from the SNOMED CT IPS free set for use globally (in SNOMED member and non-member jurisdictions)."
-* component.valueCodeableConcept ^binding.extension[=].url = "http://hl7.org/fhir/tools/StructureDefinition/additional-binding"
-* component.valueCodeableConcept ^binding.extension[+].extension[0].url = "purpose"
-* component.valueCodeableConcept ^binding.extension[=].extension[=].valueCode = #candidate
-* component.valueCodeableConcept ^binding.extension[=].extension[+].url = "valueSet"
-* component.valueCodeableConcept ^binding.extension[=].extension[=].valueCanonical = "http://hl7.org/fhir/uv/ips/ValueSet/results-microorganism-snomed-ct-ips-free-set"
-* component.valueCodeableConcept ^binding.extension[=].extension[+].url = "documentation"
-* component.valueCodeableConcept ^binding.extension[=].extension[=].valueMarkdown = "Additional conformance binding to a microorganisms value set for laboratory result values from the SNOMED CT IPS free set for use globally (in SNOMED member and non-member jurisdictions)."
-* component.valueCodeableConcept ^binding.extension[=].url = "http://hl7.org/fhir/tools/StructureDefinition/additional-binding"
 
 Invariant: eu-lab-1
 Description: "If observation status is other then \"registered\" or \"cancelled\", at least one of these Observation elements shall be provided:  \"value\", \"dataAbsentReason\", \"hasMember\" or \"component\""

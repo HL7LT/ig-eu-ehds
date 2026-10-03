@@ -54,7 +54,7 @@ When the resource represents a DICOM instance it SHALL contain a the SOP Instanc
 * subject 1..
 * subject only Reference($EuPatientUrl)
 * author ^slicing.discriminator.type = #profile
-* author ^slicing.discriminator.path = "$this"
+* author ^slicing.discriminator.path = "resolve()"
 * author ^slicing.ordered = false
 * author ^slicing.rules = #open
 * author contains performer 0..*

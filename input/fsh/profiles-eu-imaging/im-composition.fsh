@@ -27,7 +27,7 @@ Description: "Clinical document used to represent a Imaging Study Report for the
 * category[imaging] = $loinc#18748-4 "Diagnostic imaging study"
 * category[imaging].coding 1..1
 * author ^slicing.discriminator.type = #profile
-* author ^slicing.discriminator.path = "$this"
+* author ^slicing.discriminator.path = "resolve()"
 * author ^slicing.ordered = false
 * author ^slicing.rules = #open
 * author contains
@@ -50,8 +50,11 @@ Description: "Clinical document used to represent a Imaging Study Report for the
 * attester[resultValidator].party only Reference($EuPractitionerRoleUrl)
 * custodian only Reference($EuOrganizationUrl)
 * custodian ^short = "Organization that manages the Imaging Report"
-* event ^slicing.discriminator.type = #value
-* event ^slicing.discriminator.path = "detail.concept"
+// No slice fixes a value at detail.concept; the slices are told apart by the
+// profile detail.reference points to. Discriminating on the resolved target makes
+// the slicing evaluable, so the 1..* cardinalities below are actually enforced.
+* event ^slicing.discriminator.type = #profile
+* event ^slicing.discriminator.path = "detail.reference.resolve()"
 * event ^slicing.ordered = false
 * event ^slicing.rules = #open
 * event contains
@@ -89,7 +92,7 @@ Description: "Clinical document used to represent a Imaging Study Report for the
 * section[imagingstudy].extension contains http://hl7.org/fhir/StructureDefinition/note named note 0..*
 * section[imagingstudy].code = $loinc#18726-0
 * section[imagingstudy].entry ^slicing.discriminator.type = #profile
-* section[imagingstudy].entry ^slicing.discriminator.path = "$this"
+* section[imagingstudy].entry ^slicing.discriminator.path = "resolve()"
 * section[imagingstudy].entry ^slicing.ordered = false
 * section[imagingstudy].entry ^slicing.rules = #open
 * section[imagingstudy].entry contains imagingstudy 1..*
@@ -101,7 +104,7 @@ Description: "Clinical document used to represent a Imaging Study Report for the
 * section[order].extension contains http://hl7.org/fhir/StructureDefinition/note named note 0..*
 * section[order].code = $loinc#55115-0 "Requested imaging studies information Document"
 * section[order].entry ^slicing.discriminator.type = #profile
-* section[order].entry ^slicing.discriminator.path = "$this"
+* section[order].entry ^slicing.discriminator.path = "resolve()"
 * section[order].entry ^slicing.ordered = false
 * section[order].entry ^slicing.rules = #open
 * section[order].entry contains order 0..*
@@ -115,7 +118,7 @@ Description: "Clinical document used to represent a Imaging Study Report for the
 * section[procedure].extension contains http://hl7.org/fhir/StructureDefinition/note named note 0..*
 * section[procedure].code = $loinc#55111-9 "Current imaging procedure descriptions Document"
 * section[procedure].entry ^slicing.discriminator.type = #profile
-* section[procedure].entry ^slicing.discriminator.path = "$this"
+* section[procedure].entry ^slicing.discriminator.path = "resolve()"
 * section[procedure].entry ^slicing.ordered = false
 * section[procedure].entry ^slicing.rules = #open
 * section[procedure].entry contains procedure 0..*
@@ -124,7 +127,7 @@ Description: "Clinical document used to represent a Imaging Study Report for the
 * section[comparison].extension contains http://hl7.org/fhir/StructureDefinition/note named note 0..*
 * section[comparison].code = $loinc#18834-2 "Radiology Comparison study (narrative)"
 * section[comparison].entry ^slicing.discriminator.type = #profile
-* section[comparison].entry ^slicing.discriminator.path = "$this"
+* section[comparison].entry ^slicing.discriminator.path = "resolve()"
 * section[comparison].entry ^slicing.ordered = false
 * section[comparison].entry ^slicing.rules = #open
 * section[comparison].entry contains comparedstudy 0..*
@@ -133,7 +136,7 @@ Description: "Clinical document used to represent a Imaging Study Report for the
 * section[findings].extension contains http://hl7.org/fhir/StructureDefinition/note named note 0..*
 * section[findings].code = $loinc#59776-5 "Findings"
 * section[findings].entry ^slicing.discriminator.type = #profile
-* section[findings].entry ^slicing.discriminator.path = "$this"
+* section[findings].entry ^slicing.discriminator.path = "resolve()"
 * section[findings].entry ^slicing.ordered = false
 * section[findings].entry ^slicing.rules = #open
 * section[findings].entry contains
@@ -145,7 +148,7 @@ Description: "Clinical document used to represent a Imaging Study Report for the
 * section[impression].extension contains http://hl7.org/fhir/StructureDefinition/note named note 0..*
 * section[impression].code = $loinc#19005-8 "Radiology Imaging study [Impression] (narrative)"
 * section[impression].entry ^slicing.discriminator.type = #profile
-* section[impression].entry ^slicing.discriminator.path = "$this"
+* section[impression].entry ^slicing.discriminator.path = "resolve()"
 * section[impression].entry ^slicing.ordered = false
 * section[impression].entry ^slicing.rules = #open
 * section[impression].entry contains
@@ -159,7 +162,7 @@ Description: "Clinical document used to represent a Imaging Study Report for the
 * section[recommendation].extension contains http://hl7.org/fhir/StructureDefinition/note named note 0..*
 * section[recommendation].code = $loinc#18783-1 "Radiology Study recommendation (narrative)"
 * section[recommendation].entry ^slicing.discriminator.type = #profile
-* section[recommendation].entry ^slicing.discriminator.path = "$this"
+* section[recommendation].entry ^slicing.discriminator.path = "resolve()"
 * section[recommendation].entry ^slicing.ordered = false
 * section[recommendation].entry ^slicing.rules = #open
 * section[recommendation].entry contains careplan 0..*
@@ -171,4 +174,13 @@ Description: "Clinical document used to represent a Imaging Study Report for the
 Invariant: eu-imaging-composition-1
 Description: "When a section is empty, the emptyReason extension SHALL be present."
 * severity = #error
-* expression = "entry.empty() and emptyReason.exists()"
+// The expression was "entry.empty() and emptyReason.exists()", which contradicts
+// the description: "and" demands that every section be BOTH empty AND carry
+// emptyReason, so any section with entries failed. Reproduced verbatim from the
+// upstream CompositionEuImaging profile this file is a transcription of.
+// One deliberate divergence from upstream: "or text.exists()" is appended,
+// because FHIR's own cmp-1 counts a narrative as section content
+// (text.exists() or entry.exists() or section.exists()). A section carrying a
+// narrative but no structured entry is not empty and should not be asked for an
+// emptyReason.
+* expression = "entry.empty().not() or emptyReason.exists() or section.exists() or extension('http://hl7.org/fhir/StructureDefinition/note').value.text.exists() or text.exists()"

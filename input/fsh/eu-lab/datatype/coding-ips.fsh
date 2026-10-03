@@ -18,6 +18,10 @@ It relies on the Translation extension."""
 // * ^extension[=].valueCode.extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"
 // * ^extension[=].valueCode.extension.valueCanonical = "http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips"
 * ^url = "http://hl7.org/fhir/uv/ips/StructureDefinition/Coding-uv-ips"
+// Owning committee, required by the publisher for artefacts in the hl7.org
+// namespace. Value read from hl7.fhir.uv.ips 2.0.1, which owns this artefact.
+* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
+* ^extension[=].valueCode = #pc
 * ^version = "2.0.0"
 * ^date = "2024-06-19T10:50:07-05:00"
 * ^publisher = "HL7 International / Patient Care"
@@ -26,27 +30,7 @@ It relies on the Translation extension."""
 * ^contact.telecom.value = "http://www.hl7.org/Special/committees/patientcare"
 * ^jurisdiction = $m49.htm#001 "World"
 * system MS
-* system ^extension[0].extension[0].url = "code"
-* system ^extension[=].extension[=].valueCode = #SHALL:populate-if-known
-* system ^extension[=].extension[+].url = "actor"
-* system ^extension[=].extension[=].valueCanonical = "http://hl7.org/fhir/uv/ips/ActorDefinition/Creator"
-* system ^extension[=].url = "http://hl7.org/fhir/StructureDefinition/obligation"
-* system ^extension[+].extension[0].url = "code"
-* system ^extension[=].extension[=].valueCode = #SHALL:handle
-* system ^extension[=].extension[+].url = "actor"
-* system ^extension[=].extension[=].valueCanonical = "http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer"
-* system ^extension[=].url = "http://hl7.org/fhir/StructureDefinition/obligation"
 * code MS
-* code ^extension[0].extension[0].url = "code"
-* code ^extension[=].extension[=].valueCode = #SHALL:populate-if-known
-* code ^extension[=].extension[+].url = "actor"
-* code ^extension[=].extension[=].valueCanonical = "http://hl7.org/fhir/uv/ips/ActorDefinition/Creator"
-* code ^extension[=].url = "http://hl7.org/fhir/StructureDefinition/obligation"
-* code ^extension[+].extension[0].url = "code"
-* code ^extension[=].extension[=].valueCode = #SHALL:handle
-* code ^extension[=].extension[+].url = "actor"
-* code ^extension[=].extension[=].valueCanonical = "http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer"
-* code ^extension[=].url = "http://hl7.org/fhir/StructureDefinition/obligation"
 * display ^short = "Text representation defined by the system"
 * display.extension contains http://hl7.org/fhir/StructureDefinition/translation named translation 0..*
 * display.extension[translation] ^short = "Language Translation (Localization)"

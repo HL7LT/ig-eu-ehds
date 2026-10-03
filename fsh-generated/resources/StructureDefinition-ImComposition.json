@@ -134,7 +134,7 @@
           "discriminator": [
             {
               "type": "profile",
-              "path": "$this"
+              "path": "resolve()"
             }
           ],
           "ordered": false,
@@ -276,8 +276,8 @@
         "slicing": {
           "discriminator": [
             {
-              "type": "value",
-              "path": "detail.concept"
+              "type": "profile",
+              "path": "detail.reference.resolve()"
             }
           ],
           "ordered": false,
@@ -357,7 +357,7 @@
             "human": "When a section is empty, the emptyReason extension SHALL be present.",
             "source": "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImComposition",
             "severity": "error",
-            "expression": "entry.empty() and emptyReason.exists()"
+            "expression": "entry.empty().not() or emptyReason.exists() or section.exists() or extension('http://hl7.org/fhir/StructureDefinition/note').value.text.exists() or text.exists()"
           }
         ]
       },
@@ -431,7 +431,7 @@
           "discriminator": [
             {
               "type": "profile",
-              "path": "$this"
+              "path": "resolve()"
             }
           ],
           "ordered": false,
@@ -514,7 +514,7 @@
           "discriminator": [
             {
               "type": "profile",
-              "path": "$this"
+              "path": "resolve()"
             }
           ],
           "ordered": false,
@@ -645,7 +645,7 @@
           "discriminator": [
             {
               "type": "profile",
-              "path": "$this"
+              "path": "resolve()"
             }
           ],
           "ordered": false,
@@ -724,7 +724,7 @@
           "discriminator": [
             {
               "type": "profile",
-              "path": "$this"
+              "path": "resolve()"
             }
           ],
           "ordered": false,
@@ -804,7 +804,7 @@
           "discriminator": [
             {
               "type": "profile",
-              "path": "$this"
+              "path": "resolve()"
             }
           ],
           "ordered": false,
@@ -899,7 +899,7 @@
           "discriminator": [
             {
               "type": "profile",
-              "path": "$this"
+              "path": "resolve()"
             }
           ],
           "ordered": false,
@@ -1009,7 +1009,7 @@
           "discriminator": [
             {
               "type": "profile",
-              "path": "$this"
+              "path": "resolve()"
             }
           ],
           "ordered": false,
